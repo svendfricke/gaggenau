@@ -1,0 +1,198 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-10-16T15:05:00Z"
+  },
+  "method": "Interactive rows rebuilt natively in blocks (region-accordion, header); client-rendered text authored from the settled DOM; tags, consent and host-bound data scaffolded off pending owner decisions.",
+  "features": [
+    {
+      "id": "region-accordion",
+      "feature": "region / country accordion",
+      "class": "M",
+      "pages": 2,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "index 6 regions (6 toggles), energylabel 1 region with 28 links over 24 country rows; 400 ms max-height toggle verified on preview",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".region-accordion .item [aria-expanded]",
+          "min": 6
+        },
+        {
+          "type": "dom-count",
+          "path": "/energylabel",
+          "selector": ".region-accordion .togglebox-content a",
+          "min": 24
+        }
+      ]
+    },
+    {
+      "id": "mega-nav",
+      "feature": "marketing header nav + utility icons",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "header contract chrome-compare exit 0 at foundation",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/de/de",
+          "selector": "header .hdr-navlink",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "settled-dom",
+      "feature": "client-rendered text slots",
+      "class": "CR",
+      "pages": 7,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "snapshot": "2026-10-16",
+      "verifiedBy": "content-presence MISSING 0 / HIDDEN 0 on all 7 pages at 1440 and 360",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/general/legal",
+          "selector": ".content-text-media",
+          "min": 3
+        }
+      ]
+    },
+    {
+      "id": "vimeo-loop",
+      "feature": "magazine teaser Vimeo loop (autoplay muted)",
+      "class": "V",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "capture-state restoreAtDelivery: autoplay iframe kept",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/de/de",
+          "iframeSelector": "iframe[src*='vimeo']",
+          "playbackHost": "vimeocdn.com"
+        }
+      ]
+    },
+    {
+      "id": "consent",
+      "feature": "consentmanager.net CMP",
+      "class": "T",
+      "pages": 7,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "Which CMP configuration runs on the new host (decision batch 1)",
+      "checks": [
+        {
+          "type": "consent-gate",
+          "path": "/",
+          "forbiddenHosts": [
+            "consentmanager.net",
+            "assets.adobedtm.com"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tags",
+      "feature": "Adobe Launch tag manager",
+      "class": "T",
+      "pages": 7,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "Which tags / Launch property run on the new host (decision batch 1)",
+      "checks": [
+        {
+          "type": "martech",
+          "path": "/de/de",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "assets.adobedtm.com",
+            "media3.bsh-group.com",
+            "media3.bosch-home.com"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "youtube-consent",
+      "feature": "YouTube consent popover",
+      "class": "CR",
+      "pages": 0,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "no video on in-scope pages; nothing rendered",
+      "checks": []
+    },
+    {
+      "id": "settings-objects",
+      "feature": "dataLayer / utag_data settings objects",
+      "class": "A",
+      "pages": 7,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "interim",
+      "owner": "Consumed only by tags; follows decision batch 1",
+      "checks": []
+    },
+    {
+      "id": "graphql",
+      "feature": "first-party GET /graphql (marketing app)",
+      "class": "A",
+      "pages": 1,
+      "disposition": "data-fed",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "snapshot": "2026-10-16",
+      "owner": "Live marketing-app data on the new host (decision batch 2)",
+      "environmentLimit": "endpoint is host-bound (404 on the EDS host)",
+      "checks": []
+    },
+    {
+      "id": "runtime-iframe",
+      "feature": "runtime-injected iframe",
+      "class": "V",
+      "pages": 7,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-human-capture",
+      "status": "interim",
+      "verifiedBy": "zero-size tracking frame at capture; nothing visible",
+      "checks": []
+    },
+    {
+      "id": "locales",
+      "feature": "hreflang locale variants",
+      "class": "I18N",
+      "pages": 2,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "owner": "Locale-tree scope beyond the 7 planned pages (decision batch 3); region links point to the live country sites",
+      "checks": []
+    },
+    {
+      "id": "account-commerce",
+      "feature": "sign-in / account link, commerce signals",
+      "class": "X",
+      "pages": 1,
+      "disposition": "link-to-source",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "owner": "Account / commerce backend on the new host (decision batch 4)",
+      "checks": []
+    }
+  ]
+}

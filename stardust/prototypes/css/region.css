@@ -1,0 +1,115 @@
+/* region-selector archetype (/, /energylabel): text+media modules, teaser
+   heading, country accordion. Rules lifted from store style.min.css
+   (.m-contenttextmedia, .m-contentteaser, .m-togglebox, .m-countryselectorlist). */
+@import url("static.css");
+
+.m-contenttextmedia .media { order: 1; margin-bottom: 20px; padding: 0 10px; }
+
+.m-contenttextmedia .media img { display: inline-block; width: 100%; height: auto; vertical-align: top; }
+
+.m-contenttextmedia .content { order: 2; }
+
+.m-contentteaser { display: flow-root; padding: 30px 15px 20px; }
+
+.m-contentteaser h3 {
+  margin: 0 0 20px;
+  font-family: var(--body-font);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.m-contentteaser p { margin: 0; }
+
+.g-col { padding: 0 5px; }
+
+.m-togglebox { margin: 0 0 20px; border-bottom: 1px solid #36373b; }
+
+.m-togglebox .item { border-bottom: 1px solid #36373b; }
+
+.m-togglebox .item:last-of-type { border-bottom: none; }
+
+.m-togglebox .togglebox-title {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+  border: 0;
+  background: none;
+  color: #000;
+  font-family: var(--body-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.m-togglebox .togglebox-title::before {
+  content: "\e058";
+  display: inline-block;
+  position: relative;
+  font-family: icons;
+  font-size: 14px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.m-togglebox .togglebox-title.is-open::before { content: "\e048"; }
+
+
+.m-togglebox .togglebox-title .text { padding-left: 20px; }
+
+.m-togglebox .togglebox-content {
+  max-height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+}
+
+.m-togglebox .togglebox-content.is-open { max-height: none; overflow: visible; }
+
+.m-countryselectorlist .region { display: block; max-width: 1200px; margin: 0 auto; }
+
+.m-countryselectorlist .region::after { content: " "; display: block; clear: both; }
+
+.m-countryselectorlist .country {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 20px 1.3889%;
+  line-height: 30px;
+}
+
+@media (min-width: 600px) {
+  .m-contenttextmedia .media { width: 50%; padding: 0 16px; }
+
+  .m-contentteaser { padding: 0 15px; }
+
+  .m-contentteaser .content { width: 50%; }
+
+  .m-contentteaser h3 { font-size: 30px; line-height: 32px; }
+
+  .g-col { padding: 0 16.6562px; }
+
+  .m-togglebox .togglebox-title { font-size: 20px; line-height: 26px; }
+
+  .m-countryselectorlist .country { width: 50%; }
+}
+
+@media (min-width: 769px) {
+  .m-contenttextmedia { display: flow-root; }
+
+  .m-contenttextmedia.has-media .media { display: table-cell; width: 50%; margin-bottom: 0; vertical-align: top; }
+
+  .m-contenttextmedia.has-media .content { display: table-cell; width: 50%; vertical-align: middle; }
+}
+
+@media (min-width: 900px) {
+  .m-countryselectorlist .country { width: 33.3333%; }
+}
+
+.m-contenttextmedia .content .heading { padding: 0; }
+
+.m-togglebox .togglebox-content.is-in-transition { transition: max-height 0.4s; }

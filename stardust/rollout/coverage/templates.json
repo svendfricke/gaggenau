@@ -1,0 +1,139 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-16T14:26:22.084Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-16T15:07:04.071Z",
+  "templates": [
+    {
+      "id": "confirmation",
+      "representativeSlug": "confirmation",
+      "pages": [
+        "confirmation"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "content-text-media"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "de-de",
+      "representativeSlug": "de-de",
+      "pages": [
+        "de-de"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "category-tiles",
+        "editorial-teaser",
+        "stage",
+        "teaser-slider"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "energylabel",
+      "representativeSlug": "energylabel",
+      "pages": [
+        "energylabel"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "content-text-media",
+        "region-accordion"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "general",
+      "representativeSlug": "general",
+      "pages": [
+        "general"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "content-text-media"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "general-imprint",
+      "representativeSlug": "general-imprint",
+      "pages": [
+        "general-imprint"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "content-text-media"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "general-legal",
+      "representativeSlug": "general-legal",
+      "pages": [
+        "general-legal"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "content-text-media"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "content-teaser",
+        "content-text-media",
+        "region-accordion"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

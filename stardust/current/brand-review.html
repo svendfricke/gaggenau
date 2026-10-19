@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Gaggenau — current-state brand review</title>
+<!-- stardust:provenance writtenBy=stardust:extract sources=_brand-extraction.json,_computed-styles.json,DESIGN.json -->
+<style>
+@font-face{font-family:"Gaggenau Display";src:url(assets/fonts/store/gaggenaudisplay-regular-webfont.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"Gaggenau Display";src:url(assets/fonts/store/gaggenaudisplay-bold-webfont.woff2) format("woff2");font-weight:700}
+@font-face{font-family:"Gaggenau Text";src:url(assets/fonts/store/gaggenautext-regular-webfont.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"Gaggenau Text";src:url(assets/fonts/store/gaggenautext-bold-webfont.woff2) format("woff2");font-weight:700}
+body{margin:0;background:#fbf6f4;color:#000;font:16px/1.5 "Gaggenau Text",Arial,sans-serif}
+nav{position:sticky;top:0;background:#fbf6f4;border-bottom:1px solid #bbb7b5;padding:12px 40px;display:flex;gap:24px;align-items:center}
+nav a{color:#000;text-decoration:none}nav a:hover{color:#d73200}
+main{max-width:1200px;margin:0 auto;padding:40px}
+h1,h2{font-family:"Gaggenau Display",Arial,sans-serif;text-transform:uppercase;font-weight:400}
+h1{font-size:38px}h2{font-size:30px;border-top:1px solid #bbb7b5;padding-top:24px;margin-top:48px}
+.sw{display:flex;gap:16px;flex-wrap:wrap}.sw div{width:150px}.sw span{display:block;height:90px;border:1px solid #bbb7b5}
+.cite{color:#7f7b79;font-size:13px}.card{border:1px solid #bbb7b5;padding:16px;margin:12px 0}
+img.shot{width:280px;border:1px solid #bbb7b5}
+</style></head><body>
+<nav><img src="assets/logo.svg" alt="GAGGENAU" height="18"><a href="#palette">Palette</a><a href="#type">Type</a><a href="#components">Components</a><a href="#tensions">Tensions</a><a href="#pages">Pages</a></nav>
+<main>
+<h1>Current-state brand review</h1>
+<p>7 of 7 planned pages captured live (Playwright, 200). Coverage: palette, type, motifs, logo, favicon, system components. Not captured: logo variants beyond two raster/SVG sources.</p>
+<h2 id="palette">Palette</h2><p class="cite">_brand-extraction.json § palette</p>
+<div class="sw"><div><span style="background:#fbf6f4"></span>canvas #fbf6f4</div><div><span style="background:#000"></span>ink #000000</div><div><span style="background:#171412"></span>charcoal #171412</div><div><span style="background:#d73200"></span>accent #d73200 (hover)</div><div><span style="background:#7f7b79"></span>stone #7f7b79</div><div><span style="background:#bbb7b5"></span>rule #bbb7b5</div></div>
+<h2 id="type">Typography</h2><p class="cite">_brand-extraction.json § type</p>
+<p style="font:700 48px 'Gaggenau Display';text-transform:uppercase;margin:0">Imprint — 48/700</p>
+<p style="font:400 38px 'Gaggenau Display';text-transform:uppercase;margin:0">Wherever you are, a Gaggenau awaits — 38/400</p>
+<p style="font:700 30px 'Gaggenau Display';margin:0">Heading 3 — 30/700</p>
+<p>Body — Gaggenau Text 16/400. Brand-proprietary faces, self-hosted by the brand.</p>
+<h2 id="components">System components</h2><p class="cite">_brand-extraction.json § systemComponents</p>
+<div class="card">Store header — logo only (6 pages)</div><div class="card">Store footer — Pinterest / Instagram / Vimeo between rules, Imprint · Legal (6 pages)</div><div class="card">Marketing header — sticky mega-nav (de-de)</div><div class="card">Marketing footer — link columns + legal links (de-de)</div>
+<h2 id="tensions">Tensions</h2>
+<div class="card"><b>T-logo-variants</b> — Only the header logo was captured (SVG on the marketing app, PNG on store templates). No inverted variant.</div>
+<div class="card"><b>T-scale</b> — Type scale is ad-hoc (48 → 38 → 30 → 22 → 18 → 16, no consistent ratio).</div>
+<div class="card"><b>Two front-end stacks</b> — The German home runs on a separate marketing app (font families GaggenauDisplay/GaggenauText) while the store templates use "Gaggenau Display"/"Gaggenau Text"; same faces, different builds.</div>
+<h2 id="pages">Pages</h2>
+<p><img class="shot" src="assets/screenshots/clean/index-thumb.png" alt="index"> <img class="shot" src="assets/screenshots/clean/general-imprint-thumb.png" alt="imprint"> <img class="shot" src="assets/screenshots/clean/energylabel-thumb.png" alt="energylabel"></p>
+</main></body></html>

@@ -1,0 +1,164 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-16T11:32:36.850Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "confirmation",
+  "url": "https://www.gaggenau.com/confirmation",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-16T11:32:36.850Z",
+  "finalUrl": "https://www.gaggenau.com/confirmation",
+  "title": "Success | Gaggenau",
+  "description": "Success",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Success"
+    }
+  ],
+  "body": [
+    "Your subscription was successful. We are pleased to welcome you as a new subscriber to our Newsletter.",
+    "Go to our homepage.",
+    "Imprint",
+    "Legal"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Accept all",
+      "href": "#"
+    },
+    {
+      "label": "Customize your choice",
+      "href": "#"
+    },
+    {
+      "label": "Decline all",
+      "href": "#"
+    },
+    {
+      "label": "Cookies",
+      "href": "#"
+    },
+    {
+      "label": "Privacy policy",
+      "href": "https://www.gaggenau.com/general/legal"
+    },
+    {
+      "label": "Legal notice",
+      "href": "https://www.gaggenau.com/general/imprint"
+    },
+    {
+      "label": "homepage",
+      "href": "/country-selector"
+    },
+    {
+      "label": "Imprint",
+      "href": "/general/imprint"
+    },
+    {
+      "label": "Legal",
+      "href": "/general/legal"
+    },
+    {
+      "label": "Privacy settings",
+      "href": "#"
+    }
+  ],
+  "links": [
+    "https://www.gaggenau.com/confirmation#",
+    "https://www.gaggenau.com/general/legal",
+    "https://www.gaggenau.com/general/imprint",
+    "https://www.gaggenau.com/confirmation#content",
+    "https://www.gaggenau.com/",
+    "https://www.gaggenau.com/country-selector",
+    "https://www.pinterest.de/gaggenau_/",
+    "https://www.instagram.com/gaggenauofficial/",
+    "https://vimeo.com/gaggenauofficial"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.gaggenau.com/store/medias/sys_master/root/h8d/h24/12965871976478/GG-logo-black-RGB.png",
+        "alt": "GAGGENAU",
+        "w": 1181,
+        "h": 171
+      },
+      {
+        "src": "https://cdn.consentmanager.net/delivery/recall/logos/122420",
+        "alt": "Privacy settings",
+        "w": 945,
+        "h": 945
+      }
+    ],
+    "allImgCount": 3,
+    "cssBackgrounds": [],
+    "modals": [
+      "Use of cookiesIf you click on \"Accept all\", you give us consent to record your usage behaviour on this website. This allows us to improve our website and personalize advertising for you. When clicking \"Decline all\" we will only use technically necessary cookies to provide the basic functionality of this website. Please click on \"Customize your choice\" for more information and to make your choices by purpose and provider.FunctionalThese vendors and potential cookies are required for the basic functionality of the website. They cannot be deactivated.PerformancePerformance cookies collect information about visitors’ usage on our website and are used to help us enhance your experience on our website.MarketingWe also use marketing tools from partners. Our partners process your data on their own responsibility. Below you will find information on the technologies and partners used by us.Third PartyThese cookies are not placed by us, but by partners. They allow the implementation of features on our website such as, for example, a chat to ask your questions. Therefore, if you refuse these cookies, these services will cease to function.Accept allCustomize your choiceDecline allSave + ExitCustomize your choice | Cookies | Privacy policy | Legal notice"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 1,
+    "mainTextLen": 126056,
+    "realImageCount": 2,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 8
+      },
+      {
+        "host": "cdn.consentmanager.net",
+        "count": 2
+      },
+      {
+        "host": "b.delivery.consentmanager.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": "#"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 3,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/confirmation.png",
+  "renderedHtml": "pages/confirmation.html"
+}

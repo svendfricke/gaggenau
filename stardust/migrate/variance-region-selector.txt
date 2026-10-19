@@ -1,0 +1,11 @@
+run-bg: variance-region-selector2 launched 2026-10-16T14:18:22.951Z (timeout 900s): node stardust/scripts/replica/sibling-variance.mjs https://www.gaggenau.com/ https://www.gaggenau.com/energylabel --probe ctm=.m-contenttextmedia --probe text=.m-contenttextmedia .text --main body --consent .cmpboxbtnyes --width 1440
+sibling-variance @ 1440px, tolerance 2px
+  archetype: https://www.gaggenau.com/
+  probes: ctm=.m-contenttextmedia (4), text=.m-contenttextmedia .text (3)
+  sections: -
+
+■ https://www.gaggenau.com/energylabel: 1 delta(s)
+  COUNT           text: 3 → 4 matches
+
+✗ 1 of 1 sibling(s) vary from the archetype in: text — budget variant classes for these before cloning; do not assume template constancy.
+run-bg: variance-region-selector2 ended exit=2

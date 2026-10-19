@@ -1,0 +1,55 @@
+{
+ "source": "http://localhost:8791/de-de-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "stage",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Der Unterschied heißt…"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Symmetrie perfekt inszeniert. Die Gaggenau Serie Expressive."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Mehr erleben",
+     "href": "https://www.gaggenau.com/de/die-welt-von-gaggenau/der-unterschied-heisst"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "stage",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Kücheninspirationen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Erleben Sie, wie das zeitlose Design unserer Geräte in vielfältigen Einrichtungsstilen das Auge besticht."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Entdecken Sie die kreativen Höhepunkte, die unsere Blicke auf sich ziehen.",
+     "href": "https://www.gaggenau.com/de/die-welt-von-gaggenau/inspiration/art-of-the-kitchen"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}

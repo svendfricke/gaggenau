@@ -1,0 +1,18 @@
+{
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "evidence": {
+    "scripts/scripts.js decorateButtons": "p a[href] alone in its paragraph; requires authored <strong>/<em>; sets p.button-wrapper + a.button(.primary|.secondary|.accent); skips URL-display links and image links",
+    "scripts/aem.js decorateBlock": "adds .block + data-block-name, wraps in div.<name>-wrapper, section gains .<name>-container; wrapTextNodes folds non-P/PRE/UL/OL/PICTURE/TABLE/BLOCKQUOTE/H1-6 first children into <p>",
+    "scripts/aem.js decorateTemplateAndTheme": "Template metadata -> body class (store | landing)",
+    "chrome": "loadHeader/loadFooter build header/footer blocks in loadLazy; blocks fetch /nav and /footer (nav/footer metadata overrides) via fragment.js loadFragment, which runs decorateMain on the fragment"
+  },
+  "templates": {
+    "store": "/, /general, /general/legal, /general/imprint, /confirmation, /energylabel — nav /nav, footer /footer",
+    "landing": "/de/de — page metadata nav=/de/de/nav, footer=/de/de/footer"
+  }
+}

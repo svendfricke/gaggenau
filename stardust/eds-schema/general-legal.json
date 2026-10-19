@@ -1,0 +1,469 @@
+{
+ "source": "http://localhost:8791/general-legal-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "m-contenttextmedia",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Section 1: Introduction and general information"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Data Protection Information"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "We, BSH Hausgeräte GmbH, Carl-Wery-Strasse 34, 81739 Munich, operate this website. Please use the contact information provided on the Company Information page to contact us. If you get in touch with us, we will store and process the information you provide for the purpose of handling your enquiry and any follow-up questions. We are permitted to process data in this context by law (article 6(1b) of Regulation (EU) 2016/679). We will delete your information once your enquiry has been handled."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "About us and our website"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "We take protecting your information very seriously. Your data is therefore processed with great care and in strict compliance with applicable data protection law. Organisational and technical security measures have been taken to protect all of our websites against the risks present in processing personal data. Our partners who support us in the provision of this website must comply with these provisions as well."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Our guiding principles"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "You can use all the areas of our website that are not access-protected without disclosing your identity. We log every use of our website as standard in order to remedy faults and clarify security incidents. You can find more about our log data in the section \"How we process your data\"."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "What we log as standard"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "We respect your privacy. Consequently, we only process your data when we are permitted to do so. It goes without saying that you can also give us permission to process your data by opting in to data processing on our website. In other cases, we process your data because we are permitted to do so by law. If, for example, you place an order through our website, we are permitted to process your data in order to fulfil that contract. The same applies when you make use of other services on our website that require your data to be processed. We are also permitted to process your data when we have a legitimate interest in doing so. One example of this is the log data that we collect in order to ensure that our website can be operated without defects, amongst other things. In any case, we will inform you if any relevant processing of your data takes place, and your interests are taken into consideration each time that data is processed as a matter of course. In the event that you have cause for complaint, you can find your rights regarding the processing of your data in the latter section of this Data Protection Information. The permissions we make use of, and when, are outlined in the following section. You can find more detailed information on how your data is collected, processed and used on our website (i.e. the type, scope and purpose of data processing) in the same section."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Which permissions do we have to process your data"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "What else you should know: Users below the age of 16 should only transmit personal data to us with the consent of their parent or legal guardian. The data protection law that applies may result in different age limits in this regard. Our website may contain links to other websites. We have no influence over how your data is processed on these websites or their compliance with provisions on data protection. Please note any Data Protection Information they provide."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "m-contenttextmedia",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Section 2: Data processing on the website"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "How we process your data (logs, cookies, tracking, etc.)"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "For technical reasons, each time your internet browser accesses our website it automatically sends information to our web server (i.e. log data). We store some of this information in log files, such as:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Log data"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "• The date of the access • The time of the access • The URL of the linking website • The files accessed • The volume of data transferred • The browser type and version • The operating system • The IP address (anonymised)"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Log data does not contain personal data. As a general rule, we only analyse log data in order to remedy faults in the operation of our website or clarify security incidents. We store this log data indefinitely. It is sometimes necessary for us to collect additional personal information as well as log data in order to remedy faults or preserve evidence relating to security incidents. In these cases, we are permitted to process the log data by law (article 6(1f) of Regulation (EU) 2016/679). We delete this data once the fault has been remedied or the security incident has been clarified in full, or if the original purpose of the processing no longer exists due to other factors. In the event of a security incident, we will transmit log data to the investigating authorities on a case-by-case basis, to the extent permitted. We always store log data separately from other data collected that relates to the use of our website."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "We use cookies. Cookies are small text files which we store on your device when you visit our website. These cookies are sent back to us every time you access our website subsequently. This allows us to recognise you, for example, or makes navigating our website easier for you thanks to the information stored in the cookies. Cookies cannot be used to run programs or transfer viruses to a computer. Cookies can only be read by the web server they originate from. We do not share the information stored in the cookies with third parties without your express permission. You can also view our website without cookies. Internet browsers are often configured to accept cookies. To prevent your internet browser from using cookies, you can (1) opt out of the use of cookies when you access our website using the cookie layer (if available) or (2) disable cookie use via the settings in your internet browser. The help functions in your browser can show you how to disable and/or delete cookies in your internet browser. Please note that disabling/deleting cookies may result in individual functions on our website no longer working as expected. Cookies that may be required for certain functions on our website are set out below. In addition, disabling/deleting cookies will only affect the internet browser used to do so. Disabling/deleting cookies must therefore be repeated for any other internet browsers accordingly. Cookies that we use for specific functions, without references to individuals:"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Cookies"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "– Cookies that store certain user preferences (e.g. search or language settings) – Cookies that store information in order to guarantee flawless playback of video or audio content – Cookies that temporarily store certain user entries (e.g. the contents of a shopping basket or online form)"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Cookies that we use for specific functions, with references to individuals:"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "– Cookies that serve to identify or authenticate our users"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "We are permitted to process data in this context by law (article 6(1f) of Regulation (EU) 2016/679). We store this data until the cookie in question expires or until you delete it. Any further processing of personal data using cookies is outlined in the relevant sections within this information."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "We use web analytics tools for various purposes on our website. You can find information on the web analytics tools we use below, including a description of the data processing in question, the purposes of that processing and how you can prevent the web analytics tool from collecting and processing your data. Please note that placing opt-out cookies can only prevent the collection and processing of your data by web analytics tools to a limited extent. You can find more information about this in the section on cookies."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Web analytics using pseudonymised user profiles"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "In order to carry out marketing and market research and tailor our website (and potentially newsletter) appropriately, we use analytics cookies and/or JavaScript to collect and process usage data relating to your visit to our website and your use of links in the newsletter (if applicable). Your usage data is collected and a usage profile is generated from this data on a pseudonymised basis, using a cookie ID. Your IP address is either not recorded or is anonymised immediately after recording as part of this. We use the Adobe Analytics service provided by Adobe Systems Software Ireland Ltd., 4-6 Riverwalk, Citywest Business Park, Dublin 24, Ireland (\"Adobe\") to collect the usage data and generate the usage profiles. The information relating to your use of our website is transferred to Adobe servers, analysed and solely returned to us as cumulative data. This data allows us to identify trends in how the website is generally used. We do not conflate the resultant usage profiles with your name or any other details that could disclose your identity, such as your e-mail address. We are permitted to process data in this context by law (article 6(1f) of Regulation (EU) 2016/679). The usage data is stored by the service used for a maximum duration of 37 months from the date on which it was collected."
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Web analytics tool: Adobe Analytics (Omniture)"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Please use Adobe's opt-out website if you wish to prevent your usage data being collected. You can find information about how Adobe Analytics cookies work and the opt-out option via the following link: ."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Opt-out:"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "http://www.adobe.com/de/privacy/opt-out.html",
+     "href": "http://www.adobe.com/de/privacy/opt-out.html"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "In order to tailor our website (and newsletter) appropriately, we collect and process usage data relating to your visit to our website using analytics cookies and/or JavaScript. Your usage data is collected and a usage profile generated from this data on a pseudonymised basis using a cookie ID. We use the Adobe Test & Target service provided by Adobe Systems Software Ireland Ltd., 4-6 Riverwalk, Citywest Business Park, Dublin 24, Ireland (\"Adobe\") to collect your usage data and generate the usage profiles. Adobe Test & Target works on the basis of A/B tests. This means that the person using our website is shown a different version of the website from the original (e.g. with altered design and content). Comparing both versions provides us with information about which version of our website is preferred by users. When Adobe Test & Target is used, the only information relating to you that is processed cannot be used to identify you. IP anonymisation is also activated, meaning that your IP address is shortened before Adobe Test & Target carries out any further processing. We do not conflate the usage profiles resulting from this with your name or any other details that could disclose your identity, such as your e-mail address. We are permitted to process data in this context by law (article 6(1f) of Regulation (EU) 2016/679). The usage data is stored by the service used for a maximum duration of 37 months from the date on which it was collected."
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Web analytics tool: Adobe Test & Target"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Please use the following link if you wish to prevent your usage data being collected: . You can find information about how Adobe Test & Target cookies work and the opt-out option via the following link: ."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Opt-out:"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "http://bsh.tt.omtrdc.net/optout",
+     "href": "http://bsh.tt.omtrdc.net/optout"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "http://www.adobe.com/de/privacy/opt-out.html",
+     "href": "http://www.adobe.com/de/privacy/opt-out.html"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "In order to help us design our website appropriately, we may collect usage data relating to your visit to our website using analytics cookies and other technologies. As part of this, we record the mouse movements and clicks of randomly selected users of our website. Your IP address is anonymised as a matter of course. The resultant log of your use of our website is randomly analysed so that we can derive potential improvements for our website from it. We use service provider Mouseflow ApS, Flaesketorvet 68, 1711 Copenhagen, Denmark for the purpose of collecting this usage data. We do not conflate the resultant usage profiles with your name or any other details that could disclose your identity, such as your e-mail address. We are permitted to process data in this context by law (article 6(1f) of Regulation (EU) 2016/679). The usage data is deleted three months after the date on which it is collected."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Web analytics tool: Mouseflow"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Please use Mouseflow's opt-out website via the following link if you wish to prevent this usage data being collected: ."
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Opt-out:"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "https://mouseflow.de/opt-out",
+     "href": "https://mouseflow.de/opt-out"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Content from our website can be shared on social networks using integrated social media buttons. All social media buttons that facilitate the sharing of content are integrated using simple hyperlinks rather than social plugins developed by social network providers. This ensures that your details are not automatically transmitted to social network servers as soon as you access our website. In addition, when you share content from our website we only transmit the information to the social network that is required to share the relevant content. We do not transfer personal data in this context. At the same time, simple links to our websites on social networks can be found as well. If you follow a link from our website to a social network, or if you log in to your social network in order to share content from our website, your data is processed by the provider of the social network in question. For information about the purpose and scope of data collection, further processing and use by the social network provider, as well as your associated rights and settings options for protecting your privacy, please refer to the Data Protection Information made available by the respective provider."
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Sharing content on social networks"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "We work together with a number of service providers to implement and operate our website. We have chosen these service providers carefully and concluded a data protection agreement with each individual service provider to keep your information safe. The service providers we use to implement and operate our website are:"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Cases where we transmit your data"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "• Service provider for hosting services • Service provider for programming services • Service provider for sales and marketing services • Service provider for hotline services"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "We only transmit your data to other recipients where necessary to fulfil a contract with you, where we or the recipient has a legitimate interest in the disclosure of your data, or where you have given your consent to that transmission. These recipients include service providers and other companies within our corporate group. Furthermore, data may be transmitted to other recipients in the event that we are obliged to do so due to legal provisions or enforceable administrative or court orders. Other recipients of your data are:"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "• Forwarding agents for delivering/collecting products • Payment processing service providers • Receivables management service providers"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "We also transmit personal data to recipients based outside of the EEA, in so-called third countries. In this case, we ensure ‒ before any data is shared ‒ that either an appropriate level of data protection is maintained by the recipient (e.g. on the basis of an adequacy decision made by the EU Commission for the respective country or the agreement of standard EU contractual clauses between the European Union and the recipient) or that you have given your consent to said sharing. We are happy to provide you with an overview of the recipients in third countries and a copy of the specific provisions agreed to ensure an appropriate level of data protection. To request this, please use the contact information provided at the end of this Data Protection Information."
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Transmission to recipients outside the EEA"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 23,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 22,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "A.ext",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "m-contenttextmedia",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Section 3: User rights"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Should you have cause for complaint, you can find an outline of your rights below. To exercise your rights, please use the contact information provided at the end of this Data Protection Information."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Your rights"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "We will provide you with information about the data we hold about you on request."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Your right to information about your data"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "We will correct inaccurate information about you if you notify us accordingly. We will complete incomplete data if you notify us accordingly, provided this data is necessary for the intended purpose of processing your data."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Your right to correct and complete your data"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "We will delete the information we hold about you on request. However, some data will only be deleted subject to a defined period of retention, for example because we are required to retain the data by law in some cases, or because we require the data to fulfil our contractual obligations to you."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Your right to delete your data"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "In certain legally determined cases, we will block your data if you would like us to do so. Blocked data is only further processed to a very limited extent."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Your right to have your data blocked"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "You can withdraw consent given for your data to be processed with effect for the future at any time. The legality of processing your data remains unaffected by this up to the point at which your consent is withdrawn."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Your right to withdraw consent"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "You can object to the processing of your data with effect for the future at any time, if we are processing your data on the basis of one of the legal justifications set out in article 6(1e or 1f) of Regulation (EU) 2016/679. In the event that you object we will cease processing your data, provided that there are no compelling and legitimate grounds for further processing. The processing of your data for the purposes of direct marketing never constitutes compelling and legitimate grounds for us."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Your right to object to the processing of your data"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "At your request, we can make certain information available to you in a structured, commonly used and machine-readable format."
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Your right to data portability"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "You can lodge an appeal pertaining to data protection with a data protection authority. To do so, contact the data protection authority responsible for your place of residence or the data protection authority under whose jurisdiction we fall (named below)."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Your right to appeal to a regulatory authority"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Bavarian Data Protection Authority (BayLDA), ."
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "www.baylda.de",
+     "href": "https://www.lda.bayern.de/de/index.html"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "If you have any questions relating to data protection or exercising your rights, you can use the following contact information to get in touch with our data protection officer directly: BSH Hausgeräte GmbH Data Protection Officer Carl-Wery-Str. 34 81739 Munich, Germany"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Your point of contact for all questions relating to data protection"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "data-protection-de@bshg.com",
+     "href": "mailto:data-protection-de@bshg.com"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "This Data Protection Information reflects the current state of data processing on our website. In the event of changes to data processing, this Data Protection Information will be updated accordingly. We always provide the latest version of this Data Protection Information on our website so that you can find out about the scope of data processing on our website."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Changes to this Data Protection Information"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Valid from: 9.3.2018 Version: DPI_1.0.1_1.0"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 15,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 15,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-16T11:33:13.489Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "general-imprint",
+  "url": "https://www.gaggenau.com/general/imprint",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-16T11:33:13.489Z",
+  "finalUrl": "https://www.gaggenau.com/general/imprint",
+  "title": "Imprint",
+  "description": "Imprint",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Imprint"
+    }
+  ],
+  "body": [
+    "BSH Hausgeräte GmbHCarl-Wery-Str. 34D-81739 MünchenGermany",
+    "info.zz@gaggenau.comwww.gaggenau.com",
+    "Represented by the Board of ManagementRudolf Klötscher (Vorsitzender / Chairman)Mirko AksentijevicDr. Thorsten LückeLars Schubert",
+    "Registered Office:Munich",
+    "Registry Court:Amtsgericht München HRB 75534",
+    "WEEE-Reg.-Nr. DE 57986696",
+    "Copyright:Text, illustrations, graphics, sound, animations and videos, as well as their arrangement on Gaggenau websites, are subject to copyright and other protective legislation. The contents of these websites may not be copied, distributed, modified or made available to third parties for commercial purposes. Certain of the illustrations on the website are further subject to third party copyright .",
+    "Trademark rightsUnless otherwise specified, all trademarks on Gaggenau websites are protected by proprietary rights. This applies in particular to Gaggenau brands, nameplates, corporate logos and emblems.",
+    "Imprint",
+    "Legal"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Imprint",
+      "href": "/general/imprint"
+    },
+    {
+      "label": "Legal",
+      "href": "/general/legal"
+    },
+    {
+      "label": "Privacy settings",
+      "href": "#"
+    }
+  ],
+  "links": [
+    "https://www.gaggenau.com/general/imprint#content",
+    "https://www.gaggenau.com/",
+    "https://www.pinterest.de/gaggenau_/",
+    "https://www.instagram.com/gaggenauofficial/",
+    "https://vimeo.com/gaggenauofficial",
+    "https://www.gaggenau.com/general/imprint",
+    "https://www.gaggenau.com/general/imprint#",
+    "https://www.gaggenau.com/general/legal"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.gaggenau.com/store/medias/sys_master/root/h8d/h24/12965871976478/GG-logo-black-RGB.png",
+        "alt": "GAGGENAU",
+        "w": 1181,
+        "h": 171
+      },
+      {
+        "src": "https://cdn.consentmanager.net/delivery/recall/logos/122420",
+        "alt": "Privacy settings",
+        "w": 945,
+        "h": 945
+      }
+    ],
+    "allImgCount": 2,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 1,
+    "mainTextLen": 125600,
+    "realImageCount": 2,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 8
+      },
+      {
+        "host": "cdn.consentmanager.net",
+        "count": 2
+      },
+      {
+        "host": "b.delivery.consentmanager.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": "#"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 3,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/general-imprint.png",
+  "renderedHtml": "pages/general-imprint.html"
+}

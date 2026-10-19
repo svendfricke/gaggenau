@@ -1,0 +1,60 @@
+{
+  "slug": "general-imprint",
+  "type": "static",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "content-text-media"
+  ],
+  "slotsFilled": [
+    "m-contenttextmedia"
+  ],
+  "canonShas": {
+    "header": "324450f69b9e",
+    "footer": "6bbe3add963d",
+    "css": "9eb7b91b255b"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Imprint",
+    "description": "Imprint",
+    "canonical": null,
+    "lang": "en-ZZ"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Imprint",
+    "description": "Imprint",
+    "url": "https://www.gaggenau.com/general/imprint"
+  },
+  "migratedAt": "2026-10-16T14:21:59Z",
+  "designMdSha": "50822350626f",
+  "designJsonSha": "920bf3be988e",
+  "sourceCurrentSha": "8e87379dc8d7",
+  "sourceProposedSha": "b015dbd8438d",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "content-diff vs capture #content: 1 heading, 14 body text nodes, 9 editable blocks 1:1, 0 structural",
+    "pixel-gate-1440": "0.01%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-1440/summary.md) [published regime]",
+    "pixel-gate-360": "0.05%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-360/summary.md) [published regime]",
+    "delivery-lint": "FAIL: 1 P0 · 0 P1 · 1 P2 (delivery-lint --path /general/imprint)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 4,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "general/imprint/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "general/imprint/_meta.json",
+  "driverVersion": "1"
+}

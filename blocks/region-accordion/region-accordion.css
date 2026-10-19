@@ -1,0 +1,130 @@
+/* region-accordion — g-col > m-countryselectorlist > m-togglebox, lifted from
+   stardust/prototypes/css/region.css (source: store style.min.css). */
+.region-accordion {
+  padding: 0 5px;
+}
+
+.region-accordion .togglebox {
+  margin: 0 0 20px;
+  border-bottom: 1px solid #36373b;
+}
+
+.region-accordion .item {
+  border-bottom: 1px solid #36373b;
+}
+
+.region-accordion .item:last-of-type {
+  border-bottom: none;
+}
+
+.region-accordion .togglebox-title {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+  border: 0;
+  background: none;
+  color: #000;
+  font-family: var(--body-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.region-accordion .togglebox-title::before {
+  content: "\e058";
+  display: inline-block;
+  position: relative;
+  font-family: icons, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.region-accordion .togglebox-title.is-open::before {
+  content: "\e048";
+}
+
+.region-accordion .togglebox-title :is(p, h2, h3, h4) {
+  display: inline;
+  margin: 0;
+  padding-left: 20px;
+  font: inherit;
+  color: inherit;
+}
+
+.region-accordion .togglebox-content {
+  max-height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.region-accordion .togglebox-content.is-open {
+  max-height: none;
+  overflow: visible;
+}
+
+.region-accordion .togglebox-content.is-in-transition {
+  overflow: hidden;
+  transition: max-height 0.4s;
+}
+
+.region-accordion .region {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.region-accordion .region::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.region-accordion .region :is(ul, ol) {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.region-accordion .region li {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 20px 1.3889%;
+  line-height: 30px;
+}
+
+.region-accordion .region p {
+  margin: 0;
+}
+
+@media (width >= 600px) {
+  .region-accordion {
+    padding: 0 16.6562px;
+  }
+
+  .region-accordion .togglebox-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .region-accordion .region li {
+    width: 50%;
+  }
+}
+
+@media (width >= 900px) {
+  .region-accordion .region li {
+    width: 33.3333%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .region-accordion .togglebox-content.is-in-transition {
+    transition: none;
+  }
+}

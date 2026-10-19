@@ -1,0 +1,299 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 7,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto",
+    "note": "consentmanager.net (.cmpboxbtnyes, label Accept all / Einverstanden) renders ~2.3s after load; instruments pass --consent .cmpboxbtnyes"
+  },
+  "favicon": {
+    "url": "https://www.gaggenau.com/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [
+      {
+        "root": "/de/de",
+        "slug": "de-de",
+        "linked": 10,
+        "uncaptured": [
+          "/de/de/c/legal/blt257448e8e4fe078f/generell/datenschutz",
+          "/de/de/c/legal/blt2f850ba3ff8ea33a/generell/eshop-agbs",
+          "/de/de/c/legal/blt6132e5ad6ecd9281/generell/informationen-altgeraete-ruecknahme",
+          "/de/de/c/legal/blt7850fba012c27ee4/generell/impressum",
+          "/de/de/c/legal/bltc185108261e90363/generell/herstellergarantie",
+          "/de/de/c/legal/bltcb14857ff8d959f8/generell/batterieentsorgung",
+          "/de/de/c/legal/bltdfc5e3df2ecd8a29/generell/firmware-updates",
+          "/de/de/c/legal/blte548dd7b46c1a429/generell/barrierefreiheit",
+          "/de/de/c/legal/blte8cf2be57b65d4a8/gesetzliche-konformitaetsgarantie",
+          "/de/de/checkout/cart"
+        ]
+      }
+    ],
+    "detail": "uncaptured first-level targets: de/de 10"
+  },
+  "dynamicSurface": {
+    "pages": 7,
+    "pagesWithSameSiteData": 1,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 0,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.gaggenau.com",
+        "path": "/graphql",
+        "query": [
+          "extensions",
+          "operationName",
+          "variables"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.gaggenau.com/graphql",
+        "pages": 1,
+        "examples": [
+          "de-de"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "player.vimeo.com",
+        "path": "/cdn-cgi/challenge-platform/h/b/precursor/d2d3316b729e/0.265390665454717:1792148434:BGP0ZqxZd9q5eGY2_6j8AFrbVvC7-9At1nOSVZ5xFwg/{hash}",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://player.vimeo.com/cdn-cgi/challenge-platform/h/b/precursor/d2d3316b729e/0.265390665454717:1792148434:BGP0ZqxZd9q5eGY2_6j8AFrbVvC7-9At1nOSVZ5xFwg/a4b6bf79be04065f",
+        "pages": 1,
+        "examples": [
+          "de-de"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "player.vimeo.com",
+        "path": "/video/{n}/outro",
+        "query": [
+          "on_site",
+          "type"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://player.vimeo.com/video/1100372569/outro",
+        "pages": 1,
+        "examples": [
+          "de-de"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vod-adaptive-ak.vimeocdn.com",
+        "path": "/exp=1792153999~acl=%2F{uuid}%2Fpsid%3Dd7bd2586e238a26ded571cfea1a941bb161eebc31792150399%2F%2A~hmac=210dd9f7d65238dd5df34cccabdcb259128192f3f54eedcf2d99ce21964a6940/{uuid}/psid=d7bd2586e238a26ded571cfea1a941bb161eebc31792150399/v2/playlist/av/primary/prot/cHI9NTQwJnFzcj0x/playlist.json",
+        "query": [
+          "omit",
+          "pathsig",
+          "pr",
+          "qsr",
+          "r",
+          "rh"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://vod-adaptive-ak.vimeocdn.com/exp=1792153999~acl=%2Ff21861ec-6810-4409-a3fd-10d45a3c4a7f%2Fpsid%3Dd7bd2586e238a26ded571cfea1a941bb161eebc31792150399%2F%2A~hmac=210dd9f7d65238dd5df34cccabdcb259128192f3f54eedcf2d99ce21964a6940/f21861ec-6810-4409-a3fd-10d45a3c4a7f/psid=d7bd2586e238a26ded571cfea1a941bb161eebc31792150399/v2/playlist/av/primary/prot/cHI9NTQwJnFzcj0x/playlist.json",
+        "pages": 1,
+        "examples": [
+          "de-de"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vod-adaptive-ak.vimeocdn.com",
+        "path": "/exp=1792153999~acl=%2F{uuid}%2Fpsid%3Dd7bd2586e238a26ded571cfea1a941bb161eebc31792150399%2F%2A~hmac=210dd9f7d65238dd5df34cccabdcb259128192f3f54eedcf2d99ce21964a6940/{uuid}/psid=d7bd2586e238a26ded571cfea1a941bb161eebc31792150399/v2/range/prot/cmFuZ2U9NzQ2LTUzOTU/avf/{uuid}.mp4",
+        "query": [
+          "pathsig",
+          "r",
+          "range"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://vod-adaptive-ak.vimeocdn.com/exp=1792153999~acl=%2Ff21861ec-6810-4409-a3fd-10d45a3c4a7f%2Fpsid%3Dd7bd2586e238a26ded571cfea1a941bb161eebc31792150399%2F%2A~hmac=210dd9f7d65238dd5df34cccabdcb259128192f3f54eedcf2d99ce21964a6940/f21861ec-6810-4409-a3fd-10d45a3c4a7f/psid=d7bd2586e238a26ded571cfea1a941bb161eebc31792150399/v2/range/prot/cmFuZ2U9NzQ2LTUzOTU/avf/fac062ae-6803-4743-8bd7-61ef1a247024.mp4",
+        "pages": 1,
+        "examples": [
+          "de-de"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vod-adaptive-ak.vimeocdn.com",
+        "path": "/exp=1792153999~acl=%2F{uuid}%2Fpsid%3Dd7bd2586e238a26ded571cfea1a941bb161eebc31792150399%2F%2A~hmac=210dd9f7d65238dd5df34cccabdcb259128192f3f54eedcf2d99ce21964a6940/{uuid}/psid=d7bd2586e238a26ded571cfea1a941bb161eebc31792150399/v2/range/prot/cmFuZ2U9ODYxLTMwMjUwOTU/avf/{uuid}.mp4",
+        "query": [
+          "pathsig",
+          "r",
+          "range"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://vod-adaptive-ak.vimeocdn.com/exp=1792153999~acl=%2Ff21861ec-6810-4409-a3fd-10d45a3c4a7f%2Fpsid%3Dd7bd2586e238a26ded571cfea1a941bb161eebc31792150399%2F%2A~hmac=210dd9f7d65238dd5df34cccabdcb259128192f3f54eedcf2d99ce21964a6940/f21861ec-6810-4409-a3fd-10d45a3c4a7f/psid=d7bd2586e238a26ded571cfea1a941bb161eebc31792150399/v2/range/prot/cmFuZ2U9ODYxLTMwMjUwOTU/avf/f6cc2f9e-23c7-44cf-8a7e-e9c9ea908b73.mp4",
+        "pages": 1,
+        "examples": [
+          "de-de"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vod-adaptive-ak.vimeocdn.com",
+        "path": "/exp=1792153999~acl=%2F{uuid}%2Fpsid%3Dd7bd2586e238a26ded571cfea1a941bb161eebc31792150399%2F%2A~hmac=210dd9f7d65238dd5df34cccabdcb259128192f3f54eedcf2d99ce21964a6940/{uuid}/psid=d7bd2586e238a26ded571cfea1a941bb161eebc31792150399/v2/range/prot/cmFuZ2U9NTM5Ni04MTg1/avf/{uuid}.mp4",
+        "query": [
+          "pathsig",
+          "r",
+          "range"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://vod-adaptive-ak.vimeocdn.com/exp=1792153999~acl=%2Ff21861ec-6810-4409-a3fd-10d45a3c4a7f%2Fpsid%3Dd7bd2586e238a26ded571cfea1a941bb161eebc31792150399%2F%2A~hmac=210dd9f7d65238dd5df34cccabdcb259128192f3f54eedcf2d99ce21964a6940/f21861ec-6810-4409-a3fd-10d45a3c4a7f/psid=d7bd2586e238a26ded571cfea1a941bb161eebc31792150399/v2/range/prot/cmFuZ2U9NTM5Ni04MTg1/avf/fac062ae-6803-4743-8bd7-61ef1a247024.mp4",
+        "pages": 1,
+        "examples": [
+          "de-de"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vod-adaptive-ak.vimeocdn.com",
+        "path": "/exp=1792153999~acl=%2F{uuid}%2Fpsid%3Dd7bd2586e238a26ded571cfea1a941bb161eebc31792150399%2F%2A~hmac=210dd9f7d65238dd5df34cccabdcb259128192f3f54eedcf2d99ce21964a6940/{uuid}/psid=d7bd2586e238a26ded571cfea1a941bb161eebc31792150399/v2/range/prot/cmFuZ2U9MTE5NDI5Ni0yMjE3ODI5/avf/{uuid}.mp4",
+        "query": [
+          "pathsig",
+          "r",
+          "range"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://vod-adaptive-ak.vimeocdn.com/exp=1792153999~acl=%2Ff21861ec-6810-4409-a3fd-10d45a3c4a7f%2Fpsid%3Dd7bd2586e238a26ded571cfea1a941bb161eebc31792150399%2F%2A~hmac=210dd9f7d65238dd5df34cccabdcb259128192f3f54eedcf2d99ce21964a6940/f21861ec-6810-4409-a3fd-10d45a3c4a7f/psid=d7bd2586e238a26ded571cfea1a941bb161eebc31792150399/v2/range/prot/cmFuZ2U9MTE5NDI5Ni0yMjE3ODI5/avf/31cf5259-31b1-42b2-be25-2ad0c2cdd2d8.mp4",
+        "pages": 1,
+        "examples": [
+          "de-de"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "pages": 7,
+        "examples": [
+          "general",
+          "confirmation",
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.consentmanager.net",
+        "pages": 7,
+        "examples": [
+          "general",
+          "confirmation",
+          "index"
+        ]
+      },
+      {
+        "host": "b.delivery.consentmanager.net",
+        "pages": 6,
+        "examples": [
+          "general",
+          "confirmation",
+          "index"
+        ]
+      },
+      {
+        "host": "player.vimeo.com",
+        "pages": 1,
+        "examples": [
+          "de-de"
+        ]
+      },
+      {
+        "host": "f.vimeocdn.com",
+        "pages": 1,
+        "examples": [
+          "de-de"
+        ]
+      },
+      {
+        "host": "d.delivery.consentmanager.net",
+        "pages": 1,
+        "examples": [
+          "de-de"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 7,
+        "examples": [
+          "general",
+          "confirmation",
+          "index"
+        ]
+      }
+    ],
+    "formTargets": []
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "recaptured",
+      "notes": "crawl screenshot carried the consentmanager banner (appears ~2.3s after load, after the crawler dismissal pass); clean recapture in assets/screenshots/clean/ with --consent .cmpboxbtnyes"
+    },
+    {
+      "slug": "general",
+      "verdict": "recaptured",
+      "notes": "missing-page notice; consent banner in crawl shot; clean recapture ok"
+    },
+    {
+      "slug": "confirmation",
+      "verdict": "recaptured",
+      "notes": "newsletter success notice; clean recapture ok"
+    },
+    {
+      "slug": "energylabel",
+      "verdict": "recaptured",
+      "notes": "region selector (Europe only); clean recapture ok"
+    },
+    {
+      "slug": "general-imprint",
+      "verdict": "recaptured",
+      "notes": "imprint text page; clean recapture ok"
+    },
+    {
+      "slug": "general-legal",
+      "verdict": "recaptured",
+      "notes": "data protection text page; clean recapture ok"
+    },
+    {
+      "slug": "de-de",
+      "verdict": "suspect",
+      "notes": "content and hero render correctly; crawl screenshot carries consent banner; stitched recapture stalls 52px short (document shrinks 4508->4456 after scroll, header scroll-state morph) — handled at the gate"
+    }
+  ],
+  "siblingCandidates": [
+    {
+      "origin": "https://www.gaggenau-themagazine.com",
+      "confidence": "low",
+      "evidence": "footer/teaser link on de-de",
+      "decision": "excluded (scope fixed by site plan)"
+    }
+  ]
+}

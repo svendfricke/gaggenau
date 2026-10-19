@@ -1,0 +1,69 @@
+/* Landing archetype — base layer: faces, root scale, normalize and the
+   slider/media primitives the lifted rules assume. Values from the source's
+   global emotion rules and its modern-normalize / swiper base sheets. */
+@font-face { font-family: 'GaggenauText'; src: url(../assets/fonts/GaggenauText-Bold-fdbe74ccdf400f60.woff2) format('woff2'); font-weight: bold; font-style: normal; font-display: swap; }
+@font-face { font-family: 'GaggenauText'; src: url(../assets/fonts/GaggenauText-Regular-b39a89f998cbfab0.woff2) format('woff2'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'GaggenauDisplay'; src: url(../assets/fonts/GaggenauDisplay-Bold-eda76fcdfad42551.woff2) format('woff2'); font-weight: bold; font-style: normal; font-display: swap; }
+@font-face { font-family: 'GaggenauDisplay'; src: url(../assets/fonts/GaggenauDisplay-Regular-207155fe395e7d56.woff2) format('woff2'); font-weight: normal; font-style: normal; font-display: swap; }
+
+*, ::before, ::after { box-sizing: border-box; }
+html { font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.15; -webkit-text-size-adjust: 100%; tab-size: 4; scroll-behavior: smooth; }
+body { margin: 0; padding: 0; background-color: rgb(255, 255, 255); font-family: "GaggenauText", sans-serif; }
+b, strong { font-weight: bolder; }
+button, input, select, textarea { font-family: inherit; font-size: 100%; line-height: 1.15; margin: 0; }
+button { -webkit-appearance: button; }
+a { text-decoration: inherit; }
+*:focus-visible { outline: 2px rgb(215, 50, 0) solid; border-radius: 0; }
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+:root { font-size: 4.27vw; --sherpa-header-z-index: 1000; }
+@media (min-width: 375px) { :root { font-size: 16px; } }
+@media (min-width: 720px) { :root { font-size: 1.92vw; } }
+@media (min-width: 834px) { :root { font-size: 16px; } }
+@media (min-width: 1200px) { :root { font-size: 1.25vw; } }
+@media (min-width: 1280px) { :root { font-size: 16px; } }
+@media (min-width: 1600px) { :root { font-size: 0.9vw; } }
+@media (min-width: 1792px) { :root { font-size: 16px; } }
+
+.page { min-height: 100vh; display: flex; flex-flow: column; }
+main { flex: 1 1 auto; }
+
+@keyframes stage-rise {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* header morph: the brand row leaves and the inline logo fades in once the page scrolls */
+.hdr { transition: height 300ms ease, padding 300ms ease; }
+.hdr-brand { transition: opacity 200ms ease; }
+.hdr-mini { opacity: 0; transition: opacity 300ms ease 300ms; }
+.site-header.is-compact .hdr-brand { display: none; }
+.site-header.is-compact .hdr-mini { opacity: 1; }
+.hdr-mini a, .hdr-brand a { display: block; }
+
+/* slider primitives (swiper base) */
+.slider { margin-inline: auto; position: relative; overflow: hidden; list-style: none; z-index: 1; display: block; touch-action: pan-y; }
+.slider-track { position: relative; width: 100%; height: 100%; z-index: 1; display: flex; transition-property: transform; transition-duration: 300ms; box-sizing: content-box; }
+.slide { flex-shrink: 0; width: 100%; height: 100%; position: relative; display: block; }
+.slider.is-locked .slider-bar { display: none; }
+.slider-thumb { position: relative; left: 0; top: 0; transition: transform 300ms; }
+
+/* image fills the lifted media boxes (inline styles on the source) */
+.fill-img, .stage-img { position: absolute; height: 100%; width: 100%; inset: 0; color: transparent; }
+.stage-img { object-fit: cover; }
+.fill-img { object-fit: inherit; }
+.ed-video { position: absolute; inset: 0; z-index: 1; }
+.fill-frame { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+.hdr-navlink { background: none; border: 0; padding: 0; }
+.ft-acc-btn { width: 100%; }
+
+.ft-acc-panel[hidden] { display: none; }
+.hdr-mini { width: 0; overflow: hidden; flex-shrink: 0; visibility: hidden; transition: opacity 300ms ease 300ms, width 300ms ease, visibility 0s 300ms; }
+.site-header.is-compact .hdr-mini { width: auto; visibility: visible; }
+
+/* footer accordion panel (source: radix collapsible, harvested on open) */
+.ft-acc-panel { padding-block-end: 0.75rem; overflow: hidden; }
+.ft-acc-panel.is-open { animation: 0.5s linear(0 0%, 0.00681 0.98%, 0.02725 2.02%, 0.11095 4.37%, 0.60009 13.541%, 0.79966 18.132%, 0.93595 22.812%, 0.98246 25.283%, 1.01584 27.903%, 1.04098 31.583%, 1.04836 35.934%, 1.0426 40.194%, 1.01133 52.865%, 1.00082 60.956%, 1.00006 100%) acc-open; }
+@keyframes acc-open { 0% { height: 0; padding-block-end: 0; } 100% { height: var(--panel-h); } }
+
+.ft-acc-btn[aria-expanded="true"] .chev { transform: rotateZ(-180deg); }

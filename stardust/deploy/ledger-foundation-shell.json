@@ -1,0 +1,18 @@
+{
+  "/de/de": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-16T13:22:19.536Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/general/legal": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-16T13:22:19.536Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  }
+}

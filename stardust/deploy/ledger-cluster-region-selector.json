@@ -1,0 +1,11 @@
+{
+  "/energylabel": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-16T14:22:32.651Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "icons",
+        "createdAt": "2026-10-16T12:56:29.940Z",
+        "reason": "replica: icons.woff2 is the source site's own glyph font (store-canon.css), lifted verbatim per foundation brief"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "gaggenau-text-fallback",
+        "createdAt": "2026-10-16T12:57:09.677Z",
+        "reason": "deploy skill Step 4: metric-matched local fallback faces required for every brand stack"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "gaggenau-display-fallback",
+        "createdAt": "2026-10-16T12:57:09.685Z",
+        "reason": "deploy skill Step 4: metric-matched local fallback faces required for every brand stack"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "gaggenautext-fallback",
+        "createdAt": "2026-10-16T12:57:09.696Z",
+        "reason": "deploy skill Step 4: metric-matched local fallback faces required for every brand stack"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "gaggenaudisplay-fallback",
+        "createdAt": "2026-10-16T12:57:09.706Z",
+        "reason": "deploy skill Step 4: metric-matched local fallback faces required for every brand stack"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "roboto",
+        "createdAt": "2026-10-16T12:57:09.715Z",
+        "reason": "replica: verbatim system stack on html in the gated landing prototype (landing.css L10), not a brand face"
+      }
+    ]
+  }
+}

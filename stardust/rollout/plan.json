@@ -1,0 +1,83 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-16T12:34:13.691Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-16T12:34:13.691Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "de-de",
+    "general-legal",
+    "index"
+  ],
+  "steps": [
+    {
+      "slug": "de-de",
+      "path": "/de/de",
+      "templateId": "de-de",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "stage",
+          "edsBlockName": "stage"
+        },
+        {
+          "id": "teaser-slider",
+          "edsBlockName": "teaser-slider"
+        },
+        {
+          "id": "category-tiles",
+          "edsBlockName": "category-tiles"
+        },
+        {
+          "id": "editorial-teaser",
+          "edsBlockName": "editorial-teaser"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "general-legal",
+      "path": "/general/legal",
+      "templateId": "general-legal",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "content-text-media",
+          "edsBlockName": "content-text-media"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "content-teaser",
+          "edsBlockName": "content-teaser"
+        },
+        {
+          "id": "region-accordion",
+          "edsBlockName": "region-accordion"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "content-text-media",
+          "edsBlockName": "content-text-media",
+          "convertedBy": "general-legal"
+        }
+      ]
+    }
+  ]
+}

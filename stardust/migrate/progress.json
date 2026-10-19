@@ -1,0 +1,68 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "region-selector",
+        "static"
+      ],
+      "pages": 7,
+      "startedAt": "2026-10-16T12:31:57Z",
+      "endedAt": "2026-10-16T12:31:57Z",
+      "verdict": "plan: Path A 3 (de-de landing, index region-selector, general-legal static); Path A' 4 (energylabel → index; general, confirmation, general-imprint → general-legal); Path B 0; gated-archetype precondition met (3/3 pass at 1440+360)"
+    },
+    "landing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing"
+      ],
+      "pages": 0,
+      "startedAt": "2026-10-16T14:19:46Z",
+      "endedAt": "2026-10-16T14:19:46Z",
+      "verdict": "rendered 0, unchanged 0, refused 0, passthrough 0 — template has no siblings (archetype de-de only)"
+    },
+    "region-selector": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "region-selector"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-16T14:19:46Z",
+      "endedAt": "2026-10-16T14:22:04Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0 — energylabel (content-count pass 34/34, modules content-text-media, region-accordion; content/energylabel.html lint ok)"
+    },
+    "static": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "pages": 3,
+      "startedAt": "2026-10-16T14:19:46Z",
+      "endedAt": "2026-10-16T14:23:38Z",
+      "verdict": "rendered 3, unchanged 0, refused 0, passthrough 0 — general, confirmation, general-imprint (content-count pass 3/3; content docs lint ok; deviations logged: confirmation page title + spacer image, /country-selector link)"
+    },
+    "assets": {
+      "status": "done",
+      "kind": "assets",
+      "templates": [],
+      "pages": 7,
+      "startedAt": "2026-10-16T15:11:40Z",
+      "endedAt": "2026-10-16T15:11:40Z",
+      "verdict": "no rehost in migrate: editorial media hosted on DA at deploy (media-ledger)"
+    },
+    "report": {
+      "status": "done",
+      "kind": "report",
+      "templates": [],
+      "pages": 7,
+      "startedAt": "2026-10-16T15:11:40Z",
+      "endedAt": "2026-10-16T15:11:40Z",
+      "verdict": "7/7 migrated in state.json; gate-evidence 7 sidecars"
+    }
+  }
+}

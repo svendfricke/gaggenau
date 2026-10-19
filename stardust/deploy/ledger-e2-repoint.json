@@ -1,0 +1,20 @@
+{
+  "/confirmation": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-16T15:06:50.280Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/general": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-16T15:06:54.868Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

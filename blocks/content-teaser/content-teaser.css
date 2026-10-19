@@ -1,0 +1,33 @@
+/* content-teaser — m-contentteaser, lifted from stardust/prototypes/css/region.css
+   (source: store style.min.css). */
+.content-teaser {
+  display: flow-root;
+  padding: 30px 15px 20px;
+}
+
+.content-teaser .heading :is(h2, h3) {
+  margin: 0 0 20px;
+  font-family: var(--body-font);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.content-teaser .text p {
+  margin: 0;
+}
+
+@media (width >= 600px) {
+  .content-teaser {
+    padding: 0 15px;
+  }
+
+  .content-teaser .content {
+    width: 50%;
+  }
+
+  .content-teaser .heading :is(h2, h3) {
+    font-size: 30px;
+    line-height: 32px;
+  }
+}

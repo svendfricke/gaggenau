@@ -1,0 +1,234 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:replica",
+  "writtenAt": "2026-10-16T12:06:51.010Z"
+ },
+ "archetypes": {
+  "static": {
+   "slug": "general-legal",
+   "liveUrl": "https://www.gaggenau.com/general/legal",
+   "prototype": "stardust/prototypes/general-legal-proposed.html",
+   "css": [
+    "stardust/prototypes/css/store-canon.css",
+    "stardust/prototypes/css/static.css"
+   ],
+   "main": ".g-container > .js-content",
+   "iterations": {
+    "360": 2,
+    "1440": 3
+   },
+   "gates": {
+    "360": {
+     "pixel": "0.05%",
+     "heightDelta": 0,
+     "structuralRed": 0,
+     "visualFlags": 0,
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeHeader": "100.00%",
+     "chromeFooter": "99.79%",
+     "label": "iter2"
+    },
+    "1440": {
+     "pixel": "0.01%",
+     "heightDelta": 0,
+     "structuralRed": 0,
+     "visualFlags": 0,
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeHeader": "100.00%",
+     "chromeFooter": "99.96%",
+     "label": "iter3"
+    },
+    "cap": "PASS at 2560 (0/4 rows failed)"
+   },
+   "residuals": [
+    "🟡 ICON MOVED [footer] at 360: hidden mobile footer-nav arrow paired with the hidden Overview item — same glyph, both invisible"
+   ],
+   "motion": {
+    "observed": [
+     "hover .text a color→#d73200",
+     "hover .o-footer a color→#d73200",
+     "class is-active on .nav-sticky (scroll-up)"
+    ],
+    "implemented": [
+     "hover .text a",
+     "hover .o-footer a"
+    ],
+    "dead": [
+     "header .nav-sticky is-active on scroll-up — the bar renders 0px tall on this template (probed at 1440 and 360), no visible effect"
+    ]
+   },
+   "status": "passed",
+   "passedAt": "2026-10-16T11:57:43.618Z"
+  },
+  "region-selector": {
+   "slug": "index",
+   "liveUrl": "https://www.gaggenau.com/",
+   "prototype": "stardust/prototypes/index-proposed.html",
+   "css": [
+    "stardust/prototypes/css/store-canon.css",
+    "stardust/prototypes/css/static.css",
+    "stardust/prototypes/css/region.css"
+   ],
+   "js": [
+    "stardust/prototypes/js/region.js"
+   ],
+   "main": ".g-container > .js-content",
+   "iterations": {
+    "360": 3,
+    "1440": 3
+   },
+   "gates": {
+    "360": {
+     "pixel": "0.38%",
+     "heightDelta": 0,
+     "structuralRed": 0,
+     "visualFlags": 0,
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeHeader": "100.00%",
+     "chromeFooter": "99.79%",
+     "label": "iter3"
+    },
+    "1440": {
+     "pixel": "0.12%",
+     "heightDelta": 0,
+     "structuralRed": 0,
+     "visualFlags": 0,
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeHeader": "100.00%",
+     "chromeFooter": "99.96%",
+     "label": "iter3"
+    },
+    "cap": "PASS at 2560 (0/5 rows failed, cap-iter2)"
+   },
+   "captureState": [
+    {
+     "what": "live.png re-taken with stitch-shot --consent .cmpboxbtnyes",
+     "why": "iter1 live capture carried the consentmanager scrim (58% false diff); gate.sh reuses the cached clean capture"
+    }
+   ],
+   "residuals": [
+    "🟡 ICON MOVED [footer] at 360 — same as static (hidden arrow / hidden Overview)"
+   ],
+   "motion": {
+    "observed": [
+     "accordion click: .is-open on title/item/panel, max-height transition 400ms with .is-in-transition",
+     "nav-sticky .is-active on scroll-up"
+    ],
+    "implemented": [
+     "accordion open/close with 400ms max-height transition (js/region.js)"
+    ],
+    "dead": [
+     "nav-sticky .is-active (0px bar)",
+     "title hover — no visible change on live (build hover removed)"
+    ]
+   },
+   "status": "passed",
+   "passedAt": "2026-10-16T12:06:51.011Z"
+  },
+  "landing": {
+   "slug": "de-de",
+   "liveUrl": "https://www.gaggenau.com/de/de",
+   "prototype": "stardust/prototypes/de-de-proposed.html",
+   "css": [
+    "stardust/prototypes/css/landing.css"
+   ],
+   "js": [
+    "stardust/prototypes/js/landing.js"
+   ],
+   "builder": "stardust/scripts/build/landing-proto.mjs (+ landing-base.css): semantic markup from the captured DOM, CSS lifted from the source's emotion rules by class map",
+   "main": "main",
+   "iterations": {
+    "360": 3,
+    "1440": 2
+   },
+   "gates": {
+    "360": {
+     "pixel": "3.14%",
+     "heightDelta": 0,
+     "structuralRed": 0,
+     "visualFlags": "13 advisory STRETCHED IMAGE — object-fit:cover crops lifted from source (justified)",
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeHeader": "100.00%",
+     "chromeFooter": "99.66%",
+     "label": "final"
+    },
+    "1440": {
+     "pixel": "2.03%",
+     "heightDelta": 0,
+     "structuralRed": 0,
+     "visualFlags": 0,
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeHeader": "100.00%",
+     "chromeFooter": "99.99%",
+     "label": "final",
+     "capture": "stitch-shot --vh 1000 on both sides + pixel-compare; --full probes run individually (stardust/.work/dede/probes1440.sh)"
+    },
+    "cap": "PASS at 2560 (0/3 rows failed)"
+   },
+   "captureState": [
+    {
+     "what": "1440 stitched at 1000 px chunks (live and build)",
+     "why": "the sticky header compacts on scroll (document 4508 → 4456 px); at 900 px chunks stitch-shot's last two chunks clamp to the same scrollY and it reports a scroll stall on both sides; 1000 px chunks avoid the coincidence, same command shape both sides"
+    },
+    {
+     "what": "live.png taken with --consent .cmpboxbtnyes",
+     "why": "consentmanager scrim"
+    },
+    {
+     "what": "magazine teaser plays the Vimeo loop (autoplay muted) on both sides",
+     "why": "frame timing differs per capture — the 2500–3000 band carries it (restoreAtDelivery: autoplay iframe kept)",
+     "restoreAtDelivery": true
+    }
+   ],
+   "residuals": [
+    "chrome-parity 1440: 5 nav items <div role=button> → native <button> (tag only, geometry parity)",
+    "🟡 EXTRA ARIA-LABEL [header] Homepage on the compact-logo link (source carries the same label on its hidden twin)",
+    "consentmanager's floating re-open badge (bottom-left, fixed) not replicated — third-party consent UI",
+    "video frame band (Vimeo autoplay) — timing-dependent pixels"
+   ],
+   "motion": {
+    "observed": [
+     "header compacts on scroll (7.75rem→4.5rem / 5.1rem→3rem, brand row leaves, inline logo fades in)",
+     "slider next: track translate 344.7px, 300ms",
+     "footer accordion: radix open animation 0.5s + chevron rotateZ(-180deg) 600ms",
+     "category teaser hover box-shadow 600ms",
+     "stage text rise 600ms entrance"
+    ],
+    "implemented": [
+     "header compact morph (js/landing.js, threshold 124px)",
+     "slider arrows + scrollbar thumb, 345px step, 300ms",
+     "footer accordion with harvested linear() open animation and chevron rotation",
+     "hover/entrance transitions via lifted CSS"
+    ],
+    "dead": [
+     "editorial teaser link hover (no measured diff on live)",
+     "teaser link background-color on swiper-slide-prev (slide-state class only)"
+    ]
+   },
+   "status": "passed",
+   "passedAt": "2026-10-16T12:28:43.000Z"
+  }
+ },
+ "siblings": {},
+ "migrate": {
+  "at": "2026-10-16T15:10:31.865Z",
+  "pages": 7,
+  "archetypes": 7,
+  "siblings": 0,
+  "thin": 0,
+  "gates": {
+   "pixel-gate-1440": 7,
+   "pixel-gate-360": 7,
+   "content-count": 3,
+   "content-fidelity": 4,
+   "delivery-lint": 2
+  },
+  "missing": {}
+ }
+}

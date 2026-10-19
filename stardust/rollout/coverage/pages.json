@@ -1,0 +1,307 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-16T14:26:22.084Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-16T15:07:04.071Z",
+  "pages": [
+    {
+      "slug": "confirmation",
+      "path": "/confirmation",
+      "title": "Success | Gaggenau",
+      "templateId": "confirmation",
+      "source": {
+        "migratedHtml": "stardust/migrated/confirmation/index.html",
+        "metaJson": "stardust/migrated/confirmation/_meta.json",
+        "sourceHash": "sha256:977da27b56da9982b4763896973cf16b23ee4be2934e4e41a2cd8ce1cd3bf008",
+        "sourceUrl": "https://www.gaggenau.com/confirmation"
+      },
+      "blocks": [
+        "content-text-media"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--52a40dc9--aemcoder.aem.page/confirmation",
+        "deployedAt": "2026-10-16T14:26:31.017Z",
+        "verifiedAt": "2026-10-16T15:07:03.441Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.82,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-16T15:07:04.071Z"
+        }
+      }
+    },
+    {
+      "slug": "de-de",
+      "path": "/de/de",
+      "title": "Gaggenau Hausgeräte: Luxus für Ihre Küche | Gaggenau",
+      "templateId": "de-de",
+      "source": {
+        "migratedHtml": "stardust/migrated/de/de/index.html",
+        "metaJson": "stardust/migrated/de/de/_meta.json",
+        "sourceHash": "sha256:a9042ff860dd940fa78000d996facb49d26e8869799a4030d8fb2dcc88cfb37c",
+        "sourceUrl": "https://www.gaggenau.com/de/de"
+      },
+      "blocks": [
+        "stage",
+        "teaser-slider",
+        "category-tiles",
+        "editorial-teaser"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--52a40dc9--aemcoder.aem.page/de/de",
+        "deployedAt": "2026-10-16T14:20:25.063Z",
+        "verifiedAt": "2026-10-16T15:07:03.441Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.56,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-16T15:07:04.071Z"
+        }
+      }
+    },
+    {
+      "slug": "energylabel",
+      "path": "/energylabel",
+      "title": "Energy label | Gaggenau",
+      "templateId": "energylabel",
+      "source": {
+        "migratedHtml": "stardust/migrated/energylabel/index.html",
+        "metaJson": "stardust/migrated/energylabel/_meta.json",
+        "sourceHash": "sha256:7d718c490ccfadffb9154b23bdd4e3b9ad9ade3e2545aab6df1bbc6fd0fbb0b2",
+        "sourceUrl": "https://www.gaggenau.com/energylabel"
+      },
+      "blocks": [
+        "content-text-media",
+        "region-accordion"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--52a40dc9--aemcoder.aem.page/energylabel",
+        "deployedAt": "2026-10-16T14:30:15.657Z",
+        "verifiedAt": "2026-10-16T15:07:03.441Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.19,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-16T15:07:04.071Z"
+        }
+      }
+    },
+    {
+      "slug": "general",
+      "path": "/general",
+      "title": "Error | Gaggenau",
+      "templateId": "general",
+      "source": {
+        "migratedHtml": "stardust/migrated/general/index.html",
+        "metaJson": "stardust/migrated/general/_meta.json",
+        "sourceHash": "sha256:7127ca074e7bd0e1f5c5c2271b2fa9dfd5edf518f664f99f7b1258f68175065e",
+        "sourceUrl": "https://www.gaggenau.com/general"
+      },
+      "blocks": [
+        "content-text-media"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--52a40dc9--aemcoder.aem.page/general",
+        "deployedAt": "2026-10-16T14:26:30.969Z",
+        "verifiedAt": "2026-10-16T15:07:03.441Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.07,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-16T15:07:04.071Z"
+        }
+      }
+    },
+    {
+      "slug": "general-imprint",
+      "path": "/general/imprint",
+      "title": "Imprint",
+      "templateId": "general-imprint",
+      "source": {
+        "migratedHtml": "stardust/migrated/general/imprint/index.html",
+        "metaJson": "stardust/migrated/general/imprint/_meta.json",
+        "sourceHash": "sha256:4c6d3f34cff397f3b932287658a7162794b10cb836536385c1f9c85d29ba4f5c",
+        "sourceUrl": "https://www.gaggenau.com/general/imprint"
+      },
+      "blocks": [
+        "content-text-media"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--52a40dc9--aemcoder.aem.page/general/imprint",
+        "deployedAt": "2026-10-16T14:26:31.072Z",
+        "verifiedAt": "2026-10-16T15:07:03.441Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.05,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-16T15:07:04.071Z"
+        }
+      }
+    },
+    {
+      "slug": "general-legal",
+      "path": "/general/legal",
+      "title": "Data Protection Information",
+      "templateId": "general-legal",
+      "source": {
+        "migratedHtml": "stardust/migrated/general/legal/index.html",
+        "metaJson": "stardust/migrated/general/legal/_meta.json",
+        "sourceHash": "sha256:fe2b7cf1fd96bf4d8de4c20edc4516422b3a2826d27e7d8c53c47d207cc65bd6",
+        "sourceUrl": "https://www.gaggenau.com/general/legal"
+      },
+      "blocks": [
+        "content-text-media"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--52a40dc9--aemcoder.aem.live/general/legal",
+        "deployedAt": "2026-10-16T13:49:23.139Z",
+        "verifiedAt": "2026-10-16T15:07:03.441Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.05,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-16T15:07:04.071Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Select your region | Gaggenau",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:f2acf9434d8f44310bafa635adccab948ab91ff772a5051b26605e7260dd58bd",
+        "sourceUrl": "https://www.gaggenau.com/"
+      },
+      "blocks": [
+        "content-text-media",
+        "content-teaser",
+        "region-accordion"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--52a40dc9--aemcoder.aem.live/",
+        "deployedAt": "2026-10-16T14:11:09.068Z",
+        "verifiedAt": "2026-10-16T15:07:03.441Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.45,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-16T15:07:04.071Z"
+        }
+      }
+    }
+  ]
+}

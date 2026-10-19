@@ -1,0 +1,219 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-10-16T13:31:59.673Z",
+ "source": "https://www.gaggenau.com/de/de",
+ "build": "https://main--52a40dc9--aemcoder.aem.page/de/de",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  1440
+ ],
+ "counts": {
+  "error": 8,
+  "warn": 15,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "state-extra@1440 Navigationsmenü öffnen [click]",
+   "width": 1440,
+   "path": "Navigationsmenü öffnen",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "motion@1440 Navigationsmenü öffnen [key]",
+   "width": 1440,
+   "path": "Navigationsmenü öffnen",
+   "action": "key",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates background-color; the build does not"
+  },
+  {
+   "key": "state-extra@1440 Navigationsmenü öffnen > Die Welt von Gaggenau [click]",
+   "width": 1440,
+   "path": "Navigationsmenü öffnen > Die Welt von Gaggenau",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@1440 Navigationsmenü öffnen > Geräte [click]",
+   "width": 1440,
+   "path": "Navigationsmenü öffnen > Geräte",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@1440 Navigationsmenü öffnen > Für Kunden [click]",
+   "width": 1440,
+   "path": "Navigationsmenü öffnen > Für Kunden",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@1440 Navigationsmenü öffnen > Für Partner [click]",
+   "width": 1440,
+   "path": "Navigationsmenü öffnen > Für Partner",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@1440 Navigationsmenü öffnen > Besuchen Sie uns [click]",
+   "width": 1440,
+   "path": "Navigationsmenü öffnen > Besuchen Sie uns",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@1440 Die Welt von Gaggenau [click]",
+   "width": 1440,
+   "path": "Die Welt von Gaggenau",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@1440 Die Welt von Gaggenau [key]",
+   "width": 1440,
+   "path": "Die Welt von Gaggenau",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "state-extra@1440 Geräte [click]",
+   "width": 1440,
+   "path": "Geräte",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@1440 Geräte [key]",
+   "width": 1440,
+   "path": "Geräte",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "link-missing@1440 My Gaggenau",
+   "width": 1440,
+   "path": "My Gaggenau",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /de/my-account not in the build header"
+  },
+  {
+   "key": "control-missing@1440 Benutzerbereich",
+   "width": 1440,
+   "path": "Benutzerbereich",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source menu control opens on key; the build has no control named \"Benutzerbereich\""
+  },
+  {
+   "key": "control-missing@1440 Suchbegriff",
+   "width": 1440,
+   "path": "Suchbegriff",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source menu control opens on click; the build has no control named \"Suchbegriff\""
+  },
+  {
+   "key": "link-missing@1440 0 Artikel(e) im Warenkorb",
+   "width": 1440,
+   "path": "0 Artikel(e) im Warenkorb",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /de/de/checkout/cart not in the build header"
+  },
+  {
+   "key": "budget-truncated@1440 (source)",
+   "width": 1440,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at depth 2 at Navigationsmenü öffnen > Die Welt von Gaggenau: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "budget-truncated@1440 (build)",
+   "width": 1440,
+   "path": "(build)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the build record stopped at depth 2 at Navigationsmenü öffnen > Die Welt von Gaggenau"
+  },
+  {
+   "key": "panel-visual@1440 Navigationsmenü öffnen [key]",
+   "width": 1440,
+   "path": "Navigationsmenü öffnen",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 67.8% (bar 2%; source 1440×868, build 1440×866; texture 97% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Navigationsmenü öffnen > Die Welt von Gaggenau [key]",
+   "width": 1440,
+   "path": "Navigationsmenü öffnen > Die Welt von Gaggenau",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 72.8% (bar 2%; source 416×900, build 416×900; texture 98% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Navigationsmenü öffnen > Geräte [key]",
+   "width": 1440,
+   "path": "Navigationsmenü öffnen > Geräte",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 72.6% (bar 2%; source 416×900, build 416×900; texture 98% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Navigationsmenü öffnen > Für Kunden [key]",
+   "width": 1440,
+   "path": "Navigationsmenü öffnen > Für Kunden",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 72.8% (bar 2%; source 416×900, build 416×900; texture 98% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Navigationsmenü öffnen > Für Partner [key]",
+   "width": 1440,
+   "path": "Navigationsmenü öffnen > Für Partner",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 73.1% (bar 2%; source 416×900, build 416×900; texture 98% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Navigationsmenü öffnen > Besuchen Sie uns [key]",
+   "width": 1440,
+   "path": "Navigationsmenü öffnen > Besuchen Sie uns",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 73.5% (bar 2%; source 416×900, build 416×900; texture 98% thick)"
+  }
+ ]
+}

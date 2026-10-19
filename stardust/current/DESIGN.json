@@ -1,0 +1,387 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-16T11:40:48Z",
+    "sources": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/_brand-extraction.json"
+    ]
+  },
+  "name": "Gaggenau (current state)",
+  "colors": {
+    "canvas": "#fbf6f4",
+    "ink": "#000000",
+    "charcoal": "#171412",
+    "accent": "#d73200",
+    "stone": "#7f7b79",
+    "rule": "#bbb7b5"
+  },
+  "typography": {
+    "display": {
+      "fontFamily": "Gaggenau Display, GaggenauDisplay, Arial, sans-serif",
+      "fontSize": "38px",
+      "fontWeight": 400
+    },
+    "display-bold": {
+      "fontFamily": "Gaggenau Display, GaggenauDisplay, Arial, sans-serif",
+      "fontSize": "48px",
+      "fontWeight": 700
+    },
+    "body": {
+      "fontFamily": "Gaggenau Text, GaggenauText, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": 400
+    }
+  },
+  "rounded": {
+    "card": "30px",
+    "pill": "9999px"
+  },
+  "extensions": {
+    "componentStyle": [
+      {
+        "id": "button-hover",
+        "from": "#171412",
+        "to": "#d73200"
+      },
+      {
+        "id": "link-hover",
+        "from": "#000000",
+        "to": "#d73200"
+      }
+    ],
+    "motifs": {
+      "shadows": [
+        "rgba(0,0,0,0.25) 0 0 5px 0"
+      ],
+      "gradients": [],
+      "radius": "30px"
+    },
+    "voice": {
+      "heroHeadline": "Der Unterschied heißt…",
+      "register": "brand"
+    },
+    "modules": [
+      {
+        "id": "candidate-store-header",
+        "name": "store-header",
+        "slots": [
+          {
+            "name": "logo",
+            "type": "image",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": "header"
+          },
+          {
+            "slug": "energylabel",
+            "selector": "header"
+          },
+          {
+            "slug": "general-imprint",
+            "selector": "header"
+          },
+          {
+            "slug": "general-legal",
+            "selector": "header"
+          },
+          {
+            "slug": "general",
+            "selector": "header"
+          },
+          {
+            "slug": "confirmation",
+            "selector": "header"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-store-footer",
+        "name": "store-footer",
+        "slots": [
+          {
+            "name": "social",
+            "type": "link",
+            "required": true
+          },
+          {
+            "name": "legal-links",
+            "type": "link",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": "footer"
+          },
+          {
+            "slug": "energylabel",
+            "selector": "footer"
+          },
+          {
+            "slug": "general-imprint",
+            "selector": "footer"
+          },
+          {
+            "slug": "general-legal",
+            "selector": "footer"
+          },
+          {
+            "slug": "general",
+            "selector": "footer"
+          },
+          {
+            "slug": "confirmation",
+            "selector": "footer"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-region-hero",
+        "name": "region-hero",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image"
+          },
+          {
+            "name": "headline",
+            "type": "text"
+          },
+          {
+            "name": "body",
+            "type": "text"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": "main"
+          },
+          {
+            "slug": "energylabel",
+            "selector": "main"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-region-accordion",
+        "name": "region-accordion",
+        "slots": [
+          {
+            "name": "region",
+            "type": "text"
+          },
+          {
+            "name": "countries",
+            "type": "link"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": "main"
+          },
+          {
+            "slug": "energylabel",
+            "selector": "main"
+          }
+        ],
+        "status": "candidate"
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1200px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1200px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1200,
+          "via": "max-width",
+          "selector": "body.site-structure-level-1 > div.g-container",
+          "pages": [
+            "https://www.gaggenau.com/",
+            "https://www.gaggenau.com/general/legal"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1400,
+          "via": "max-width",
+          "selector": "body > main > div > div.css-sf4wfc",
+          "pages": [
+            "https://www.gaggenau.com/de/de"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1304,
+          "via": "max-width",
+          "selector": "div.css-lpqxjv > div.css-zd1jgi > div > div.swiper.swiper-initialized",
+          "pages": [
+            "https://www.gaggenau.com/de/de"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1167,
+          "via": "fixed",
+          "selector": "#region-toggle-6 > div.region",
+          "pages": [
+            "https://www.gaggenau.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 672,
+          "via": "fixed",
+          "selector": "#main > div > div.css-sf4wfc > div",
+          "pages": [
+            "https://www.gaggenau.com/de/de"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 587,
+          "via": "fixed",
+          "selector": "div > div.css-sf4wfc > div > div",
+          "pages": [
+            "https://www.gaggenau.com/de/de",
+            "https://www.gaggenau.com/",
+            "https://www.gaggenau.com/general/legal"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 540,
+          "via": "fixed",
+          "selector": "main > div > div.css-sf4wfc > div",
+          "pages": [
+            "https://www.gaggenau.com/de/de",
+            "https://www.gaggenau.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 419,
+          "via": "fixed",
+          "selector": "div > div.swiper.swiper-initialized > div.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+          "pages": [
+            "https://www.gaggenau.com/de/de"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 389,
+          "via": "fixed",
+          "selector": "#region-toggle-6 > div.region > div.country",
+          "pages": [
+            "https://www.gaggenau.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 340,
+          "via": "fixed",
+          "selector": "div.bsh-editorial-teaser.css-1sgs6pf > span.css-1o5vcq8 > a.bsh-editorial-teaser-content.css-thwkrl > span.css-19hgra2",
+          "pages": [
+            "https://www.gaggenau.com/de/de"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 310,
+          "via": "fixed",
+          "selector": "div.bsh-editorial-teaser.css-1sgs6pf > span.css-1o5vcq8 > a.bsh-editorial-teaser-content.css-thwkrl > span.css-19hgra2",
+          "pages": [
+            "https://www.gaggenau.com/de/de"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 250,
+          "via": "max-width",
+          "selector": "body.site-structure-level-1 > aside.m-popover",
+          "pages": [
+            "https://www.gaggenau.com/",
+            "https://www.gaggenau.com/general/legal"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.gaggenau.com/de/de",
+          "section": 0,
+          "selector": "body > main > div",
+          "px": 1400
+        },
+        {
+          "url": "https://www.gaggenau.com/de/de",
+          "section": 1,
+          "selector": "#main",
+          "px": 1400
+        },
+        {
+          "url": "https://www.gaggenau.com/",
+          "section": 0,
+          "selector": "body.site-structure-level-1 > a.sr-only.skip-to-content",
+          "px": null
+        },
+        {
+          "url": "https://www.gaggenau.com/",
+          "section": 1,
+          "selector": "body.site-structure-level-1 > div.g-container",
+          "px": 1167
+        },
+        {
+          "url": "https://www.gaggenau.com/",
+          "section": 2,
+          "selector": "body.site-structure-level-1 > aside.m-popover",
+          "px": 250
+        },
+        {
+          "url": "https://www.gaggenau.com/general/legal",
+          "section": 0,
+          "selector": "body.site-structure-level-1 > a.sr-only.skip-to-content",
+          "px": null
+        },
+        {
+          "url": "https://www.gaggenau.com/general/legal",
+          "section": 1,
+          "selector": "body.site-structure-level-1 > div.g-container",
+          "px": 600
+        },
+        {
+          "url": "https://www.gaggenau.com/general/legal",
+          "section": 2,
+          "selector": "body.site-structure-level-1 > aside.m-popover",
+          "px": 250
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: 1400 (https://www.gaggenau.com/de/de), 1200 (https://www.gaggenau.com/), 1200 (https://www.gaggenau.com/general/legal) — decide per template in the inconsistency register",
+        "shellMaxWidth differs between archetypes: fluid (https://www.gaggenau.com/de/de), 1200 (https://www.gaggenau.com/), 1200 (https://www.gaggenau.com/general/legal)",
+        "module cap 1167px on a single section (#region-toggle-6 > div.region, https://www.gaggenau.com/) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-16T11:40:53.971Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.gaggenau.com/de/de",
+          "https://www.gaggenau.com/",
+          "https://www.gaggenau.com/general/legal"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,742 @@
+/*
+ * category-tiles — rules lifted from the landing prototype (css/landing.css), scoped under the block.
+ */
+
+/* stylelint-disable no-duplicate-selectors, no-descending-specificity, declaration-block-no-shorthand-property-overrides, declaration-block-no-duplicate-properties --
+   the lifted rules keep the source cascade order; it is the contract */
+
+/* the landing content band (source `.content`: ground, padding-block, flex gap) */
+.category-tiles {
+  display: block;
+  background: rgb(251 246 244);
+  padding-block-start: 2rem;
+}
+
+.category-tiles.content-start {
+  padding-block-start: 3rem;
+}
+
+.category-tiles.content-end {
+  padding-block-end: 3rem;
+}
+
+@media (width >= 720px) {
+  .category-tiles,
+  .category-tiles.content-start {
+    padding-block-start: 4rem;
+  }
+
+  .category-tiles.content-end {
+    padding-block-end: 4rem;
+  }
+}
+
+@media (width >= 1200px) {
+  .category-tiles,
+  .category-tiles.content-start {
+    padding-block-start: 5rem;
+  }
+
+  .category-tiles.content-end {
+    padding-block-end: 5rem;
+  }
+}
+
+.category-tiles .cat-media,
+.category-tiles .cat-media picture {
+  display: contents;
+}
+
+/* a display: contents picture exposes its <source> children as flex items */
+.category-tiles .cat-media source {
+  display: none;
+}
+
+.category-tiles .cat-label p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+/* ---- lifted ---- */
+
+.category-tiles .lane-inner {
+  display: flex;
+  align-items: normal;
+  justify-content: normal;
+  flex-direction: column;
+}
+
+.category-tiles .lane-inner {
+  gap: 1.5rem;
+}
+
+@media (width >= 720px) {
+  .category-tiles .lane-inner {
+    gap: 2rem;
+  }
+}
+
+@media (width >= 1200px) {
+  .category-tiles .lane-inner {
+    gap: 3rem;
+  }
+}
+
+.category-tiles .container {
+  margin-inline: auto;
+  width: 100%;
+}
+
+.category-tiles .container {
+  max-width: 87.5rem;
+  padding-inline: 1rem;
+}
+
+@media (width >= 720px) {
+  .category-tiles .container {
+    max-width: 87.5rem;
+    padding-inline: 2rem;
+  }
+}
+
+@media (width >= 1200px) {
+  .category-tiles .container {
+    max-width: 87.5rem;
+    padding-inline: 3rem;
+  }
+}
+
+@media (width >= 1600px) {
+  .category-tiles .container {
+    max-width: 87.5rem;
+    padding-inline: 3rem;
+  }
+}
+
+@media (width >= 1200px) {
+  .category-tiles .container {
+    max-width: 87.5rem;
+  }
+}
+
+.category-tiles .cats {
+  display: grid;
+  grid-auto-rows: auto;
+}
+
+.category-tiles .cats {
+  gap: 1rem;
+}
+
+@media (width >= 1200px) {
+  .category-tiles .cats {
+    gap: 1.5rem;
+  }
+}
+
+.category-tiles .cats {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (width >= 720px) {
+  .category-tiles .cats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width >= 1200px) {
+  .category-tiles .cats {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.category-tiles .cat {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.category-tiles .cat {
+  background: rgb(0 0 0 / 0%);
+  border-color: rgb(23 20 18);
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0;
+  box-shadow: 0 0 0 0 rgb(23 20 18);
+  cursor: pointer;
+  filter: none;
+  gap: 1rem;
+  padding-block: 0;
+  padding-inline: 0;
+  transform: scale(1);
+  transition-duration: 600ms;
+  transition-property: background-color,border-color,opacity,filter,transform,box-shadow;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+@media (hover: hover) {
+  .category-tiles .cat:hover {
+    background: rgb(0 0 0 / 0%);
+    border-color: rgb(22 19 17);
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0;
+    box-shadow: 0 0 0 1px rgb(22 19 17);
+    filter: none;
+    gap: 1rem;
+    padding-block: 0;
+    padding-inline: 0;
+    transform: scale(1);
+    transition-duration: 600ms;
+    transition-property: background-color,border-color,opacity,filter,transform,box-shadow;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+.category-tiles .cat:active {
+  background: rgb(0 0 0 / 0%);
+  border-color: rgb(22 19 17);
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0;
+  box-shadow: 0 0 0 1px rgb(22 19 17);
+  filter: none;
+  gap: 1rem;
+  padding-block: 0;
+  padding-inline: 0;
+  transform: scale(0.995);
+  transition-duration: 600ms;
+  transition-property: background-color,border-color,opacity,filter,transform,box-shadow;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.category-tiles .cat:focus-visible {
+  background: rgb(0 0 0 / 0%);
+  border-color: rgb(22 19 17);
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0;
+  box-shadow: 0 0 0 1px rgb(22 19 17);
+  filter: none;
+  gap: 1rem;
+  padding-block: 0;
+  padding-inline: 0;
+  transform: scale(1);
+  transition-duration: 600ms;
+  transition-property: background-color,border-color,opacity,filter,transform,box-shadow;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.category-tiles .cat[disabled],
+.category-tiles .cat:disabled {
+  background: rgb(0 0 0 / 0%);
+  border-color: rgb(22 19 17);
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0;
+  box-shadow: 0 0 0 0 rgb(22 19 17);
+  cursor: not-allowed;
+  filter: none;
+  gap: 1rem;
+  padding-block: 0;
+  padding-inline: 0;
+  transform: scale(1);
+  transition-duration: 600ms;
+  transition-property: background-color,border-color,opacity,filter,transform,box-shadow;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+@media (width >= 1200px) {
+  .category-tiles .cat {
+    background: rgb(0 0 0 / 0%);
+    border-color: rgb(23 20 18);
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0;
+    box-shadow: 0 0 0 0 rgb(23 20 18);
+    cursor: pointer;
+    filter: none;
+    gap: 1rem;
+    padding-block: 0;
+    padding-inline: 0;
+    transform: scale(1);
+    transition-duration: 600ms;
+    transition-property: background-color,border-color,opacity,filter,transform,box-shadow;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  @media (hover: hover) {
+    .category-tiles .cat:hover {
+      background: rgb(0 0 0 / 0%);
+      border-color: rgb(22 19 17);
+      border-radius: 0;
+      border-style: solid;
+      border-width: 0;
+      box-shadow: 0 0 0 1px rgb(22 19 17);
+      filter: none;
+      gap: 1rem;
+      padding-block: 0;
+      padding-inline: 0;
+      transform: scale(1);
+      transition-duration: 600ms;
+      transition-property: background-color,border-color,opacity,filter,transform,box-shadow;
+      transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+    }
+  }
+}
+
+@media (width >= 1200px) {
+  .category-tiles .cat:active {
+    background: rgb(0 0 0 / 0%);
+    border-color: rgb(22 19 17);
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0;
+    box-shadow: 0 0 0 1px rgb(22 19 17);
+    filter: none;
+    gap: 1rem;
+    padding-block: 0;
+    padding-inline: 0;
+    transform: scale(0.995);
+    transition-duration: 600ms;
+    transition-property: background-color,border-color,opacity,filter,transform,box-shadow;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  .category-tiles .cat:focus-visible {
+    background: rgb(0 0 0 / 0%);
+    border-color: rgb(22 19 17);
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0;
+    box-shadow: 0 0 0 1px rgb(22 19 17);
+    filter: none;
+    gap: 1rem;
+    padding-block: 0;
+    padding-inline: 0;
+    transform: scale(1);
+    transition-duration: 600ms;
+    transition-property: background-color,border-color,opacity,filter,transform,box-shadow;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  .category-tiles .cat[disabled],
+  .category-tiles .cat:disabled {
+    background: rgb(0 0 0 / 0%);
+    border-color: rgb(22 19 17);
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0;
+    box-shadow: 0 0 0 0 rgb(22 19 17);
+    cursor: not-allowed;
+    filter: none;
+    gap: 1rem;
+    padding-block: 0;
+    padding-inline: 0;
+    transform: scale(1);
+    transition-duration: 600ms;
+    transition-property: background-color,border-color,opacity,filter,transform,box-shadow;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+.category-tiles .cat-media img {
+  box-sizing: border-box;
+  aspect-ratio: 1.778;
+  border-radius: 0;
+  object-fit: cover;
+  transition-duration: 600ms;
+  transition-property: filter;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+@media (hover: hover) {
+  .category-tiles .cat-media img:hover {
+    aspect-ratio: 1.778;
+    border-radius: 0;
+    object-fit: cover;
+    transition-duration: 600ms;
+    transition-property: filter;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (hover: hover) {
+  .category-tiles .cat:hover .cat-media img {
+    aspect-ratio: 1.778;
+    border-radius: 0;
+    object-fit: cover;
+    transition-duration: 600ms;
+    transition-property: filter;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+.category-tiles .cat-media img:active {
+  aspect-ratio: 1.778;
+  border-radius: 0;
+  object-fit: cover;
+  transition-duration: 600ms;
+  transition-property: filter;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.category-tiles .cat:active .cat-media img {
+  aspect-ratio: 1.778;
+  border-radius: 0;
+  object-fit: cover;
+  transition-duration: 600ms;
+  transition-property: filter;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.category-tiles .cat-media img:focus-visible {
+  aspect-ratio: 1.778;
+  border-radius: 0;
+  object-fit: cover;
+  transition-duration: 600ms;
+  transition-property: filter;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.category-tiles .cat:focus-visible .cat-media img {
+  aspect-ratio: 1.778;
+  border-radius: 0;
+  object-fit: cover;
+  transition-duration: 600ms;
+  transition-property: filter;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.category-tiles .cat-media img[disabled],
+.category-tiles .cat-media img:disabled {
+  aspect-ratio: 1.778;
+  border-radius: 0;
+  object-fit: cover;
+  transition-duration: 600ms;
+  transition-property: filter;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.category-tiles .cat[disabled] .cat-media img,
+.category-tiles .cat:disabled .cat-media img {
+  aspect-ratio: 1.778;
+  border-radius: 0;
+  object-fit: cover;
+  transition-duration: 600ms;
+  transition-property: filter;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.category-tiles .cat-label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-align: center;
+  overflow-wrap: anywhere;
+  overflow: hidden;
+  hyphens: auto;
+}
+
+.category-tiles .cat-label {
+  padding-inline: 0;
+}
+
+@media (width >= 1200px) {
+  .category-tiles .cat-label {
+    padding-inline: 0;
+  }
+}
+
+.category-tiles .cat-label {
+  color: rgb(0 0 0);
+  font-family: GaggenauText, sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 1rem;
+  opacity: 1;
+  text-transform: none;
+  transition-duration: 600ms;
+  transition-property: color,opacity;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+@media (hover: hover) {
+  .category-tiles .cat-label:hover {
+    color: rgb(215 50 0);
+    font-family: GaggenauText, sans-serif;
+    font-size: 0.875rem;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1rem;
+    opacity: 1;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: color,opacity;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (hover: hover) {
+  .category-tiles .cat:hover .cat-label {
+    color: rgb(215 50 0);
+    font-family: GaggenauText, sans-serif;
+    font-size: 0.875rem;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1rem;
+    opacity: 1;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: color,opacity;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+.category-tiles .cat-label:active {
+  color: rgb(205 40 0);
+  font-family: GaggenauText, sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 1rem;
+  opacity: 1;
+  text-transform: none;
+  transition-duration: 600ms;
+  transition-property: color,opacity;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.category-tiles .cat:active .cat-label {
+  color: rgb(205 40 0);
+  font-family: GaggenauText, sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 1rem;
+  opacity: 1;
+  text-transform: none;
+  transition-duration: 600ms;
+  transition-property: color,opacity;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.category-tiles .cat-label:focus-visible {
+  color: rgb(0 0 0);
+  font-family: GaggenauText, sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 1rem;
+  opacity: 1;
+  text-transform: none;
+  transition-duration: 600ms;
+  transition-property: color,opacity;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.category-tiles .cat:focus-visible .cat-label {
+  color: rgb(0 0 0);
+  font-family: GaggenauText, sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 1rem;
+  opacity: 1;
+  text-transform: none;
+  transition-duration: 600ms;
+  transition-property: color,opacity;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.category-tiles .cat-label[disabled],
+.category-tiles .cat-label:disabled {
+  color: rgb(0 0 0);
+  font-family: GaggenauText, sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 1rem;
+  opacity: 0.4;
+  text-transform: none;
+  transition-duration: 600ms;
+  transition-property: color,opacity;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.category-tiles .cat[disabled] .cat-label,
+.category-tiles .cat:disabled .cat-label {
+  color: rgb(0 0 0);
+  font-family: GaggenauText, sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 1rem;
+  opacity: 0.4;
+  text-transform: none;
+  transition-duration: 600ms;
+  transition-property: color,opacity;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+@media (width >= 1200px) {
+  .category-tiles .cat-label {
+    color: rgb(0 0 0);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    opacity: 1;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: color,opacity;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  @media (hover: hover) {
+    .category-tiles .cat-label:hover {
+      color: rgb(215 50 0);
+      font-family: GaggenauText, sans-serif;
+      font-size: 1rem;
+      font-weight: normal;
+      letter-spacing: 0;
+      line-height: 1.25rem;
+      opacity: 1;
+      text-transform: none;
+      transition-duration: 600ms;
+      transition-property: color,opacity;
+      transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+    }
+  }
+}
+
+@media (width >= 1200px) {
+  @media (hover: hover) {
+    .category-tiles .cat:hover .cat-label {
+      color: rgb(215 50 0);
+      font-family: GaggenauText, sans-serif;
+      font-size: 1rem;
+      font-weight: normal;
+      letter-spacing: 0;
+      line-height: 1.25rem;
+      opacity: 1;
+      text-transform: none;
+      transition-duration: 600ms;
+      transition-property: color,opacity;
+      transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+    }
+  }
+}
+
+@media (width >= 1200px) {
+  .category-tiles .cat-label:active {
+    color: rgb(205 40 0);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    opacity: 1;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: color,opacity;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  .category-tiles .cat:active .cat-label {
+    color: rgb(205 40 0);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    opacity: 1;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: color,opacity;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  .category-tiles .cat-label:focus-visible {
+    color: rgb(0 0 0);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    opacity: 1;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: color,opacity;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  .category-tiles .cat:focus-visible .cat-label {
+    color: rgb(0 0 0);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    opacity: 1;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: color,opacity;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  .category-tiles .cat-label[disabled],
+  .category-tiles .cat-label:disabled {
+    color: rgb(0 0 0);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    opacity: 0.4;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: color,opacity;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  .category-tiles .cat[disabled] .cat-label,
+  .category-tiles .cat:disabled .cat-label {
+    color: rgb(0 0 0);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    opacity: 0.4;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: color,opacity;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}

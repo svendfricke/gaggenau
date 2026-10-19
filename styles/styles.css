@@ -1,91 +1,132 @@
 /*
- * Copyright 2020 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ * ⚠️ FONT LICENSING REQUIRED BEFORE GOING LIVE
+ * Gaggenau Text / Gaggenau Display (store build), GaggenauText / GaggenauDisplay
+ * (landing build) and the icons glyph font are proprietary faces of Gaggenau / BSH
+ * Hausgeräte GmbH, self-hosted under /fonts/ for this same-design migration.
+ * The project owner recorded the decision to publish; do not publish to aem.live on
+ * another origin until the webfont/embedding licence is confirmed for it.
+ * Inventory and remove path: fonts/LICENSING.md.
  *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
+ * Foundation for the Gaggenau replica. Two templates (page metadata `Template`):
+ *   store   — /, /general, /general/legal, /general/imprint, /confirmation, /energylabel
+ *   landing — /de/de
+ * Global tokens/body/typography come from the store canon; landing-only globals are
+ * scoped under body.landing.
  */
 
+/* metric-matched fallbacks (available at first paint; brand faces load via fonts.css) */
+@font-face {
+  font-family: gaggenau-text-fallback;
+  src: local("Arial");
+  size-adjust: 118.6%;
+  ascent-override: 63.24%;
+  descent-override: 21.08%;
+  line-gap-override: 8.43%;
+}
+
+@font-face {
+  font-family: gaggenau-display-fallback;
+  src: local("Arial");
+  size-adjust: 110.9%;
+  ascent-override: 67.63%;
+  descent-override: 22.54%;
+  line-gap-override: 9.02%;
+}
+
+@font-face {
+  font-family: gaggenautext-fallback;
+  src: local("Arial");
+  size-adjust: 118.71%;
+  ascent-override: 67.39%;
+  descent-override: 25.27%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: gaggenaudisplay-fallback;
+  src: local("Arial");
+  size-adjust: 110.9%;
+  ascent-override: 67.63%;
+  descent-override: 22.54%;
+  line-gap-override: 9.02%;
+}
+
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  /* store canon */
+  --canvas: #fbf7f5;
+  --ink: #000;
+  --accent: #d73200;
+  --rule: #000;
+  --container: 1200px;
+  --body-font: "Gaggenau Text", gaggenau-text-fallback, arial, sans-serif;
+  --display-font: "Gaggenau Display", gaggenau-display-fallback, arial, sans-serif;
 
-  /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  /* landing build */
+  --landing-ground: rgb(251 246 244);
+  --landing-ink: rgb(23 20 18);
+  --landing-text-font: gaggenautext, gaggenautext-fallback, sans-serif;
+  --landing-display-font: gaggenaudisplay, gaggenaudisplay-fallback, sans-serif;
+  --sherpa-header-z-index: 1000;
 
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
+  /* boilerplate names, mapped onto the brand (used by the stock demo blocks) */
+  --background-color: var(--canvas);
+  --light-color: var(--canvas);
+  --dark-color: var(--landing-ink);
+  --text-color: var(--ink);
+  --link-color: var(--ink);
+  --link-hover-color: var(--accent);
+  --body-font-family: var(--body-font);
+  --heading-font-family: var(--display-font);
+  --body-font-size-m: 16px;
+  --body-font-size-s: 16px;
+  --body-font-size-xs: 14px;
+  --heading-font-size-s: 20px;
 
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
-
-  /* nav height */
-  --nav-height: 64px;
+  /* chrome reservation: store header is 95px at every width */
+  --nav-height: 95px;
 }
 
-/* fallback fonts */
-@font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
-}
-
-@media (width >= 900px) {
-  :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
-
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
-  }
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
   display: none;
-  margin: 0;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
-  line-height: 1.6;
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--body-font);
+  font-size: 16px;
+  line-height: 20px;
 }
 
 body.appear {
   display: block;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* chrome reservation (the header block loads in loadLazy) */
 header {
   height: var(--nav-height);
+}
+
+/* store chrome hosts share the 1200px shell, as on the source */
+body:not(.landing) > header,
+body:not(.landing) > footer {
+  max-width: var(--container);
+  margin: 0 auto;
 }
 
 header .header,
@@ -98,228 +139,300 @@ footer .footer[data-block-status="loaded"] {
   visibility: visible;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
-  scroll-margin: 40px;
-}
-
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
-
-p,
-dl,
-ol,
-ul,
-pre,
-blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
-}
-
-code,
-pre {
-  font-size: var(--body-font-size-s);
-}
-
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
-}
-
-main > div {
-  margin: 40px 16px;
-}
-
-input,
-textarea,
-select,
-button {
-  font: inherit;
-}
-
-/* links */
-a:any-link {
-  color: var(--link-color);
+/* store typography defaults (every page that is not the landing template) */
+:where(body:not(.landing)) a {
+  color: inherit;
   text-decoration: none;
-  overflow-wrap: break-word;
 }
 
-a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
+:where(body:not(.landing)) a:hover {
+  color: var(--accent);
 }
 
-/* buttons */
+:where(body:not(.landing)) p {
+  margin: 0 0 10px;
+}
+
+:where(body:not(.landing)) strong {
+  font-weight: 700;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  border: 0;
+}
+
+.sr-only.skip-to-content:focus {
+  position: unset;
+  width: auto;
+  height: auto;
+  clip-path: none;
+}
+
+/* store glyph font (<i class="icon icon-…">) */
+i.icon {
+  display: inline-block;
+  font-family: icons, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: auto;
+}
+
+i.icon-pinit2::before { content: "\e054"; }
+i.icon-instagram::before { content: "\e03b"; }
+i.icon-vimeo::before { content: "\e07e"; }
+i.icon-arrow-down::before { content: "\e006"; }
+i.icon-close::before { content: "\e009"; }
+
+/* external-link glyph (.a-link-external.a-link:after in the source) */
+a.ext::after {
+  content: "\e02a";
+  display: inline-block;
+  margin-left: 5px;
+  font-family: icons, sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* EDS icons (:name: → span.icon > img) */
+span.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+span.icon img {
+  width: 100%;
+  height: 100%;
+}
+
+/* store template: one 1200px shell (header, main and footer share it) */
+body.store main {
+  position: relative;
+  max-width: var(--container);
+  margin: 0 auto;
+}
+
+/* sections — blocks own their rhythm; the scaffold adds none */
+main > .section {
+  margin: 0;
+}
+
+main > .section > div {
+  margin: 0 auto;
+}
+
+main .section:empty {
+  display: none;
+}
+
+/* buttons (author-formatted links; source buttons: ink fill, accent hover) */
 p.button-wrapper {
-  margin: 12px 0;
+  margin: 0;
 }
 
 a.button:any-link,
 button.button {
-  box-sizing: border-box;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   max-width: 100%;
   margin: 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
+  padding: 0 1.5rem;
+  min-height: 3rem;
+  border: 1px solid transparent;
+  border-radius: 0;
   font: inherit;
-  font-weight: 500;
-  line-height: 1.25;
+  font-weight: 700;
   text-decoration: none;
   cursor: pointer;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-a.button[aria-disabled="true"],
-button.button:disabled {
-  cursor: not-allowed;
-  pointer-events: none;
+  transition: color 600ms, background 600ms, border-color 600ms;
 }
 
 a.button.primary,
 button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
+  border-color: var(--landing-ink);
+  background: var(--landing-ink);
+  color: #fff;
 }
 
 a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
-}
-
-a.button.primary[aria-disabled="true"],
-a.button.primary[aria-disabled="true"]:hover,
-a.button.primary[aria-disabled="true"]:focus-visible,
-button.button.primary:disabled,
-button.button.primary:disabled:hover,
-button.button.primary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
+button.button.primary:hover {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
 }
 
 a.button.secondary,
 button.button.secondary {
-  border-color: var(--text-color);
-  background-color: transparent;
-  color: var(--text-color);
+  border-color: var(--landing-ink);
+  background: transparent;
+  color: var(--landing-ink);
 }
 
 a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--dark-color);
+button.button.secondary:hover {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-/* high-impact call-to-action */
 a.button.accent,
 button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: var(--background-color);
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
 }
 
 a.button.accent:hover,
-a.button.accent:focus-visible,
-button.button.accent:hover,
-button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
+button.button.accent:hover {
+  border-color: var(--landing-ink);
+  background: var(--landing-ink);
 }
 
-a.button.accent[aria-disabled="true"],
-a.button.accent[aria-disabled="true"]:hover,
-a.button.accent[aria-disabled="true"]:focus-visible,
-button.button.accent:disabled,
-button.button.accent:disabled:hover,
-button.button.accent:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
+/* ---- landing template globals (source: modern-normalize + global emotion rules) ---- */
+:root:has(body.landing) {
+  font-family: system-ui, "Segoe UI", roboto, helvetica, arial, sans-serif;
+  line-height: 1.15;
+  font-size: 4.27vw;
+  text-size-adjust: 100%;
+  tab-size: 4;
+  scroll-behavior: smooth;
 }
 
-main img {
-  max-width: 100%;
-  width: auto;
+@media (width >= 375px) {
+  :root:has(body.landing) { font-size: 16px; }
+}
+
+@media (width >= 720px) {
+  :root:has(body.landing) { font-size: 1.92vw; }
+}
+
+@media (width >= 834px) {
+  :root:has(body.landing) { font-size: 16px; }
+}
+
+@media (width >= 1200px) {
+  :root:has(body.landing) { font-size: 1.25vw; }
+}
+
+@media (width >= 1280px) {
+  :root:has(body.landing) { font-size: 16px; }
+}
+
+@media (width >= 1600px) {
+  :root:has(body.landing) { font-size: 0.9vw; }
+}
+
+@media (width >= 1792px) {
+  :root:has(body.landing) { font-size: 16px; }
+}
+
+body.landing {
+  --nav-height: 5.1rem;
+
+  background-color: #fff;
+  color: CanvasText;
+  font-family: var(--landing-text-font);
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+body.landing.appear {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
+body.landing main {
+  flex: 1 1 auto;
+}
+
+body.landing :is(b, strong) {
+  font-weight: bolder;
+}
+
+body.landing :is(button, input, select, textarea) {
+  margin: 0;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+}
+
+body.landing a {
+  text-decoration: inherit;
+}
+
+body.landing :focus-visible {
+  outline: 2px rgb(215 50 0) solid;
+  border-radius: 0;
+}
+
+body.landing :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+}
+
+/* the landing header is sticky and morphs on scroll: reserve, then size from content */
+body.landing > header {
+  position: sticky;
+  top: 0;
+  z-index: var(--sherpa-header-z-index);
+}
+
+body.landing > header:has(> .header[data-block-status="loaded"]) {
   height: auto;
 }
 
-.icon {
-  display: inline-block;
-  height: 24px;
-  width: 24px;
+body.landing > footer {
+  position: relative;
+  background-color: var(--landing-ground);
 }
 
-.icon img {
-  height: 100%;
-  width: 100%;
+@media (width >= 720px) {
+  body.landing { --nav-height: 7rem; }
 }
 
-/* sections */
-main > .section {
-  margin: 40px 0;
+@media (width >= 1200px) {
+  body.landing { --nav-height: 7.75rem; }
 }
 
-main > .section > div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
+/* Experience Workspace edit mode: repaint CTAs from their authored marks
+   (rule order prescribed by the deploy skill, Step 3 (a)) */
+/* stylelint-disable no-descending-specificity */
+.prosemirror-editor p > :is(strong, em) > a:any-link,
+.prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
+  display: inline-flex;
+  align-items: center;
+  min-height: 3rem;
+  padding: 0 1.5rem;
+  border: 1px solid var(--landing-ink);
+  font-weight: 700;
+  text-decoration: none;
 }
 
-main > .section:first-of-type {
-  margin-top: 0;
+.prosemirror-editor p > a:any-link > :is(strong, em) {
+  font-weight: inherit;
+  font-style: inherit;
 }
 
-@media (width >= 900px) {
-  main > .section > div {
-    padding: 0 32px;
-  }
+.prosemirror-editor p > strong > a:any-link,
+.prosemirror-editor p > a:any-link:has(> strong:only-child) {
+  background: var(--landing-ink);
+  color: #fff;
 }
 
-/* section metadata */
-main .section.light,
-main .section.highlight {
-  background-color: var(--light-color);
-  margin: 0;
-  padding: 40px 0;
+.prosemirror-editor p > em > a:any-link,
+.prosemirror-editor p > a:any-link:has(> em:only-child) {
+  background: transparent;
+  color: var(--landing-ink);
+}
+
+a .prosemirror-editor a:any-link {
+  color: inherit;
+  text-decoration: none;
 }

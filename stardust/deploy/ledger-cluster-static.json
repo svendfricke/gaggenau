@@ -1,0 +1,29 @@
+{
+  "/confirmation": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-16T14:25:24.498Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/general/imprint": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-16T14:25:29.385Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/general": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-16T14:25:33.015Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

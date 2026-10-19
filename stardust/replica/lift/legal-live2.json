@@ -1,0 +1,907 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-10-16T11:45:06.501Z",
+    "urls": [
+      "https://www.gaggenau.com/general/legal"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      ".m-contenttextmedia .text a",
+      ".m-contenttextmedia .text a .text",
+      ".m-contenttextmedia .text strong",
+      ".m-contenttextmedia .text ul",
+      ".m-contenttextmedia .text li",
+      ".m-footerpagefunctionsfollow li a i",
+      ".m-footerpagefunctionsfollow li",
+      ".m-footerlinkscopyright",
+      ".m-footerlinkscopyright li",
+      ".m-footerlinkscopyright a .text",
+      ".o-footer",
+      ".footer-links",
+      ".m-navfooter",
+      ".m-navfooter li",
+      ".m-navfooter a"
+    ],
+    "props": [
+      "color",
+      "textDecorationLine",
+      "borderBottom",
+      "borderTop",
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "margin",
+      "padding",
+      "display",
+      "width",
+      "height",
+      "webkitFontSmoothing",
+      "textRendering"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    ".m-contenttextmedia .text a",
+    ".m-contenttextmedia .text a .text",
+    ".m-contenttextmedia .text strong",
+    ".m-contenttextmedia .text ul",
+    ".m-contenttextmedia .text li",
+    ".m-footerpagefunctionsfollow li a i",
+    ".m-footerpagefunctionsfollow li",
+    ".m-footerlinkscopyright",
+    ".m-footerlinkscopyright li",
+    ".m-footerlinkscopyright a .text",
+    ".o-footer",
+    ".footer-links",
+    ".m-navfooter",
+    ".m-navfooter li",
+    ".m-navfooter a"
+  ],
+  "root": {
+    "https://www.gaggenau.com/general/legal": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 10023,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 6734,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.gaggenau.com/general/legal": {
+      "360": {
+        ".m-contenttextmedia .text a": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 10,
+              "y": 4857,
+              "w": 340,
+              "h": 42
+            },
+            "visible": true,
+            "text": "http://www.adobe.com/de/privacy/opt-out…",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px",
+              "display": "inline-block",
+              "width": "340px",
+              "height": "42px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-contenttextmedia .text a .text": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 10,
+              "y": 4859,
+              "w": 333,
+              "h": 17
+            },
+            "visible": true,
+            "text": "http://www.adobe.com/de/privacy/opt-out…",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "1px solid rgb(215, 50, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px",
+              "display": "inline",
+              "width": "auto",
+              "height": "auto",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-contenttextmedia .text strong": [
+          {
+            "index": 0,
+            "of": 29,
+            "rect": {
+              "x": 10,
+              "y": 213,
+              "w": 200,
+              "h": 16
+            },
+            "visible": true,
+            "text": "Data Protection Information",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px",
+              "display": "inline",
+              "width": "auto",
+              "height": "auto",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-contenttextmedia .text ul": [],
+        ".m-contenttextmedia .text li": [],
+        ".m-footerpagefunctionsfollow li a i": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 10,
+              "y": 9842,
+              "w": 20,
+              "h": 20
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "icons",
+              "fontSize": "20px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px",
+              "display": "inline-block",
+              "width": "20px",
+              "height": "20px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-footerpagefunctionsfollow li": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 10,
+              "y": 9842,
+              "w": 30,
+              "h": 20
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px 0px 10px",
+              "padding": "0px",
+              "display": "inline-block",
+              "width": "30px",
+              "height": "20px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-footerlinkscopyright": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 10,
+              "y": 9968,
+              "w": 340,
+              "h": 25
+            },
+            "visible": true,
+            "text": "Imprint Legal",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "30px 0px",
+              "padding": "0px",
+              "display": "block",
+              "width": "340px",
+              "height": "25px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-footerlinkscopyright li": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 10,
+              "y": 9968,
+              "w": 50,
+              "h": 20
+            },
+            "visible": true,
+            "text": "Imprint",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px 27px 5px 0px",
+              "padding": "0px",
+              "display": "inline-block",
+              "width": "49.5469px",
+              "height": "20px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-footerlinkscopyright a .text": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 10,
+              "y": 9970,
+              "w": 50,
+              "h": 16
+            },
+            "visible": true,
+            "text": "Imprint",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px",
+              "display": "inline",
+              "width": "auto",
+              "height": "auto",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".o-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 9831,
+              "w": 360,
+              "h": 192
+            },
+            "visible": true,
+            "text": "Imprint Legal",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "1px solid rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "10px 0px 0px",
+              "display": "flex",
+              "width": "360px",
+              "height": "192px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".footer-links": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 9937,
+              "w": 360,
+              "h": 86
+            },
+            "visible": true,
+            "text": "Imprint Legal",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "1px solid rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px 10px",
+              "display": "block",
+              "width": "360px",
+              "height": "86px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-navfooter": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 5,
+              "y": 9882,
+              "w": 350,
+              "h": 35
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px",
+              "display": "block",
+              "width": "350.031px",
+              "height": "35px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-navfooter li": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 10,
+              "y": 9882,
+              "w": 340,
+              "h": 20
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px 0px 5px",
+              "padding": "0px",
+              "display": "list-item",
+              "width": "340.312px",
+              "height": "20px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-navfooter a": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 10,
+              "y": 9882,
+              "w": 16,
+              "h": 20
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px",
+              "display": "inline-block",
+              "width": "16px",
+              "height": "20px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ]
+      },
+      "1440": {
+        ".m-contenttextmedia .text a": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 136,
+              "y": 3175,
+              "w": 354,
+              "h": 22
+            },
+            "visible": true,
+            "text": "http://www.adobe.com/de/privacy/opt-out…",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px",
+              "display": "inline-block",
+              "width": "354.109px",
+              "height": "22px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-contenttextmedia .text a .text": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 136,
+              "y": 3179,
+              "w": 333,
+              "h": 17
+            },
+            "visible": true,
+            "text": "http://www.adobe.com/de/privacy/opt-out…",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "1px solid rgb(215, 50, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px",
+              "display": "inline",
+              "width": "auto",
+              "height": "auto",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-contenttextmedia .text strong": [
+          {
+            "index": 0,
+            "of": 29,
+            "rect": {
+              "x": 136,
+              "y": 152,
+              "w": 200,
+              "h": 16
+            },
+            "visible": true,
+            "text": "Data Protection Information",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px",
+              "display": "inline",
+              "width": "auto",
+              "height": "auto",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-contenttextmedia .text ul": [],
+        ".m-contenttextmedia .text li": [],
+        ".m-footerpagefunctionsfollow li a i": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 137,
+              "y": 6563,
+              "w": 20,
+              "h": 20
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "icons",
+              "fontSize": "20px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px",
+              "display": "inline-block",
+              "width": "20px",
+              "height": "20px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-footerpagefunctionsfollow li": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 137,
+              "y": 6563,
+              "w": 40,
+              "h": 20
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px 0px 10px",
+              "padding": "0px",
+              "display": "inline-block",
+              "width": "40px",
+              "height": "20px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-footerlinkscopyright": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 137,
+              "y": 6679,
+              "w": 1167,
+              "h": 25
+            },
+            "visible": true,
+            "text": "Imprint Legal",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "30px 0px",
+              "padding": "0px",
+              "display": "block",
+              "width": "1166.69px",
+              "height": "25px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-footerlinkscopyright li": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 137,
+              "y": 6679,
+              "w": 50,
+              "h": 20
+            },
+            "visible": true,
+            "text": "Imprint",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px 27px 5px 0px",
+              "padding": "0px",
+              "display": "inline-block",
+              "width": "49.5469px",
+              "height": "20px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-footerlinkscopyright a .text": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 137,
+              "y": 6681,
+              "w": 50,
+              "h": 16
+            },
+            "visible": true,
+            "text": "Imprint",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px",
+              "display": "inline",
+              "width": "auto",
+              "height": "auto",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".o-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 120,
+              "y": 6532,
+              "w": 1200,
+              "h": 202
+            },
+            "visible": true,
+            "text": "Imprint Legal",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "1px solid rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "30px 0px 0px",
+              "display": "flex",
+              "width": "1200px",
+              "height": "202px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".footer-links": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 120,
+              "y": 6648,
+              "w": 1200,
+              "h": 86
+            },
+            "visible": true,
+            "text": "Imprint Legal",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "1px solid rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px 16.6562px",
+              "display": "block",
+              "width": "1200px",
+              "height": "86px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-navfooter": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 497,
+              "y": 6563,
+              "w": 807,
+              "h": 55
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px",
+              "display": "block",
+              "width": "806.688px",
+              "height": "55px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-navfooter li": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 497,
+              "y": 6563,
+              "w": 251,
+              "h": 20
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "margin": "0px 0px 5px",
+              "padding": "0px",
+              "display": "list-item",
+              "width": "250.594px",
+              "height": "20px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ],
+        ".m-navfooter a": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 497,
+              "y": 6577,
+              "w": 0,
+              "h": 0
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "color": "rgb(0, 0, 0)",
+              "textDecorationLine": "none",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "0px",
+              "display": "inline-block",
+              "width": "0px",
+              "height": "0px",
+              "webkitFontSmoothing": "auto",
+              "textRendering": "auto"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

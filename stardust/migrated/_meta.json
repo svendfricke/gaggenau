@@ -1,0 +1,216 @@
+{
+  "slug": "index",
+  "type": "region-selector",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "content-text-media",
+    "content-teaser",
+    "region-accordion"
+  ],
+  "slotsFilled": [
+    "m-contenttextmedia",
+    "m-contenttextmedia",
+    "m-contenttextmedia",
+    "m-contentteaser",
+    "g-col",
+    "m-contenttextmedia"
+  ],
+  "canonShas": {
+    "header": "324450f69b9e",
+    "footer": "6bbe3add963d",
+    "css": "9eb7b91b255b"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Select your region | Gaggenau",
+    "description": "Welcome to Gaggenau. Please select your location or visit Gaggenau worldwide.",
+    "canonical": null,
+    "lang": "en-ZZ"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Select your region | Gaggenau",
+    "description": "Welcome to Gaggenau. Please select your location or visit Gaggenau worldwide.",
+    "url": "https://www.gaggenau.com/"
+  },
+  "migratedAt": "2026-10-16T12:33:08Z",
+  "designMdSha": "50822350626f",
+  "designJsonSha": "920bf3be988e",
+  "sourceCurrentSha": "01efdc057861",
+  "sourceProposedSha": "1424eabc886f",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "0.15%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-1440/summary.md) [published regime]",
+    "pixel-gate-360": "0.45%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-360/summary.md) [published regime]",
+    "content-count": "content-diff: none — content + roles match (index-1440-iter3.log)",
+    "delivery-lint": "FAIL: 1 P0 · 0 P1 · 1 P2 (delivery-lint --path /)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 16,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.gaggenau.com/za/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/be/fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/be/nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/cz/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/es/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ba/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/global/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ie/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/it/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ba/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ba/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/lu/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/no/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/at/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/pl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/pt/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ch/de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ch/fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ch/it/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/fi/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/tr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/gr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ua/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ae/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/il/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ca/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ca/fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "http://www.gaggenau.com/us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/global",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/general/imprint",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/general/imprint",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "general",
+  "type": "static",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "content-text-media"
+  ],
+  "slotsFilled": [
+    "m-contenttextmedia"
+  ],
+  "canonShas": {
+    "header": "324450f69b9e",
+    "footer": "6bbe3add963d",
+    "css": "9eb7b91b255b"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Error | Gaggenau",
+    "description": "Gaggenau error page",
+    "canonical": null,
+    "lang": "en-ZZ"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Error | Gaggenau",
+    "description": "Gaggenau error page",
+    "url": "https://www.gaggenau.com/general"
+  },
+  "migratedAt": "2026-10-16T14:21:59Z",
+  "designMdSha": "50822350626f",
+  "designJsonSha": "920bf3be988e",
+  "sourceCurrentSha": "26ee40bdb528",
+  "sourceProposedSha": "e18c2ee2bc79",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "content-diff vs capture #content: 1 heading/1 CTA(/country-selector)/body 1:1, 0 structural; font-fork only from unstyled local capture",
+    "pixel-gate-1440": "0.01%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-1440/summary.md) [published regime]",
+    "pixel-gate-360": "0.07%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-360/summary.md) [published regime]",
+    "delivery-lint": "FAIL: 1 P0 · 0 P1 · 1 P2 (delivery-lint --path /general)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "link",
+      "source": "/country-selector",
+      "target": "/country-selector (kept verbatim)",
+      "reason": "source href not in inventory (brokenInternalLinks not-in-inventory); left as authored"
+    }
+  ],
+  "assetsBundled": 9,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/country-selector",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "general/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "general/_meta.json",
+  "driverVersion": "1"
+}

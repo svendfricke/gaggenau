@@ -1,0 +1,39 @@
+{
+  "_provenance": {"writtenBy": "stardust:extract", "writtenAt": "2026-10-16T11:40:17Z", "readArtifacts": ["stardust/current/_computed-styles.json", "stardust/current/pages/*.json", "stardust/current/pages/*.html", "stardust/current/assets/css/*.css"]},
+  "origins": [{"origin": "https://www.gaggenau.com", "role": "primary", "pages": 7}],
+  "logo": {"path": "stardust/current/assets/logo.svg", "source": "img[data-testid=header-logo] (de-de, Next.js marketing app)", "alt": "GAGGENAU Logo", "variants": [{"path": "stardust/current/assets/logo-store.png", "source": ".a-logo img (store templates: region selector, legal, imprint)"}]},
+  "favicon": {"path": "stardust/current/assets/favicon.ico"},
+  "palette": [
+    {"role": "background", "hex": "#fbf6f4", "source": "_computed-styles.json aggregate.colors[2] (body background, all store pages)"},
+    {"role": "text", "hex": "#000000", "source": "aggregate.colors[0]"},
+    {"role": "primary", "hex": "#171412", "source": "aggregate.colors[3] (button background, dark surfaces)"},
+    {"role": "accent", "hex": "#d73200", "source": "aggregate.hover (link + button hover), aggregate.colors[1]"},
+    {"role": "muted", "hex": "#7f7b79", "source": "aggregate.colors[7]"},
+    {"role": "border", "hex": "#bbb7b5", "source": "aggregate.colors[8]"}
+  ],
+  "type": {
+    "heading": "Gaggenau Display", "body": "Gaggenau Text",
+    "familiesByTemplate": {"store (region-selector, static)": ["Gaggenau Display", "Gaggenau Text"], "marketing-app (landing)": ["GaggenauDisplay", "GaggenauText"]},
+    "levels": {"h1": "48px/700 (static)", "h2": "38px/400", "h3": "30px/700"},
+    "files": [
+      {"family": "GaggenauDisplay", "weight": 400, "path": "stardust/current/assets/fonts/GaggenauDisplay-Regular-207155fe395e7d56.woff2", "license": "brand-proprietary, self-hosted by the brand on its own origin"},
+      {"family": "GaggenauDisplay", "weight": 700, "path": "stardust/current/assets/fonts/GaggenauDisplay-Bold-eda76fcdfad42551.woff2", "license": "brand-proprietary, self-hosted"},
+      {"family": "GaggenauText", "weight": 400, "path": "stardust/current/assets/fonts/GaggenauText-Regular-b39a89f998cbfab0.woff2", "license": "brand-proprietary, self-hosted"},
+      {"family": "GaggenauText", "weight": 700, "path": "stardust/current/assets/fonts/GaggenauText-Bold-fdbe74ccdf400f60.woff2", "license": "brand-proprietary, self-hosted"},
+      {"family": "Gaggenau Display", "weight": 400, "path": "stardust/current/assets/fonts/store/gaggenaudisplay-regular-webfont.woff2", "license": "brand-proprietary, self-hosted"},
+      {"family": "Gaggenau Display", "weight": 700, "path": "stardust/current/assets/fonts/store/gaggenaudisplay-bold-webfont.woff2", "license": "brand-proprietary, self-hosted"},
+      {"family": "Gaggenau Text", "weight": 400, "path": "stardust/current/assets/fonts/store/gaggenautext-regular-webfont.woff2", "license": "brand-proprietary, self-hosted"},
+      {"family": "Gaggenau Text", "weight": 700, "path": "stardust/current/assets/fonts/store/gaggenautext-bold-webfont.woff2", "license": "brand-proprietary, self-hosted"},
+      {"family": "Google Sans Code", "path": "stardust/current/assets/fonts/GoogleSansCode-*.woff2", "license": "SIL OFL"}
+    ]
+  },
+  "iconFont": {"family": "icons", "path": "stardust/current/assets/fonts/store/icons.woff2", "source": "store-style.min.css @font-face icons"},
+  "motifs": {"radius": {"mode": "30px", "pill": "9999px"}, "shadows": ["rgba(0,0,0,0.25) 0 0 5px 0"], "gradients": []},
+  "voice": {"heroHeadline": "Der Unterschied heißt…", "register": "brand", "language": "de (landing), en (store/region/legal pages)", "ctaSamples": ["Entdecken Sie mehr", "Accept all", "homepage"]},
+  "systemComponents": [
+    {"id": "store-header", "pages": ["index", "energylabel", "general-imprint", "general-legal", "general", "confirmation"], "desc": "logo-only header (GG logo, left)"},
+    {"id": "store-footer", "pages": ["index", "energylabel", "general-imprint", "general-legal", "general", "confirmation"], "desc": "social icons row (Pinterest, Instagram, Vimeo) between rules + Imprint / Legal links"},
+    {"id": "marketing-header", "pages": ["de-de"], "desc": "sticky mega-nav header with logo, primary nav, utility icons"},
+    {"id": "marketing-footer", "pages": ["de-de"], "desc": "multi-column link footer + legal links"}
+  ]
+}

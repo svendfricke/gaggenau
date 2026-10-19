@@ -1,0 +1,2539 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-10-16T11:58:14.901Z",
+    "urls": [
+      "https://www.gaggenau.com/"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      ".js-content > .m-contenttextmedia",
+      ".js-content > .m-contenttextmedia .media",
+      ".js-content > .m-contenttextmedia img",
+      ".js-content > .m-contenttextmedia .content",
+      ".js-content > .m-contenttextmedia h2",
+      ".js-content > .m-contenttextmedia .text",
+      ".m-contentteaser",
+      ".m-contentteaser h3",
+      ".m-countryselectorlist",
+      ".m-togglebox .item",
+      ".togglebox-title",
+      ".togglebox-title .text",
+      ".togglebox-content"
+    ],
+    "props": [
+      "display",
+      "margin",
+      "padding",
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "letterSpacing",
+      "borderBottom",
+      "borderTop",
+      "width",
+      "float",
+      "verticalAlign"
+    ],
+    "allMatches": true,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    ".js-content > .m-contenttextmedia",
+    ".js-content > .m-contenttextmedia .media",
+    ".js-content > .m-contenttextmedia img",
+    ".js-content > .m-contenttextmedia .content",
+    ".js-content > .m-contenttextmedia h2",
+    ".js-content > .m-contenttextmedia .text",
+    ".m-contentteaser",
+    ".m-contentteaser h3",
+    ".m-countryselectorlist",
+    ".m-togglebox .item",
+    ".togglebox-title",
+    ".togglebox-title .text",
+    ".togglebox-content"
+  ],
+  "root": {
+    "https://www.gaggenau.com/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 1562,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 1349,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.gaggenau.com/": {
+      "360": {
+        ".js-content > .m-contenttextmedia": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 95,
+              "w": 360,
+              "h": 40
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "margin": "0px 0px 40px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "360px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 175,
+              "w": 360,
+              "h": 455
+            },
+            "visible": true,
+            "text": "Wherever you are, a Gaggenau awaits By …",
+            "props": {
+              "display": "flex",
+              "margin": "0px 0px 40px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "360px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 670,
+              "w": 360,
+              "h": 0
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "margin": "0px 0px 40px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "360px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 1208,
+              "w": 360,
+              "h": 122
+            },
+            "visible": true,
+            "text": "Please select your location or visit Ga…",
+            "props": {
+              "display": "flex",
+              "margin": "0px 0px 40px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "360px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".js-content > .m-contenttextmedia .media": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 95,
+              "w": 360,
+              "h": 20
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 20px",
+              "padding": "0px 10px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "360px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 175,
+              "w": 360,
+              "h": 201
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 20px",
+              "padding": "0px 10px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "360px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".js-content > .m-contenttextmedia img": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 10,
+              "y": 95,
+              "w": 340,
+              "h": 7
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "340px",
+              "float": "none",
+              "verticalAlign": "top"
+            },
+            "img": {
+              "naturalWidth": 500,
+              "naturalHeight": 11,
+              "currentSrc": "https://media3.bosch-home.com/Images/600x/MCIM02804435_c_t_f.webp"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 10,
+              "y": 175,
+              "w": 340,
+              "h": 201
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "340px",
+              "float": "none",
+              "verticalAlign": "top"
+            },
+            "img": {
+              "naturalWidth": 599,
+              "naturalHeight": 354,
+              "currentSrc": "https://media3.bosch-home.com/Images/600x/MCIM03238281_Eb333-country_selector-website.webp"
+            }
+          }
+        ],
+        ".js-content > .m-contenttextmedia .content": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 135,
+              "w": 360,
+              "h": 0
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px 10px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "360px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 396,
+              "w": 360,
+              "h": 234
+            },
+            "visible": true,
+            "text": "Wherever you are, a Gaggenau awaits By …",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px 10px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "360px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 670,
+              "w": 360,
+              "h": 0
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px 10px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "360px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 1208,
+              "w": 360,
+              "h": 122
+            },
+            "visible": true,
+            "text": "Please select your location or visit Ga…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px 10px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "360px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".js-content > .m-contenttextmedia h2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 10,
+              "y": 396,
+              "w": 340,
+              "h": 64
+            },
+            "visible": true,
+            "text": "Wherever you are, a Gaggenau awaits",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 20px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Display\", Arial, sans-serif",
+              "fontSize": "30px",
+              "fontWeight": "400",
+              "lineHeight": "32px",
+              "letterSpacing": "0.76px",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "340px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".js-content > .m-contenttextmedia .text": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 10,
+              "y": 480,
+              "w": 340,
+              "h": 150
+            },
+            "visible": true,
+            "text": "By choosing one of the options from the…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "340px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 10,
+              "y": 1208,
+              "w": 340,
+              "h": 122
+            },
+            "visible": true,
+            "text": "Please select your location or visit Ga…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "340px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 10,
+              "y": 1232,
+              "w": 149,
+              "h": 17
+            },
+            "visible": true,
+            "text": "Gaggenau worldwide",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "1px solid rgb(215, 50, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "See more",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "1px solid rgb(215, 50, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".m-contentteaser": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 710,
+              "w": 360,
+              "h": 94
+            },
+            "visible": true,
+            "text": "Select your location",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px 15px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "360px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".m-contentteaser h3": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 15,
+              "y": 740,
+              "w": 192,
+              "h": 24
+            },
+            "visible": true,
+            "text": "Select your location",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 20px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "22px",
+              "fontWeight": "700",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "192.359px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".m-countryselectorlist": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 5,
+              "y": 804,
+              "w": 350,
+              "h": 384
+            },
+            "visible": true,
+            "text": "Africa South Africa Asia (亚洲) Mainland …",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".m-togglebox .item": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 804,
+              "w": 350,
+              "h": 64
+            },
+            "visible": true,
+            "text": "Africa South Africa",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "1px solid rgb(54, 55, 59)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 1,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 868,
+              "w": 350,
+              "h": 64
+            },
+            "visible": true,
+            "text": "Asia (亚洲) Mainland China Hong Kong SAR …",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "1px solid rgb(54, 55, 59)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 2,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 932,
+              "w": 350,
+              "h": 64
+            },
+            "visible": true,
+            "text": "Oceania Australia New Zealand",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "1px solid rgb(54, 55, 59)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 3,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 996,
+              "w": 350,
+              "h": 64
+            },
+            "visible": true,
+            "text": "Europe Belgique België Česká Republika/…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "1px solid rgb(54, 55, 59)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 4,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 1060,
+              "w": 350,
+              "h": 64
+            },
+            "visible": true,
+            "text": "Middle East United Arab Emirates ישראל",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "1px solid rgb(54, 55, 59)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 5,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 1124,
+              "w": 350,
+              "h": 63
+            },
+            "visible": true,
+            "text": "North America Canada EN FR USA",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".togglebox-title": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 804,
+              "w": 350,
+              "h": 63
+            },
+            "visible": true,
+            "text": "Africa",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "20px 0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 1,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 868,
+              "w": 350,
+              "h": 63
+            },
+            "visible": true,
+            "text": "Asia (亚洲)",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "20px 0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 2,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 932,
+              "w": 350,
+              "h": 63
+            },
+            "visible": true,
+            "text": "Oceania",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "20px 0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 3,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 996,
+              "w": 350,
+              "h": 63
+            },
+            "visible": true,
+            "text": "Europe",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "20px 0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 4,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 1060,
+              "w": 350,
+              "h": 63
+            },
+            "visible": true,
+            "text": "Middle East",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "20px 0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 5,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 1124,
+              "w": 350,
+              "h": 63
+            },
+            "visible": true,
+            "text": "North America",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "20px 0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".togglebox-title .text": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 23,
+              "y": 827,
+              "w": 70,
+              "h": 18
+            },
+            "visible": true,
+            "text": "Africa",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px 0px 0px 20px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 1,
+            "of": 6,
+            "rect": {
+              "x": 23,
+              "y": 891,
+              "w": 106,
+              "h": 18
+            },
+            "visible": true,
+            "text": "Asia (亚洲)",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px 0px 0px 20px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 2,
+            "of": 6,
+            "rect": {
+              "x": 23,
+              "y": 955,
+              "w": 87,
+              "h": 18
+            },
+            "visible": true,
+            "text": "Oceania",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px 0px 0px 20px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 3,
+            "of": 6,
+            "rect": {
+              "x": 23,
+              "y": 1019,
+              "w": 74,
+              "h": 18
+            },
+            "visible": true,
+            "text": "Europe",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px 0px 0px 20px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 4,
+            "of": 6,
+            "rect": {
+              "x": 23,
+              "y": 1083,
+              "w": 113,
+              "h": 18
+            },
+            "visible": true,
+            "text": "Middle East",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px 0px 0px 20px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 5,
+            "of": 6,
+            "rect": {
+              "x": 23,
+              "y": 1147,
+              "w": 138,
+              "h": 18
+            },
+            "visible": true,
+            "text": "North America",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px 0px 0px 20px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".togglebox-content": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 867,
+              "w": 350,
+              "h": 0
+            },
+            "visible": true,
+            "text": "South Africa",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 1,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 931,
+              "w": 350,
+              "h": 0
+            },
+            "visible": true,
+            "text": "Mainland China Hong Kong SAR Taiwan Ind…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 2,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 995,
+              "w": 350,
+              "h": 0
+            },
+            "visible": true,
+            "text": "Australia New Zealand",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 3,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 1059,
+              "w": 350,
+              "h": 0
+            },
+            "visible": true,
+            "text": "Belgique België Česká Republika/Slovens…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 4,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 1123,
+              "w": 350,
+              "h": 0
+            },
+            "visible": true,
+            "text": "United Arab Emirates ישראל",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 5,
+            "of": 6,
+            "rect": {
+              "x": 5,
+              "y": 1187,
+              "w": 350,
+              "h": 0
+            },
+            "visible": true,
+            "text": "Canada EN FR USA",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "350.031px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ]
+      },
+      "1440": {
+        ".js-content > .m-contenttextmedia": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 120,
+              "y": 95,
+              "w": 1200,
+              "h": 20
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 40px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1200px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 120,
+              "y": 155,
+              "w": 1200,
+              "h": 336
+            },
+            "visible": true,
+            "text": "Wherever you are, a Gaggenau awaits By …",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 40px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1200px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 120,
+              "y": 531,
+              "w": 1200,
+              "h": 0
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 40px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1200px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 120,
+              "y": 1045,
+              "w": 1200,
+              "h": 62
+            },
+            "visible": true,
+            "text": "Please select your location or visit Ga…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 40px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1200px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".js-content > .m-contenttextmedia .media": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 120,
+              "y": 95,
+              "w": 532,
+              "h": 20
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "table-cell",
+              "margin": "0px",
+              "padding": "0px 16px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "532px",
+              "float": "none",
+              "verticalAlign": "top"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 120,
+              "y": 155,
+              "w": 600,
+              "h": 336
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "table-cell",
+              "margin": "0px",
+              "padding": "0px 16px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "600px",
+              "float": "none",
+              "verticalAlign": "top"
+            }
+          }
+        ],
+        ".js-content > .m-contenttextmedia img": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 136,
+              "y": 95,
+              "w": 500,
+              "h": 11
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "500px",
+              "float": "none",
+              "verticalAlign": "top"
+            },
+            "img": {
+              "naturalWidth": 500,
+              "naturalHeight": 11,
+              "currentSrc": "https://media3.bosch-home.com/Images/600x/MCIM02804435_c_t_f.webp"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 136,
+              "y": 155,
+              "w": 568,
+              "h": 336
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "568px",
+              "float": "none",
+              "verticalAlign": "top"
+            },
+            "img": {
+              "naturalWidth": 599,
+              "naturalHeight": 354,
+              "currentSrc": "https://media3.bosch-home.com/Images/600x/MCIM03238281_Eb333-country_selector-website.webp"
+            }
+          }
+        ],
+        ".js-content > .m-contenttextmedia .content": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 652,
+              "y": 95,
+              "w": 532,
+              "h": 20
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "table-cell",
+              "margin": "0px",
+              "padding": "0px 16px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "532px",
+              "float": "none",
+              "verticalAlign": "middle"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 720,
+              "y": 155,
+              "w": 600,
+              "h": 336
+            },
+            "visible": true,
+            "text": "Wherever you are, a Gaggenau awaits By …",
+            "props": {
+              "display": "table-cell",
+              "margin": "0px",
+              "padding": "0px 16px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "600px",
+              "float": "none",
+              "verticalAlign": "middle"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 120,
+              "y": 531,
+              "w": 1200,
+              "h": 0
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px 16px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1200px",
+              "float": "none",
+              "verticalAlign": "middle"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 120,
+              "y": 1045,
+              "w": 1200,
+              "h": 62
+            },
+            "visible": true,
+            "text": "Please select your location or visit Ga…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px 16px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1200px",
+              "float": "none",
+              "verticalAlign": "middle"
+            }
+          }
+        ],
+        ".js-content > .m-contenttextmedia h2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 736,
+              "y": 230,
+              "w": 568,
+              "h": 80
+            },
+            "visible": true,
+            "text": "Wherever you are, a Gaggenau awaits",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 15px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Display\", Arial, sans-serif",
+              "fontSize": "38px",
+              "fontWeight": "400",
+              "lineHeight": "40px",
+              "letterSpacing": "0.76px",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "568px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".js-content > .m-contenttextmedia .text": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 736,
+              "y": 325,
+              "w": 568,
+              "h": 90
+            },
+            "visible": true,
+            "text": "By choosing one of the options from the…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "568px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 136,
+              "y": 1045,
+              "w": 1168,
+              "h": 62
+            },
+            "visible": true,
+            "text": "Please select your location or visit Ga…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1168px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 374,
+              "y": 1049,
+              "w": 149,
+              "h": 17
+            },
+            "visible": true,
+            "text": "Gaggenau worldwide",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "1px solid rgb(215, 50, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "See more",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "1px solid rgb(215, 50, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".m-contentteaser": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 120,
+              "y": 571,
+              "w": 1200,
+              "h": 52
+            },
+            "visible": true,
+            "text": "Select your location",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px 15px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1200px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".m-contentteaser h3": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 135,
+              "y": 571,
+              "w": 555,
+              "h": 32
+            },
+            "visible": true,
+            "text": "Select your location",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 20px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "30px",
+              "fontWeight": "700",
+              "lineHeight": "32px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "555px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".m-countryselectorlist": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 137,
+              "y": 623,
+              "w": 1167,
+              "h": 402
+            },
+            "visible": true,
+            "text": "Africa South Africa Asia (亚洲) Mainland …",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".m-togglebox .item": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 623,
+              "w": 1167,
+              "h": 67
+            },
+            "visible": true,
+            "text": "Africa South Africa",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "1px solid rgb(54, 55, 59)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 1,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 690,
+              "w": 1167,
+              "h": 67
+            },
+            "visible": true,
+            "text": "Asia (亚洲) Mainland China Hong Kong SAR …",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "1px solid rgb(54, 55, 59)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 2,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 757,
+              "w": 1167,
+              "h": 67
+            },
+            "visible": true,
+            "text": "Oceania Australia New Zealand",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "1px solid rgb(54, 55, 59)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 3,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 824,
+              "w": 1167,
+              "h": 67
+            },
+            "visible": true,
+            "text": "Europe Belgique België Česká Republika/…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "1px solid rgb(54, 55, 59)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 4,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 891,
+              "w": 1167,
+              "h": 67
+            },
+            "visible": true,
+            "text": "Middle East United Arab Emirates ישראל",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "1px solid rgb(54, 55, 59)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 5,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 958,
+              "w": 1167,
+              "h": 66
+            },
+            "visible": true,
+            "text": "North America Canada EN FR USA",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".togglebox-title": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 623,
+              "w": 1167,
+              "h": 66
+            },
+            "visible": true,
+            "text": "Africa",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "20px 0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "26px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 1,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 690,
+              "w": 1167,
+              "h": 66
+            },
+            "visible": true,
+            "text": "Asia (亚洲)",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "20px 0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "26px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 2,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 757,
+              "w": 1167,
+              "h": 66
+            },
+            "visible": true,
+            "text": "Oceania",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "20px 0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "26px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 3,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 824,
+              "w": 1167,
+              "h": 66
+            },
+            "visible": true,
+            "text": "Europe",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "20px 0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "26px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 4,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 891,
+              "w": 1167,
+              "h": 66
+            },
+            "visible": true,
+            "text": "Middle East",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "20px 0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "26px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 5,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 958,
+              "w": 1167,
+              "h": 66
+            },
+            "visible": true,
+            "text": "North America",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "20px 0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "26px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".togglebox-title .text": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 155,
+              "y": 646,
+              "w": 76,
+              "h": 20
+            },
+            "visible": true,
+            "text": "Africa",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px 0px 0px 20px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "26px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 1,
+            "of": 6,
+            "rect": {
+              "x": 155,
+              "y": 713,
+              "w": 116,
+              "h": 20
+            },
+            "visible": true,
+            "text": "Asia (亚洲)",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px 0px 0px 20px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "26px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 2,
+            "of": 6,
+            "rect": {
+              "x": 155,
+              "y": 780,
+              "w": 94,
+              "h": 20
+            },
+            "visible": true,
+            "text": "Oceania",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px 0px 0px 20px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "26px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 3,
+            "of": 6,
+            "rect": {
+              "x": 155,
+              "y": 847,
+              "w": 80,
+              "h": 20
+            },
+            "visible": true,
+            "text": "Europe",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px 0px 0px 20px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "26px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 4,
+            "of": 6,
+            "rect": {
+              "x": 155,
+              "y": 914,
+              "w": 123,
+              "h": 20
+            },
+            "visible": true,
+            "text": "Middle East",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px 0px 0px 20px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "26px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 5,
+            "of": 6,
+            "rect": {
+              "x": 155,
+              "y": 981,
+              "w": 151,
+              "h": 20
+            },
+            "visible": true,
+            "text": "North America",
+            "props": {
+              "display": "inline",
+              "margin": "0px",
+              "padding": "0px 0px 0px 20px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "26px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "auto",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ],
+        ".togglebox-content": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 689,
+              "w": 1167,
+              "h": 0
+            },
+            "visible": true,
+            "text": "South Africa",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 1,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 756,
+              "w": 1167,
+              "h": 0
+            },
+            "visible": true,
+            "text": "Mainland China Hong Kong SAR Taiwan Ind…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 2,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 823,
+              "w": 1167,
+              "h": 0
+            },
+            "visible": true,
+            "text": "Australia New Zealand",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 3,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 890,
+              "w": 1167,
+              "h": 0
+            },
+            "visible": true,
+            "text": "Belgique België Česká Republika/Slovens…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 4,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 957,
+              "w": 1167,
+              "h": 0
+            },
+            "visible": true,
+            "text": "United Arab Emirates ישראל",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          },
+          {
+            "index": 5,
+            "of": 6,
+            "rect": {
+              "x": 137,
+              "y": 1024,
+              "w": 1167,
+              "h": 0
+            },
+            "visible": true,
+            "text": "Canada EN FR USA",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px",
+              "fontFamily": "\"Gaggenau Text\", Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "width": "1166.69px",
+              "float": "none",
+              "verticalAlign": "baseline"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

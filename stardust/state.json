@@ -1,0 +1,424 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-10-16T14:45:53Z",
+    "stardustVersion": "0.33.0"
+  },
+  "site": {
+    "originUrl": "https://www.gaggenau.com",
+    "entryUrl": "https://www.gaggenau.com/de/de",
+    "deployUrl": null,
+    "extractedAt": "2026-10-16T11:37:43.282Z",
+    "pageCap": 10,
+    "totalDiscovered": 7,
+    "crawled": 7,
+    "captureGaps": [
+      {
+        "root": "/de/de",
+        "slug": "de-de",
+        "linked": 10,
+        "uncaptured": [
+          "/de/de/c/legal/blt257448e8e4fe078f/generell/datenschutz",
+          "/de/de/c/legal/blt2f850ba3ff8ea33a/generell/eshop-agbs",
+          "/de/de/c/legal/blt6132e5ad6ecd9281/generell/informationen-altgeraete-ruecknahme",
+          "/de/de/c/legal/blt7850fba012c27ee4/generell/impressum",
+          "/de/de/c/legal/bltc185108261e90363/generell/herstellergarantie",
+          "/de/de/c/legal/bltcb14857ff8d959f8/generell/batterieentsorgung",
+          "/de/de/c/legal/bltdfc5e3df2ecd8a29/generell/firmware-updates",
+          "/de/de/c/legal/blte548dd7b46c1a429/generell/barrierefreiheit",
+          "/de/de/c/legal/blte8cf2be57b65d4a8/gesetzliche-konformitaetsgarantie",
+          "/de/de/checkout/cart"
+        ]
+      }
+    ]
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-10-16T11:37:43.282Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.gaggenau.com/",
+      "title": "Select your region | Gaggenau",
+      "type": "region-selector",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-16T11:32:36.851Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-16T12:06:51Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-16T12:06:51Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-16T13:50:13Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "stardust/migrated/index.html"
+    },
+    {
+      "slug": "general",
+      "url": "https://www.gaggenau.com/general",
+      "title": "Error | Gaggenau",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-16T11:32:36.466Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-16T14:45:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/general.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/general/index.html"
+    },
+    {
+      "slug": "confirmation",
+      "url": "https://www.gaggenau.com/confirmation",
+      "title": "Success | Gaggenau",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-16T11:32:36.850Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-16T14:45:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/confirmation.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/confirmation/index.html"
+    },
+    {
+      "slug": "energylabel",
+      "url": "https://www.gaggenau.com/energylabel",
+      "title": "Energy label | Gaggenau",
+      "type": "region-selector",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-16T11:33:13.003Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-16T14:30:18Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/energylabel.json",
+      "prototypePath": "stardust/prototypes/energylabel-proposed.html",
+      "migratedPath": "stardust/migrated/energylabel/index.html"
+    },
+    {
+      "slug": "general-imprint",
+      "url": "https://www.gaggenau.com/general/imprint",
+      "title": "Imprint",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-16T11:33:13.489Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-16T14:45:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/general-imprint.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/general/imprint/index.html"
+    },
+    {
+      "slug": "general-legal",
+      "url": "https://www.gaggenau.com/general/legal",
+      "title": "Data Protection Information",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-16T11:33:14.079Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-16T11:57:43Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-16T11:57:43Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-16T13:50:13Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/general-legal.json",
+      "prototypePath": "stardust/prototypes/general-legal-proposed.html",
+      "migratedPath": "stardust/migrated/general/legal/index.html"
+    },
+    {
+      "slug": "de-de",
+      "url": "https://www.gaggenau.com/de/de",
+      "title": "Gaggenau Hausgeräte: Luxus für Ihre Küche | Gaggenau",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-16T11:33:22.341Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-16T12:28:43Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-16T13:50:13Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-de.json",
+      "prototypePath": "stardust/prototypes/de-de-proposed.html",
+      "migratedPath": "stardust/migrated/de/de/index.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-10-16T14:21:59Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/general",
+        "outputPath": "general/index.html",
+        "slug": "general",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/confirmation",
+        "outputPath": "confirmation/index.html",
+        "slug": "confirmation",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/energylabel",
+        "outputPath": "energylabel/index.html",
+        "slug": "energylabel",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/general/imprint",
+        "outputPath": "general/imprint/index.html",
+        "slug": "general-imprint",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/general/legal",
+        "outputPath": "general/legal/index.html",
+        "slug": "general-legal",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/de/de",
+        "outputPath": "de/de/index.html",
+        "slug": "de-de",
+        "outputPathDefault": "trailing-slash"
+      }
+    ],
+    "totalAssetsBundled": 103,
+    "bundledAssets": [
+      "GG-logo-black-RGB.png",
+      "css/landing.css",
+      "css/region.css",
+      "css/static.css",
+      "css/store-canon.css",
+      "favicon.ico",
+      "fonts/GaggenauDisplay-Bold-eda76fcdfad42551.woff2",
+      "fonts/GaggenauDisplay-Regular-207155fe395e7d56.woff2",
+      "fonts/GaggenauText-Bold-fdbe74ccdf400f60.woff2",
+      "fonts/GaggenauText-Regular-b39a89f998cbfab0.woff2",
+      "fonts/gaggenaudisplay-bold-webfont.woff2",
+      "fonts/gaggenaudisplay-regular-webfont.woff2",
+      "fonts/gaggenautext-bold-webfont.woff2",
+      "fonts/gaggenautext-regular-webfont.woff2",
+      "fonts/icons.woff2",
+      "js/landing.js",
+      "js/region.js",
+      "media/MCIM02804435_c_t_f-1200x.webp",
+      "media/MCIM02804435_c_t_f-450x.webp",
+      "media/MCIM02804435_c_t_f-600x.jpg",
+      "media/MCIM02804435_c_t_f-600x.webp",
+      "media/MCIM02804435_c_t_f-900x.webp",
+      "media/MCIM03238281_Eb333-country_selector-website-1200x.webp",
+      "media/MCIM03238281_Eb333-country_selector-website-450x.webp",
+      "media/MCIM03238281_Eb333-country_selector-website-600x.jpg",
+      "media/MCIM03238281_Eb333-country_selector-website-600x.webp",
+      "media/MCIM03238281_Eb333-country_selector-website-900x.webp",
+      "media/dede/1600-17933952_gaggenau-home-cooktops-teaser.webp",
+      "media/dede/1600-17933954_gaggenau-home-dishwashers-teaser.webp",
+      "media/dede/1600-17933955_gaggenau-home-extractors-teaser.webp",
+      "media/dede/1600-17933959_gaggenau-home-refrigerators-teaser.webp",
+      "media/dede/1600-17933962_gaggenau-home-washing-machines-teaser.webp",
+      "media/dede/1600-17933963_gaggenau-home-wine-cabinets-teaser.webp",
+      "media/dede/1600-17933964_gaggenau-home-art-of-the-kitchen-teaser.webp",
+      "media/dede/1600-18118969_gaggenau-home-art-of-the-kitchen-teaser-vp1.webp",
+      "media/dede/1600-26368331_GG-global-homepage-expressive-coffee-machine-teaser.webp",
+      "media/dede/1600-26368332_GG-global-homepage-expressive-oven-teaser.webp",
+      "media/dede/1600-26397436_GG-Global-homepage-expressive-oven-key-visual-stage-vp1.webp",
+      "media/dede/1600-26936205_gg-global-minimalist-inspiration-landing-page-stage-vp1.webp",
+      "media/dede/1600-27184941_magazine-teaser-video-thumbnail.webp",
+      "media/dede/1600-27569350_GG-Global-homepage-expressive-cooling-stage-vp1.webp",
+      "media/dede/1600-28333151_gg-Sherpa-homepage-stage-mobile.webp",
+      "media/dede/1600-28333152_gg-Sherpa-homepage-stage-desktop.webp",
+      "media/dede/1600-28333153_gg-Sherpa-homepage-stage-tablet.webp",
+      "media/dede/1600-MCIM03327712_Showroom_London_website-teaser.webp",
+      "media/dede/400-17933952_gaggenau-home-cooktops-teaser.webp",
+      "media/dede/400-17933954_gaggenau-home-dishwashers-teaser.webp",
+      "media/dede/400-17933955_gaggenau-home-extractors-teaser.webp",
+      "media/dede/400-17933959_gaggenau-home-refrigerators-teaser.webp",
+      "media/dede/400-17933962_gaggenau-home-washing-machines-teaser.webp",
+      "media/dede/400-17933963_gaggenau-home-wine-cabinets-teaser.webp",
+      "media/dede/400-17933964_gaggenau-home-art-of-the-kitchen-teaser.webp",
+      "media/dede/400-18118969_gaggenau-home-art-of-the-kitchen-teaser-vp1.webp",
+      "media/dede/400-26368331_GG-global-homepage-expressive-coffee-machine-teaser.webp",
+      "media/dede/400-26368332_GG-global-homepage-expressive-oven-teaser.webp",
+      "media/dede/400-26397436_GG-Global-homepage-expressive-oven-key-visual-stage-vp1.webp",
+      "media/dede/400-26936205_gg-global-minimalist-inspiration-landing-page-stage-vp1.webp",
+      "media/dede/400-27184941_magazine-teaser-video-thumbnail.webp",
+      "media/dede/400-27569350_GG-Global-homepage-expressive-cooling-stage-vp1.webp",
+      "media/dede/400-28333151_gg-Sherpa-homepage-stage-mobile.webp",
+      "media/dede/400-28333152_gg-Sherpa-homepage-stage-desktop.webp",
+      "media/dede/400-28333153_gg-Sherpa-homepage-stage-tablet.webp",
+      "media/dede/400-MCIM03327712_Showroom_London_website-teaser.webp",
+      "media/dede/500-17933952_gaggenau-home-cooktops-teaser.webp",
+      "media/dede/500-17933954_gaggenau-home-dishwashers-teaser.webp",
+      "media/dede/500-17933955_gaggenau-home-extractors-teaser.webp",
+      "media/dede/500-17933959_gaggenau-home-refrigerators-teaser.webp",
+      "media/dede/500-17933962_gaggenau-home-washing-machines-teaser.webp",
+      "media/dede/500-17933963_gaggenau-home-wine-cabinets-teaser.webp",
+      "media/dede/500-17933964_gaggenau-home-art-of-the-kitchen-teaser.webp",
+      "media/dede/500-18118969_gaggenau-home-art-of-the-kitchen-teaser-vp1.webp",
+      "media/dede/500-26368331_GG-global-homepage-expressive-coffee-machine-teaser.webp",
+      "media/dede/500-26368332_GG-global-homepage-expressive-oven-teaser.webp",
+      "media/dede/500-26397436_GG-Global-homepage-expressive-oven-key-visual-stage-vp1.webp",
+      "media/dede/500-26936205_gg-global-minimalist-inspiration-landing-page-stage-vp1.webp",
+      "media/dede/500-27184941_magazine-teaser-video-thumbnail.webp",
+      "media/dede/500-27569350_GG-Global-homepage-expressive-cooling-stage-vp1.webp",
+      "media/dede/500-28333151_gg-Sherpa-homepage-stage-mobile.webp",
+      "media/dede/500-28333152_gg-Sherpa-homepage-stage-desktop.webp",
+      "media/dede/500-28333153_gg-Sherpa-homepage-stage-tablet.webp",
+      "media/dede/500-MCIM03327712_Showroom_London_website-teaser.webp",
+      "media/dede/800-17933952_gaggenau-home-cooktops-teaser.webp",
+      "media/dede/800-17933954_gaggenau-home-dishwashers-teaser.webp",
+      "media/dede/800-17933955_gaggenau-home-extractors-teaser.webp",
+      "media/dede/800-17933959_gaggenau-home-refrigerators-teaser.webp",
+      "media/dede/800-17933962_gaggenau-home-washing-machines-teaser.webp",
+      "media/dede/800-17933963_gaggenau-home-wine-cabinets-teaser.webp",
+      "media/dede/800-17933964_gaggenau-home-art-of-the-kitchen-teaser.webp",
+      "media/dede/800-18118969_gaggenau-home-art-of-the-kitchen-teaser-vp1.webp",
+      "media/dede/800-26368331_GG-global-homepage-expressive-coffee-machine-teaser.webp",
+      "media/dede/800-26368332_GG-global-homepage-expressive-oven-teaser.webp",
+      "media/dede/800-26397436_GG-Global-homepage-expressive-oven-key-visual-stage-vp1.webp",
+      "media/dede/800-26936205_gg-global-minimalist-inspiration-landing-page-stage-vp1.webp",
+      "media/dede/800-27184941_magazine-teaser-video-thumbnail.webp",
+      "media/dede/800-27569350_GG-Global-homepage-expressive-cooling-stage-vp1.webp",
+      "media/dede/800-28333151_gg-Sherpa-homepage-stage-mobile.webp",
+      "media/dede/800-28333152_gg-Sherpa-homepage-stage-desktop.webp",
+      "media/dede/800-28333153_gg-Sherpa-homepage-stage-tablet.webp",
+      "media/dede/800-MCIM03327712_Showroom_London_website-teaser.webp",
+      "media/dede/gaggenau.cb6ae389.svg",
+      "media/dede/instagram_dark.f1fea96d.png",
+      "media/dede/pinterest_dark.c3076c7b.png",
+      "media/dede/youtube_dark.095dd9c7.png"
+    ],
+    "pages": [
+      {
+        "slug": "de-de",
+        "file": "stardust/migrated/de/de/index.html",
+        "assetsBundled": 88
+      },
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "general-legal",
+        "file": "stardust/migrated/general/legal/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "energylabel",
+        "file": "stardust/migrated/energylabel/index.html",
+        "assetsBundled": 21
+      },
+      {
+        "slug": "general",
+        "file": "stardust/migrated/general/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "confirmation",
+        "file": "stardust/migrated/confirmation/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "general-imprint",
+        "file": "stardust/migrated/general/imprint/index.html",
+        "assetsBundled": 4
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-10-16T14:21:59Z",
+      "rendered": [
+        "general",
+        "confirmation",
+        "general-imprint"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

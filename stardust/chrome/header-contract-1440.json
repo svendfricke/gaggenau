@@ -1,0 +1,1933 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.gaggenau.com/de/de",
+ "at": "2026-10-16T13:15:50.201Z",
+ "shots": "stardust/.work/chrome/header-contract-1440",
+ "widths": {
+  "1440": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Homepage",
+     "key": "homepage",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>a",
+     "href": "https://www.gaggenau.com/de/",
+     "expanded": null,
+     "rect": [
+      648,
+      21,
+      144,
+      37
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Navigationsmenü öffnen",
+     "key": "navigationsmenü öffnen",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(1)>button",
+     "expanded": null,
+     "rect": [
+      34,
+      67,
+      48,
+      48
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Home",
+          "href": "https://www.gaggenau.com/de/home"
+         },
+         {
+          "text": "My Gaggenau",
+          "href": "https://www.gaggenau.com/de/my-account"
+         },
+         {
+          "text": "Händler finden",
+          "href": "https://www.gaggenau.com/de/besuchen-sie-uns/haendler-finden"
+         },
+         {
+          "text": "Showroom München",
+          "href": "https://www.gaggenau.com/de/besuchen-sie-uns/showroom-munchen"
+         },
+         {
+          "text": "Kontakt",
+          "href": "https://www.gaggenau.com/de/fur-kunden/service/kontakt"
+         },
+         {
+          "text": "Presse",
+          "href": "https://www.gaggenau.com/de/pressecenter"
+         },
+         {
+          "text": "Deutschland",
+          "href": "https://www.gaggenau.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Navigationsmenü schließen",
+         "Die Welt von Gaggenau",
+         "Geräte",
+         "Für Kunden",
+         "Für Partner",
+         "Besuchen Sie uns"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         32,
+         1440,
+         868
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "a.bsh-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "a.bsh-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "a.bsh-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "a.bsh-navigation-button"
+        }
+       ],
+       "shot": "1440-001-Navigationsmen-ffnen-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": false
+     },
+     "children": [
+      {
+       "name": "Navigationsmenü schließen",
+       "key": "navigationsmenü schließen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(7)>nav>div>div>div:nth-of-type(1)>div>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        344,
+        32,
+        48,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": {
+         "opened": false,
+         "hides": 13
+        }
+       }
+      },
+      {
+       "name": "Die Welt von Gaggenau",
+       "key": "die welt von gaggenau",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(7)>nav>div>div>div:nth-of-type(1)>div>div>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)",
+       "expanded": "false",
+       "rect": [
+        24,
+        174,
+        368,
+        62
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Die Welt von Gaggenau",
+            "href": "https://www.gaggenau.com/de/die-welt-von-gaggenau"
+           },
+           {
+            "text": "Markenbotschafter und Kooperationspartner",
+            "href": "https://www.gaggenau.com/de/die-welt-von-gaggenau/muenchen-showroom-profikoeche"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Der Unterschied heißt",
+           "Magazin",
+           "News & Events",
+           "Inspiration"
+          ],
+          "options": 0,
+          "rect": [
+           416,
+           0,
+           416,
+           900
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "div.css-1sihnah"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "div.css-1en3zxn"
+          }
+         ],
+         "shot": "1440-002-Die-Welt-von-Gaggenau-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": false
+       }
+      },
+      {
+       "name": "Geräte",
+       "key": "geräte",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(7)>nav>div>div>div:nth-of-type(1)>div>div>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)",
+       "expanded": "false",
+       "rect": [
+        24,
+        244,
+        368,
+        62
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Geräte",
+            "href": "https://www.gaggenau.com/de/geraete"
+           },
+           {
+            "text": "Backöfen",
+            "href": "https://www.gaggenau.com/de/geraete/backoefen"
+           },
+           {
+            "text": "Wärme- und Vakuumierschubladen",
+            "href": "https://www.gaggenau.com/de/geraete/waerme-und-vakuumierschubladen"
+           },
+           {
+            "text": "Kaffee-Vollautomaten",
+            "href": "https://www.gaggenau.com/de/geraete/kaffee-vollautomaten"
+           },
+           {
+            "text": "Kochfelder",
+            "href": "https://www.gaggenau.com/de/de/mkt-category-page/kochfelder"
+           },
+           {
+            "text": "Dunstabzugshauben",
+            "href": "https://www.gaggenau.com/de/de/mkt-category-page/dunstabzugshauben"
+           },
+           {
+            "text": "Kältegeräte",
+            "href": "https://www.gaggenau.com/de/geraete/kaeltegeraete"
+           },
+           {
+            "text": "Weinklimaschränke",
+            "href": "https://www.gaggenau.com/de/geraete/weinklimaschraenke"
+           },
+           {
+            "text": "Geschirrspüler",
+            "href": "https://www.gaggenau.com/de/de/mkt-category-page/geschirrspueler"
+           },
+           {
+            "text": "Waschmaschinen",
+            "href": "https://www.gaggenau.com/de/de/mkt-category-page/waschen"
+           },
+           {
+            "text": "Geräte vernetzen",
+            "href": "https://www.gaggenau.com/de/geraete/gerate-vernetzen"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           416,
+           0,
+           416,
+           900
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "div.css-1sihnah"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "div.css-1en3zxn"
+          }
+         ],
+         "shot": "1440-003-Ger-te-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": false
+       }
+      },
+      {
+       "name": "Für Kunden",
+       "key": "für kunden",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(7)>nav>div>div>div:nth-of-type(1)>div>div>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(3)",
+       "expanded": "false",
+       "rect": [
+        24,
+        314,
+        368,
+        62
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Für Kunden",
+            "href": "https://www.gaggenau.com/de/fur-kunden"
+           },
+           {
+            "text": "Betriebsanleitungen",
+            "href": "https://www.gaggenau.com/de/fur-kunden/betriebsanleitungen"
+           },
+           {
+            "text": "Broschüren",
+            "href": "https://www.gaggenau.com/de/fur-kunden/broschueren"
+           },
+           {
+            "text": "Tipps zur Geräte-Anwendung",
+            "href": "https://www.gaggenau.com/de/fur-kunden/hausgeraete-tipps"
+           },
+           {
+            "text": "My Gaggenau",
+            "href": "https://www.gaggenau.com/de/fur-kunden/mygaggenau"
+           },
+           {
+            "text": "Rezepte",
+            "href": "https://www.gaggenau.com/de/fur-kunden/rezepte"
+           },
+           {
+            "text": "Newsletter",
+            "href": "https://www.gaggenau.com/de/fur-kunden/newsletter"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Service",
+           "Zubehör und Ersatzteile"
+          ],
+          "options": 0,
+          "rect": [
+           416,
+           0,
+           416,
+           900
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "div.css-1sihnah"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "div.css-1en3zxn"
+          }
+         ],
+         "shot": "1440-004-F-r-Kunden-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": false
+       }
+      },
+      {
+       "name": "Für Partner",
+       "key": "für partner",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(7)>nav>div>div>div:nth-of-type(1)>div>div>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(4)",
+       "expanded": "false",
+       "rect": [
+        24,
+        384,
+        368,
+        62
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Für Partner",
+            "href": "https://www.gaggenau.com/de/fuer-partner"
+           },
+           {
+            "text": "Downloads",
+            "href": "https://www.gaggenau.com/de/fuer-partner/downloads"
+           },
+           {
+            "text": "Architektur und Design",
+            "href": "https://www.gaggenau.com/de/fuer-partner/architektur-und-design"
+           },
+           {
+            "text": "CAD-Dateien",
+            "href": "https://www.gaggenau.com/de/fuer-partner/cad-dateien"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Technische Daten",
+           "Zubehör & Ersatzteile",
+           "Partner-Portal"
+          ],
+          "options": 0,
+          "rect": [
+           416,
+           0,
+           416,
+           900
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "div.css-1sihnah"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "div.css-1en3zxn"
+          }
+         ],
+         "shot": "1440-005-F-r-Partner-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": false
+       }
+      },
+      {
+       "name": "Besuchen Sie uns",
+       "key": "besuchen sie uns",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(7)>nav>div>div>div:nth-of-type(1)>div>div>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(5)",
+       "expanded": "false",
+       "rect": [
+        24,
+        454,
+        368,
+        62
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Besuchen Sie uns",
+            "href": "https://www.gaggenau.com/de/besuchen-sie-uns"
+           },
+           {
+            "text": "Showrooms",
+            "href": "https://www.gaggenau.com/de/besuchen-sie-uns/showrooms"
+           },
+           {
+            "text": "Termin vereinbaren",
+            "href": "https://www.gaggenau.com/de/besuchen-sie-uns/termin-vereinbaren"
+           },
+           {
+            "text": "Händler finden",
+            "href": "https://www.gaggenau.com/de/besuchen-sie-uns/haendler-finden"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Showroom München"
+          ],
+          "options": 0,
+          "rect": [
+           416,
+           0,
+           416,
+           900
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "div.css-1sihnah"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "button.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "div.css-1en3zxn"
+          }
+         ],
+         "shot": "1440-006-Besuchen-Sie-uns-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": false
+       }
+      }
+     ]
+    },
+    {
+     "name": "Die Welt von Gaggenau",
+     "key": "die welt von gaggenau",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(3)>nav>span:nth-of-type(1)>div",
+     "expanded": null,
+     "rect": [
+      90,
+      81,
+      184,
+      20
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Geräte",
+     "key": "geräte",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(3)>nav>span:nth-of-type(2)>div",
+     "expanded": null,
+     "rect": [
+      306,
+      81,
+      56,
+      20
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Für Kunden",
+     "key": "für kunden",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(3)>nav>span:nth-of-type(3)>div",
+     "expanded": null,
+     "rect": [
+      394,
+      81,
+      88,
+      20
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Für Partner",
+     "key": "für partner",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(3)>nav>span:nth-of-type(4)>div",
+     "expanded": null,
+     "rect": [
+      514,
+      81,
+      87,
+      20
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Besuchen Sie uns",
+     "key": "besuchen sie uns",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(3)>nav>span:nth-of-type(5)>div",
+     "expanded": null,
+     "rect": [
+      633,
+      81,
+      133,
+      20
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "My Gaggenau",
+     "key": "my gaggenau",
+     "role": "link",
+     "kind": "account",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(3)>nav>span:nth-of-type(6)>a",
+     "href": "https://www.gaggenau.com/de/my-account",
+     "expanded": null,
+     "rect": [
+      798,
+      81,
+      112,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Benutzerbereich",
+     "key": "benutzerbereich",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      1230,
+      67,
+      48,
+      48
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Produkt registrieren",
+          "href": "https://www.gaggenau.com/de/my-gaggenau/produkt-registrieren"
+         },
+         {
+          "text": "Anmelden / Registrieren",
+          "href": "https://www.gaggenau.com/de/de/login"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         207,
+         1440,
+         693
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "a.bsh-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "a.bsh-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "a.bsh-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "a.bsh-navigation-button"
+        }
+       ],
+       "shot": "1440-007-Benutzerbereich-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false
+     },
+     "children": [
+      {
+       "name": "Einverstanden",
+       "key": "einverstanden",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#cmpwelcomebtnyes>a",
+       "expanded": null,
+       "rect": [
+        164,
+        860,
+        151,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 7
+        },
+        "key": null
+       }
+      },
+      {
+       "name": "Individuelle Einstellungen",
+       "key": "individuelle einstellungen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#cmpwelcomebtncustom>a",
+       "expanded": null,
+       "rect": [
+        339,
+        860,
+        229,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Optionales ablehnen",
+       "key": "optionales ablehnen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#cmpwelcomebtnno>a",
+       "expanded": null,
+       "rect": [
+        591,
+        860,
+        195,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Cookies",
+       "key": "cookies",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#cmpbox>div>div:nth-of-type(2)>div>a:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        811,
+        875,
+        56,
+        18
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Datenschutz-Einstellungen",
+       "key": "datenschutzeinstellungen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#cmpboxrecall>a",
+       "expanded": null,
+       "rect": [
+        18,
+        862,
+        20,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Beschreibung: consentmanager",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Beschreibung: Gaggenau Hausgeräte GmbH (DE)",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Beschreibung: Google Fonts",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Beschreibung: Google General",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Beschreibung: Google Maps",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Beschreibung: Google Recaptcha",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Beschreibung: Google Tag Manager",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Beschreibung: Vimeo",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Zurück zum Startbildschirm",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Speichern + Beenden",
+            "href": "https://www.gaggenau.com/de/de#"
+           }
+          ],
+          "headings": [
+           "Individuelle Einstellungen",
+           "Notwendig"
+          ],
+          "images": 7,
+          "inputs": [],
+          "buttons": [
+           "Notwendig",
+           "Performance und Analyse",
+           "Marketing",
+           "Funktional",
+           "Beschreibung: consentmanager",
+           "Beschreibung: Gaggenau Hausgeräte GmbH (DE)",
+           "Beschreibung: Google Fonts",
+           "Beschreibung: Google General",
+           "Beschreibung: Google Maps",
+           "Beschreibung: Google Recaptcha",
+           "Beschreibung: Google Tag Manager",
+           "Beschreibung: Vimeo",
+           "Speichern + Beenden"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           342,
+           1440,
+           558
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "animation",
+           "prop": "flyup",
+           "ms": 2500,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.cmpbox"
+          }
+         ],
+         "shot": "1440-008-Datenschutz-Einstellungen-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Beschreibung: consentmanager",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Beschreibung: Gaggenau Hausgeräte GmbH (DE)",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Beschreibung: Google Fonts",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Beschreibung: Google General",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Beschreibung: Google Maps",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Beschreibung: Google Recaptcha",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Beschreibung: Google Tag Manager",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Beschreibung: Vimeo",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Zurück zum Startbildschirm",
+            "href": "https://www.gaggenau.com/de/de#"
+           },
+           {
+            "text": "Speichern + Beenden",
+            "href": "https://www.gaggenau.com/de/de#"
+           }
+          ],
+          "headings": [
+           "Individuelle Einstellungen",
+           "Notwendig"
+          ],
+          "images": 7,
+          "inputs": [],
+          "buttons": [
+           "Notwendig",
+           "Performance und Analyse",
+           "Marketing",
+           "Funktional",
+           "Beschreibung: consentmanager",
+           "Beschreibung: Gaggenau Hausgeräte GmbH (DE)",
+           "Beschreibung: Google Fonts",
+           "Beschreibung: Google General",
+           "Beschreibung: Google Maps",
+           "Beschreibung: Google Recaptcha",
+           "Beschreibung: Google Tag Manager",
+           "Beschreibung: Vimeo",
+           "Speichern + Beenden"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           342,
+           1440,
+           558
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 600,
+           "delay": 0,
+           "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+           "target": "a.bsh-navigation-button"
+          },
+          {
+           "kind": "animation",
+           "prop": "flyup",
+           "ms": 2500,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.cmpbox"
+          }
+         ],
+         "shot": "1440-009-Datenschutz-Einstellungen-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       }
+      }
+     ]
+    },
+    {
+     "name": "Suchbegriff",
+     "key": "suchbegriff",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(2)",
+     "expanded": null,
+     "rect": [
+      1294,
+      67,
+      48,
+      48
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://www.gaggenau.com/de/de#"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Datenschutz-Einstellungen"
+        ],
+        "options": 0,
+        "rect": [
+         12,
+         856,
+         32,
+         32
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-010-Suchbegriff-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "gaskochfeld",
+          "href": "https://www.gaggenau.com/de/de/search?term=gaskochfeld&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "backstein",
+          "href": "https://www.gaggenau.com/de/de/search?term=backstein&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "aw290110",
+          "href": "https://www.gaggenau.com/de/de/search?term=aw290110&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "rvc467190",
+          "href": "https://www.gaggenau.com/de/de/search?term=rvc467190&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "al200190",
+          "href": "https://www.gaggenau.com/de/de/search?term=al200190&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "76 cm",
+          "href": "https://www.gaggenau.com/de/de/search?term=76+cm&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "gs470120",
+          "href": "https://www.gaggenau.com/de/de/search?term=gs470120&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "rvy497190",
+          "href": "https://www.gaggenau.com/de/de/search?term=rvy497190&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "gaggenau serie 400",
+          "href": "https://www.gaggenau.com/de/de/search?term=gaggenau+serie+400&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "gw451120",
+          "href": "https://www.gaggenau.com/de/de/search?term=gw451120&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "Gaggenau Serie Expressive Dampfbackofen 60 x 45 cm Türanschlag: links, Edelstahl hinter Rauchglas Produkte > GS451120",
+          "href": "https://www.gaggenau.com/de/de/mkt-product/GS451120"
+         },
+         {
+          "text": "Vario Kältegeräte Serie Expressive Kühl- und Gefrierkombination 213.4 x 90 cm Produkte > RVY497190",
+          "href": "https://www.gaggenau.com/de/de/mkt-product/RVY497190"
+         },
+         {
+          "text": "Gaggenau Serie Expressive Mikrowellen-Backofen Türanschlag: rechts, Edelstahl hinter Rauchglas Produkte > GM450120",
+          "href": "https://www.gaggenau.com/de/de/mkt-product/GM450120"
+         },
+         {
+          "text": "Clean Air Plus Geruchsfilter (Ersatz) Shop > 17007503",
+          "href": "https://www.gaggenau.com/de/de/product/17007503"
+         },
+         {
+          "text": "Entkalkungssystem Entkalkungs- und Geschmacksfilter Shop > 00576042",
+          "href": "https://www.gaggenau.com/de/de/product/00576042"
+         },
+         {
+          "text": "Teppan Yaki GN 1/1 (32,5cm x 53cm) Shop > 00573431",
+          "href": "https://www.gaggenau.com/de/de/product/00573431"
+         },
+         {
+          "text": "",
+          "href": "https://www.gaggenau.com/de/de#"
+         }
+        ],
+        "headings": [
+         "Top Suchanfragen",
+         "Beliebte Produkte",
+         "Gaggenau Serie Expressive Dampfbackofen 60 x 45 cm Türanschlag: links, Edelstahl hinter Rauchglas",
+         "Vario Kältegeräte Serie Expressive Kühl- und Gefrierkombination 213.4 x 90 cm",
+         "Gaggenau Serie Expressive Mikrowellen-Backofen Türanschlag: rechts, Edelstahl hinter Rauchglas",
+         "Clean Air Plus Geruchsfilter (Ersatz)",
+         "Entkalkungssystem Entkalkungs- und Geschmacksfilter",
+         "Teppan Yaki GN 1/1 (32,5cm x 53cm)"
+        ],
+        "images": 8,
+        "inputs": [
+         "input"
+        ],
+        "buttons": [
+         "Leeren",
+         "Schließen",
+         "Datenschutz-Einstellungen"
+        ],
+        "options": 0,
+        "rect": [
+         18,
+         31,
+         1374,
+         851
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.bsh-button-action"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "span.bsh-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "span.bsh-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "span.bsh-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "span.bsh-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "span.bsh-input"
+        }
+       ],
+       "shot": "1440-011-Suchbegriff-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "gaskochfeld",
+          "href": "https://www.gaggenau.com/de/de/search?term=gaskochfeld&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "backstein",
+          "href": "https://www.gaggenau.com/de/de/search?term=backstein&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "aw290110",
+          "href": "https://www.gaggenau.com/de/de/search?term=aw290110&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "rvc467190",
+          "href": "https://www.gaggenau.com/de/de/search?term=rvc467190&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "al200190",
+          "href": "https://www.gaggenau.com/de/de/search?term=al200190&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "76 cm",
+          "href": "https://www.gaggenau.com/de/de/search?term=76+cm&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "gs470120",
+          "href": "https://www.gaggenau.com/de/de/search?term=gs470120&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "rvy497190",
+          "href": "https://www.gaggenau.com/de/de/search?term=rvy497190&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "gaggenau serie 400",
+          "href": "https://www.gaggenau.com/de/de/search?term=gaggenau+serie+400&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "gw451120",
+          "href": "https://www.gaggenau.com/de/de/search?term=gw451120&empathyOrigin=popular_search&empathyLocation=predictive_layer"
+         },
+         {
+          "text": "Gaggenau Serie Expressive Dampfbackofen 60 x 45 cm Türanschlag: links, Edelstahl hinter Rauchglas Produkte > GS451120",
+          "href": "https://www.gaggenau.com/de/de/mkt-product/GS451120"
+         },
+         {
+          "text": "Vario Kältegeräte Serie Expressive Kühl- und Gefrierkombination 213.4 x 90 cm Produkte > RVY497190",
+          "href": "https://www.gaggenau.com/de/de/mkt-product/RVY497190"
+         },
+         {
+          "text": "Gaggenau Serie Expressive Mikrowellen-Backofen Türanschlag: rechts, Edelstahl hinter Rauchglas Produkte > GM450120",
+          "href": "https://www.gaggenau.com/de/de/mkt-product/GM450120"
+         },
+         {
+          "text": "Clean Air Plus Geruchsfilter (Ersatz) Shop > 17007503",
+          "href": "https://www.gaggenau.com/de/de/product/17007503"
+         },
+         {
+          "text": "Entkalkungssystem Entkalkungs- und Geschmacksfilter Shop > 00576042",
+          "href": "https://www.gaggenau.com/de/de/product/00576042"
+         },
+         {
+          "text": "Teppan Yaki GN 1/1 (32,5cm x 53cm) Shop > 00573431",
+          "href": "https://www.gaggenau.com/de/de/product/00573431"
+         },
+         {
+          "text": "",
+          "href": "https://www.gaggenau.com/de/de#"
+         }
+        ],
+        "headings": [
+         "Top Suchanfragen",
+         "Beliebte Produkte",
+         "Gaggenau Serie Expressive Dampfbackofen 60 x 45 cm Türanschlag: links, Edelstahl hinter Rauchglas",
+         "Vario Kältegeräte Serie Expressive Kühl- und Gefrierkombination 213.4 x 90 cm",
+         "Gaggenau Serie Expressive Mikrowellen-Backofen Türanschlag: rechts, Edelstahl hinter Rauchglas",
+         "Clean Air Plus Geruchsfilter (Ersatz)",
+         "Entkalkungssystem Entkalkungs- und Geschmacksfilter",
+         "Teppan Yaki GN 1/1 (32,5cm x 53cm)"
+        ],
+        "images": 8,
+        "inputs": [
+         "input"
+        ],
+        "buttons": [
+         "Leeren",
+         "Schließen",
+         "Datenschutz-Einstellungen"
+        ],
+        "options": 0,
+        "rect": [
+         18,
+         31,
+         1374,
+         851
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "span.bsh-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "span.bsh-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "span.bsh-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "span.bsh-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.25, 0.1, 0, 1)",
+         "target": "span.bsh-input"
+        }
+       ],
+       "shot": "1440-012-Suchbegriff-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "0 Artikel(e) im Warenkorb",
+     "key": "0 artikele im warenkorb",
+     "role": "link",
+     "kind": "cart",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>a",
+     "href": "https://www.gaggenau.com/de/de/checkout/cart",
+     "expanded": null,
+     "rect": [
+      1358,
+      67,
+      48,
+      48
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 124,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 948,
+     "top": 0,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 124,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 12,
+   "truncated": "depth 2 at Navigationsmenü öffnen > Die Welt von Gaggenau",
+   "loads": 27
+  }
+ },
+ "probe": "welt"
+}

@@ -1,0 +1,314 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-16T11:33:13.003Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "energylabel",
+  "url": "https://www.gaggenau.com/energylabel",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-16T11:33:13.003Z",
+  "finalUrl": "https://www.gaggenau.com/energylabel",
+  "title": "Energy label | Gaggenau",
+  "description": "Welcome to Gaggenau. Please select your location or visit Gaggenau worldwide.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Wherever you are, a Gaggenau awaits"
+    }
+  ],
+  "body": [
+    "By choosing one of the options from the list below, we will be able to provide you with the most relevant information for your chosen country. If you can not find your country of residence, please contact our Customer service team in your nearest country for advice on how to obtain Gaggenau appliances.",
+    "Please select your location or visit Gaggenau worldwide",
+    "Please note: not all products are available in all countries. Contact the Gaggenau organisation closest to you regarding local availability.",
+    "Imprint",
+    "Legal"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Accept all",
+      "href": "#"
+    },
+    {
+      "label": "Customize your choice",
+      "href": "#"
+    },
+    {
+      "label": "Decline all",
+      "href": "#"
+    },
+    {
+      "label": "Cookies",
+      "href": "#"
+    },
+    {
+      "label": "Privacy policy",
+      "href": "https://www.gaggenau.com/general/legal"
+    },
+    {
+      "label": "Legal notice",
+      "href": "https://www.gaggenau.com/general/imprint"
+    },
+    {
+      "label": "Gaggenau worldwide",
+      "href": "https://www.gaggenau.com/global"
+    },
+    {
+      "label": "Europe",
+      "href": "#/Togglebox=region-toggle-6/"
+    },
+    {
+      "label": "Belgique",
+      "href": "https://www.gaggenau.com/be/fr/general/bon-a-savoir"
+    },
+    {
+      "label": "België",
+      "href": "https://www.gaggenau.com/be/nl/algemeen/goed-om-te-weten"
+    },
+    {
+      "label": "Česká Republika/Slovensko",
+      "href": "https://www.gaggenau.com/cz/general/good-to-know"
+    },
+    {
+      "label": "Danmark",
+      "href": "https://www.gaggenau.com/dk/generelt/godt-at-vide"
+    },
+    {
+      "label": "Deutschland",
+      "href": "https://www.gaggenau.com/de/generell/gut-zu-wissen"
+    },
+    {
+      "label": "España",
+      "href": "https://www.gaggenau.com/es/general/informacion-util"
+    },
+    {
+      "label": "Eesti",
+      "href": "https://www.gaggenau.com/ba/general/good-to-know"
+    },
+    {
+      "label": "France",
+      "href": "https://www.gaggenau.com/fr/general/bon-a-savoir"
+    },
+    {
+      "label": "Ísland",
+      "href": "https://www.gaggenau.com/gb/general/good-to-know"
+    },
+    {
+      "label": "Ireland",
+      "href": "https://www.gaggenau.com/gb/general/good-to-know"
+    },
+    {
+      "label": "Italia",
+      "href": "https://www.gaggenau.com/it/generale/buono-a-sapersi"
+    },
+    {
+      "label": "Latvija",
+      "href": "https://www.gaggenau.com/ba/general/good-to-know"
+    },
+    {
+      "label": "Lietuva",
+      "href": "https://www.gaggenau.com/ba/general/good-to-know"
+    },
+    {
+      "label": "Luxembourg",
+      "href": "https://www.gaggenau.com/lu/generell/gut-zu-wissen"
+    },
+    {
+      "label": "Nederland",
+      "href": "https://www.gaggenau.com/nl/algemeen/goed-om-te-weten"
+    },
+    {
+      "label": "Norge",
+      "href": "https://www.gaggenau.com/no/generelt/godt-a-vite"
+    },
+    {
+      "label": "Österreich",
+      "href": "https://www.gaggenau.com/at/generell/gut-zu-wissen/"
+    },
+    {
+      "label": "Polska",
+      "href": "https://www.gaggenau.com/pl/ogolny/ciekawostki"
+    },
+    {
+      "label": "Portugal",
+      "href": "https://www.gaggenau.com/pt/geral/e-bom-saber"
+    },
+    {
+      "label": "Schweiz",
+      "href": "https://www.gaggenau.com/ch/de/generell/gut-zu-wissen"
+    },
+    {
+      "label": "Suisse",
+      "href": "https://www.gaggenau.com/ch/fr/general/bon-a-savoir"
+    },
+    {
+      "label": "Svizzera",
+      "href": "https://www.gaggenau.com/ch/it/generale/buono-a-sapersi"
+    },
+    {
+      "label": "Suomi",
+      "href": "https://www.gaggenau.com/fi/yleinen/hyva-tietaa"
+    },
+    {
+      "label": "Sverige",
+      "href": "https://www.gaggenau.com/se/allmant/bra-att-veta"
+    },
+    {
+      "label": "Türkiye",
+      "href": "https://www.gaggenau.com/tr/genel/faydali-bilgiler"
+    },
+    {
+      "label": "United Kingdom",
+      "href": "https://www.gaggenau.com/gb/general/good-to-know"
+    },
+    {
+      "label": "Ελλάδα",
+      "href": "https://www.gaggenau.com/gr/general/good-to-know"
+    },
+    {
+      "label": "Imprint",
+      "href": "/general/imprint"
+    },
+    {
+      "label": "Legal",
+      "href": "/general/legal"
+    },
+    {
+      "label": "Privacy settings",
+      "href": "#"
+    }
+  ],
+  "links": [
+    "https://www.gaggenau.com/energylabel#",
+    "https://www.gaggenau.com/general/legal",
+    "https://www.gaggenau.com/general/imprint",
+    "https://www.gaggenau.com/energylabel#content",
+    "https://www.gaggenau.com/",
+    "https://www.gaggenau.com/global",
+    "javascript:void(0)",
+    "https://www.gaggenau.com/energylabel#/Togglebox=region-toggle-6/",
+    "https://www.gaggenau.com/be/fr/general/bon-a-savoir",
+    "https://www.gaggenau.com/be/nl/algemeen/goed-om-te-weten",
+    "https://www.gaggenau.com/cz/general/good-to-know",
+    "https://www.gaggenau.com/dk/generelt/godt-at-vide",
+    "https://www.gaggenau.com/de/generell/gut-zu-wissen",
+    "https://www.gaggenau.com/es/general/informacion-util",
+    "https://www.gaggenau.com/ba/general/good-to-know",
+    "https://www.gaggenau.com/fr/general/bon-a-savoir",
+    "https://www.gaggenau.com/gb/general/good-to-know",
+    "https://www.gaggenau.com/it/generale/buono-a-sapersi",
+    "https://www.gaggenau.com/lu/generell/gut-zu-wissen",
+    "https://www.gaggenau.com/nl/algemeen/goed-om-te-weten",
+    "https://www.gaggenau.com/no/generelt/godt-a-vite",
+    "https://www.gaggenau.com/at/generell/gut-zu-wissen/",
+    "https://www.gaggenau.com/pl/ogolny/ciekawostki",
+    "https://www.gaggenau.com/pt/geral/e-bom-saber",
+    "https://www.gaggenau.com/ch/de/generell/gut-zu-wissen",
+    "https://www.gaggenau.com/ch/fr/general/bon-a-savoir",
+    "https://www.gaggenau.com/ch/it/generale/buono-a-sapersi",
+    "https://www.gaggenau.com/fi/yleinen/hyva-tietaa",
+    "https://www.gaggenau.com/se/allmant/bra-att-veta",
+    "https://www.gaggenau.com/tr/genel/faydali-bilgiler",
+    "https://www.gaggenau.com/gr/general/good-to-know",
+    "https://www.pinterest.de/gaggenau_/",
+    "https://www.instagram.com/gaggenauofficial/",
+    "https://vimeo.com/gaggenauofficial"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.gaggenau.com/store/medias/sys_master/root/h8d/h24/12965871976478/GG-logo-black-RGB.png",
+        "alt": "GAGGENAU",
+        "w": 1181,
+        "h": 171
+      },
+      {
+        "src": "https://media3.bosch-home.com/Images/600x/MCIM02804435_c_t_f.webp",
+        "alt": "",
+        "w": 500,
+        "h": 11
+      },
+      {
+        "src": "https://media3.bosch-home.com/Images/600x/MCIM03238281_Eb333-country_selector-website.webp",
+        "alt": "",
+        "w": 599,
+        "h": 354
+      },
+      {
+        "src": "https://cdn.consentmanager.net/delivery/recall/logos/122420",
+        "alt": "Privacy settings",
+        "w": 945,
+        "h": 945
+      }
+    ],
+    "allImgCount": 4,
+    "cssBackgrounds": [],
+    "modals": [
+      "Use of cookiesIf you click on \"Accept all\", you give us consent to record your usage behaviour on this website. This allows us to improve our website and personalize advertising for you. When clicking \"Decline all\" we will only use technically necessary cookies to provide the basic functionality of this website. Please click on \"Customize your choice\" for more information and to make your choices by purpose and provider.FunctionalThese vendors and potential cookies are required for the basic functionality of the website. They cannot be deactivated.PerformancePerformance cookies collect information about visitors’ usage on our website and are used to help us enhance your experience on our website.MarketingWe also use marketing tools from partners. Our partners process your data on their own responsibility. Below you will find information on the technologies and partners used by us.Third PartyThese cookies are not placed by us, but by partners. They allow the implementation of features on our website such as, for example, a chat to ask your questions. Therefore, if you refuse these cookies, these services will cease to function.Accept allCustomize your choiceDecline allSave + ExitCustomize your choice | Cookies | Privacy policy | Legal notice"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 1,
+    "mainTextLen": 126721,
+    "realImageCount": 4,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 8
+      },
+      {
+        "host": "cdn.consentmanager.net",
+        "count": 2
+      },
+      {
+        "host": "b.delivery.consentmanager.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": "#"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 3,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/energylabel.png",
+  "renderedHtml": "pages/energylabel.html"
+}

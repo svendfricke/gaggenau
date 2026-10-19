@@ -1,0 +1,977 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-10-16T11:42:27.956Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.gaggenau.com/de/de",
+   "https://www.gaggenau.com/",
+   "https://www.gaggenau.com/general/legal"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/de/de": {
+   "url": "https://www.gaggenau.com/de/de",
+   "status": 200,
+   "host": "www.gaggenau.com",
+   "title": "Gaggenau Hausgeräte: Luxus für Ihre Küche | Gaggenau",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Datenschutz-Einstellungen",
+     "href": "https://www.gaggenau.com/de/de#",
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 1046,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 2,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://cdn.consentmanager.net/delivery/crossdomain.html",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "Intentionally hidden, please ignore",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "Intentionally hidden, please ignore",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "Intentionally hidden, please ignore",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "Intentionally hidden, please ignore",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://cdn.consentmanager.net/delivery/crossdomain.html",
+     "title": "Intentionally hidden, please ignore",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.gaggenau.com/de/my-account"
+   ],
+   "commerce": {
+    "cart": true,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de-DE",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "utag_data": [
+     "cmpGDPR",
+     "cmpCCPA",
+     "cmpRegulation",
+     "cmpConsentString",
+     "cmpCurrentStatus",
+     "cmpLastStatus",
+     "cmpLastTCFStatus",
+     "cmpLoadingStatus",
+     "cmpDisplayStatus",
+     "cmpVendorsConsent",
+     "cmpCustomVendorsConsent",
+     "cmpGoogleVendorsConsent",
+     "cmpPurposesConsent",
+     "cmpCustomPurposeConsent",
+     "cmpConsentVendors",
+     "cmpConsentPurposes",
+     "cmpLIVendors",
+     "cmpLIPurposes",
+     "cmpIABUSP",
+     "cmpDesignId",
+     "consentExists",
+     "userChoiceExists",
+     "userChoiceType",
+     "userChoiceStatus",
+     "pauseChoice",
+     "pauseChoiceUntil",
+     "cmpUserCountry",
+     "cmpUserRegion"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "css-4g0pwr",
+     "cards": 5,
+     "sameSite": 4,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 32,
+   "inlineFetch": false,
+   "mainText": 1135,
+   "domAddedAfterLoad": 19,
+   "hosts": {
+    "www.gaggenau.com": 56,
+    "media3.bsh-group.com": 13,
+    "assets.adobedtm.com": 6,
+    "cdn.consentmanager.net": 5,
+    "d.delivery.consentmanager.net": 2
+   },
+   "thirdPartyHosts": [
+    "media3.bsh-group.com",
+    "assets.adobedtm.com",
+    "cdn.consentmanager.net",
+    "d.delivery.consentmanager.net"
+   ],
+   "scripts": [
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/webpack-21943eb98eab1a52.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js",
+    "https://assets.adobedtm.com/358e4201e5f5/fc571b99065b/launch-d1e82e082ef8.min.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/1255-9e0cb9c7949643df.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/main-app-f3336e172256d2ab.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/6784-c2483793795e5df4.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/8957-3852eedc7d40a195.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/2595-45113bc9cd5dbefb.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/app/%5Blocale%5D/layout-d72155dc0268e2bf.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/c16f53c3-91d041fc7e98c1f3.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/9153-c533b95de901d635.js",
+    "https://www.gaggenau.com/static/54452d40a5b8f23ace83286a79e586ae51bed0250c0028",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/7154-ace206f344c8b0f6.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/9039-6babc93e3d069829.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/1028-ff54751daeb5cf59.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/1140-5423a30a787bc4e3.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/7157-dfb5ad9f707e4ae2.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/8163-c1606e9f84ca74ec.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/app/%5Blocale%5D/(homepage)/page-cd1da46bbede8925.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/7168-cffde5e364ccfd86.js",
+    "https://cdn.consentmanager.net/delivery/js/semiautomatic.min.js",
+    "https://www.gaggenau.com/static/54452d40a5b8f23ace83286a79e586ae51bed0250c0028/e/65257_1825202368.js",
+    "https://www.gaggenau.com/static/54452d40a5b8f23ace83286a79e586ae51bed0250c0028/e/64854_1825202523.js",
+    "https://www.gaggenau.com/static/54452d40a5b8f23ace83286a79e586ae51bed0250c0028/e/65226_747628124.js",
+    "https://www.gaggenau.com/static/54452d40a5b8f23ace83286a79e586ae51bed0250c0028/e/65319_1825142910.js",
+    "https://www.gaggenau.com/static/54452d40a5b8f23ace83286a79e586ae51bed0250c0028/e/64885_1825202492.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/7171.d205e7116a7c9e0d.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/be66022e.329d2d8bf6364db1.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/getSearchResultsFromApi.2dc059915308dac3.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/getQuicklinksFromApi.2b06ed35cc3b6852.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/getRecentlyViewedProductsFromApi.72dffcc0e5ce736a.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/6541.f60e6e2cb6195156.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/1468.71c61afa7ba1bfe2.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/1422.36115e068bfbeb3e.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/7933.5a27020138c24148.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement.min.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/3723.c7af2f61cdac7024.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/9203.48c99a5b795b8b3a.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/4908.28ae3d14890f5f5f.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/881.3be1d4aa3cc1f47a.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/154.202a09b0c226d740.js",
+    "https://assets.adobedtm.com/358e4201e5f5/fc571b99065b/6f1071e7fed8/RCbb890fad7164475a9fab0e2321e46474-source.min.js",
+    "https://assets.adobedtm.com/358e4201e5f5/fc571b99065b/6f1071e7fed8/RC81de74a1bec341c49ff3c48977d79bda-source.min.js",
+    "https://d.delivery.consentmanager.net/delivery/cmp.php?&h=https%3A%2F%2Fwww.gaggenau.com%2Fde%2Fde&&cdid=08b9ccdf0191d&usedesign=43987&__cmpfcc=1&l=en&ls=EN_EN&lp=DE-DE_DE&o=1792150949266",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/1690.9ee27ef02d0cd75d.js",
+    "https://www.gaggenau.com/marketing-app/_next/static/chunks/2039.651898a4fb63f91a.js",
+    "https://cdn.consentmanager.net/delivery/js/cmp_final.min.js?t=2026-10-16",
+    "https://cdn.consentmanager.net/delivery/customdata/bV8xLndfMTIyNTg3LnJfR0RQUi5sX2RlLnYucC50XzQzOTg3Lnh0XzY1.js",
+    "https://assets.adobedtm.com/358e4201e5f5/fc571b99065b/6f1071e7fed8/RCd2a0f606b4d64276b5e3b86f5a01cfdc-source.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.gaggenau.com",
+     "path": "/graphql",
+     "query": [
+      "extensions",
+      "operationName",
+      "variables"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.gaggenau.com/graphql"
+    }
+   ],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 1135,
+   "mainEmptyAtLoad": false
+  },
+  "/": {
+   "url": "https://www.gaggenau.com/",
+   "status": 200,
+   "host": "www.gaggenau.com",
+   "title": "Select your region | Gaggenau",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Privacy settings",
+     "href": "https://www.gaggenau.com/#",
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 1260,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://cdn.consentmanager.net/delivery/crossdomain.html",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "Intentionally hidden, please ignore",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "Intentionally hidden, please ignore",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "Intentionally hidden, please ignore",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "Intentionally hidden, please ignore",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://cdn.consentmanager.net/delivery/crossdomain.html",
+     "title": "Intentionally hidden, please ignore",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-ZZ",
+    "hreflang": [],
+    "switcher": [
+     "https://www.gaggenau.com/za/",
+     "https://www.gaggenau.com/be/fr/",
+     "https://www.gaggenau.com/be/nl/",
+     "https://www.gaggenau.com/cz/",
+     "https://www.gaggenau.com/dk/"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "utag_data": [
+     "cmpGDPR",
+     "cmpCCPA",
+     "cmpRegulation",
+     "cmpConsentString",
+     "cmpCurrentStatus",
+     "cmpLastStatus",
+     "cmpLastTCFStatus",
+     "cmpLoadingStatus",
+     "cmpDisplayStatus",
+     "cmpVendorsConsent",
+     "cmpCustomVendorsConsent",
+     "cmpGoogleVendorsConsent",
+     "cmpPurposesConsent",
+     "cmpCustomPurposeConsent",
+     "cmpConsentVendors",
+     "cmpConsentPurposes",
+     "cmpLIVendors",
+     "cmpLIPurposes",
+     "cmpIABUSP",
+     "cmpDesignId",
+     "consentExists",
+     "userChoiceExists",
+     "userChoiceType",
+     "userChoiceStatus",
+     "pauseChoice",
+     "pauseChoiceUntil",
+     "cmpUserCountry",
+     "cmpUserRegion"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "gtag"
+   ],
+   "clientRendered": [
+    {
+     "cls": "js-content",
+     "attrs": [],
+     "text": "Wherever you are, a Gaggenau awaits By choosing one of the o"
+    },
+    {
+     "cls": "js-moreless",
+     "attrs": [],
+     "text": "By choosing one of the options from the list below, we will "
+    },
+    {
+     "cls": "text js-content",
+     "attrs": [],
+     "text": "By choosing one of the options from the list below, we will "
+    },
+    {
+     "cls": "js-moreless",
+     "attrs": [],
+     "text": "Please select your location or visit Gaggenau worldwidePleas"
+    },
+    {
+     "cls": "text js-content",
+     "attrs": [],
+     "text": "Please select your location or visit Gaggenau worldwidePleas"
+    },
+    {
+     "cls": "m-youtubeconsentpopover js-youtubeconsentpopover",
+     "attrs": [],
+     "text": "We need your consent Google Ireland Limited, Gordon House, B"
+    }
+   ],
+   "listingCandidates": [],
+   "inlineScripts": 17,
+   "inlineFetch": false,
+   "mainText": 2080,
+   "domAddedAfterLoad": 5,
+   "hosts": {
+    "www.gaggenau.com": 30,
+    "assets.adobedtm.com": 8,
+    "media3.bosch-home.com": 2,
+    "cdn.consentmanager.net": 4,
+    "b.delivery.consentmanager.net": 1,
+    "a.delivery.consentmanager.net": 1
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "media3.bosch-home.com",
+    "cdn.consentmanager.net",
+    "b.delivery.consentmanager.net",
+    "a.delivery.consentmanager.net"
+   ],
+   "scripts": [
+    "https://www.gaggenau.com/store/resources/0ab58b8de1d262ba219974f92e6c70f194164bdf/mbmd/common/js/modernizr.min.js",
+    "https://www.gaggenau.com/store/resources/0ab58b8de1d262ba219974f92e6c70f194164bdf/mbmd/a15-rebrush/js.min/variables.js",
+    "https://www.gaggenau.com/store/resources/0ab58b8de1d262ba219974f92e6c70f194164bdf/mbmd/common/js.min/vendor_min_ES6.js",
+    "https://www.gaggenau.com/store/resources/0ab58b8de1d262ba219974f92e6c70f194164bdf/mbmd/common/js.min/wlf_es6.min.js",
+    "https://assets.adobedtm.com/358e4201e5f5/256a04722890/launch-3241b8dc3bf4.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/358e4201e5f5/256a04722890/60b64dc15914/RCd668a4c4bb464b64bbdac480609115be-source.min.js",
+    "https://assets.adobedtm.com/358e4201e5f5/256a04722890/60b64dc15914/RC7ca28d64d9b1492db9f650a1c8b07618-source.min.js",
+    "https://assets.adobedtm.com/358e4201e5f5/256a04722890/60b64dc15914/RCd6f2fd4db82e4ffe8b8d724e1c257749-source.min.js",
+    "https://assets.adobedtm.com/358e4201e5f5/256a04722890/60b64dc15914/RC9dc3f283418d4c18929da21e656c7924-source.min.js",
+    "https://cdn.consentmanager.net/delivery/js/cmp_en.min.js",
+    "https://b.delivery.consentmanager.net/delivery/cmp.php?&cdid=b1df6b4f717d6&h=https%3A%2F%2Fwww.gaggenau.com%2F&&l=en&ls=EN_EN&lp=EN&o=1792150959619",
+    "https://cdn.consentmanager.net/delivery/customdata/bV8xLndfMTIyNDIwLnJfR0RQUi5sX2VuLmRfMzAwNzQueF8xMTcudi5wLnRfMzAwNzQueHRfNjM.js",
+    "https://assets.adobedtm.com/358e4201e5f5/256a04722890/60b64dc15914/RCee656f4eb0244509bd904dad90ed419b-source.min.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 1526,
+   "mainEmptyAtLoad": false
+  },
+  "/general/legal": {
+   "url": "https://www.gaggenau.com/general/legal",
+   "status": 200,
+   "host": "www.gaggenau.com",
+   "title": "Data Protection Information",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Privacy settings",
+     "href": "https://www.gaggenau.com/general/legal#",
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://cdn.consentmanager.net/delivery/crossdomain.html",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "Intentionally hidden, please ignore",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "Intentionally hidden, please ignore",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "Intentionally hidden, please ignore",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "Intentionally hidden, please ignore",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://cdn.consentmanager.net/delivery/crossdomain.html",
+     "title": "Intentionally hidden, please ignore",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-ZZ",
+    "hreflang": [],
+    "switcher": [
+     "http://www.adobe.com/de/privacy/opt-out.html",
+     "http://www.adobe.com/de/privacy/opt-out.html",
+     "https://www.lda.bayern.de/de/index.html"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "utag_data": [
+     "cmpGDPR",
+     "cmpCCPA",
+     "cmpRegulation",
+     "cmpConsentString",
+     "cmpCurrentStatus",
+     "cmpLastStatus",
+     "cmpLastTCFStatus",
+     "cmpLoadingStatus",
+     "cmpDisplayStatus",
+     "cmpVendorsConsent",
+     "cmpCustomVendorsConsent",
+     "cmpGoogleVendorsConsent",
+     "cmpPurposesConsent",
+     "cmpCustomPurposeConsent",
+     "cmpConsentVendors",
+     "cmpConsentPurposes",
+     "cmpLIVendors",
+     "cmpLIPurposes",
+     "cmpIABUSP",
+     "cmpDesignId",
+     "consentExists",
+     "userChoiceExists",
+     "userChoiceType",
+     "userChoiceStatus",
+     "pauseChoice",
+     "pauseChoiceUntil",
+     "cmpUserCountry",
+     "cmpUserRegion"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "gtag"
+   ],
+   "clientRendered": [
+    {
+     "cls": "js-content",
+     "attrs": [],
+     "text": "Section 1: Introduction and general information Data Protect"
+    },
+    {
+     "cls": "js-moreless",
+     "attrs": [],
+     "text": "Data Protection InformationAbout us and our websiteWe, BSH H"
+    },
+    {
+     "cls": "text js-content",
+     "attrs": [],
+     "text": "Data Protection InformationAbout us and our websiteWe, BSH H"
+    },
+    {
+     "cls": "js-moreless",
+     "attrs": [],
+     "text": "How we process your data (logs, cookies, tracking, etc.)Log "
+    },
+    {
+     "cls": "text js-content",
+     "attrs": [],
+     "text": "How we process your data (logs, cookies, tracking, etc.)Log "
+    },
+    {
+     "cls": "js-moreless",
+     "attrs": [],
+     "text": "Your rights Should you have cause for complaint, you can fin"
+    },
+    {
+     "cls": "text js-content",
+     "attrs": [],
+     "text": "Your rights Should you have cause for complaint, you can fin"
+    },
+    {
+     "cls": "m-youtubeconsentpopover js-youtubeconsentpopover",
+     "attrs": [],
+     "text": "We need your consent Google Ireland Limited, Gordon House, B"
+    }
+   ],
+   "listingCandidates": [],
+   "inlineScripts": 17,
+   "inlineFetch": false,
+   "mainText": 19056,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.gaggenau.com": 30,
+    "assets.adobedtm.com": 8,
+    "cdn.consentmanager.net": 4,
+    "b.delivery.consentmanager.net": 1,
+    "a.delivery.consentmanager.net": 1
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "cdn.consentmanager.net",
+    "b.delivery.consentmanager.net",
+    "a.delivery.consentmanager.net"
+   ],
+   "scripts": [
+    "https://www.gaggenau.com/store/resources/0ab58b8de1d262ba219974f92e6c70f194164bdf/mbmd/common/js/modernizr.min.js",
+    "https://www.gaggenau.com/store/resources/0ab58b8de1d262ba219974f92e6c70f194164bdf/mbmd/a15-rebrush/js.min/variables.js",
+    "https://www.gaggenau.com/store/resources/0ab58b8de1d262ba219974f92e6c70f194164bdf/mbmd/common/js.min/vendor_min_ES6.js",
+    "https://www.gaggenau.com/store/resources/0ab58b8de1d262ba219974f92e6c70f194164bdf/mbmd/common/js.min/wlf_es6.min.js",
+    "https://assets.adobedtm.com/358e4201e5f5/256a04722890/launch-3241b8dc3bf4.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/358e4201e5f5/256a04722890/60b64dc15914/RC7ca28d64d9b1492db9f650a1c8b07618-source.min.js",
+    "https://assets.adobedtm.com/358e4201e5f5/256a04722890/60b64dc15914/RCd668a4c4bb464b64bbdac480609115be-source.min.js",
+    "https://assets.adobedtm.com/358e4201e5f5/256a04722890/60b64dc15914/RC9dc3f283418d4c18929da21e656c7924-source.min.js",
+    "https://assets.adobedtm.com/358e4201e5f5/256a04722890/60b64dc15914/RCd6f2fd4db82e4ffe8b8d724e1c257749-source.min.js",
+    "https://cdn.consentmanager.net/delivery/js/cmp_en.min.js",
+    "https://b.delivery.consentmanager.net/delivery/cmp.php?&cdid=b1df6b4f717d6&h=https%3A%2F%2Fwww.gaggenau.com%2Fgeneral%2Flegal&&l=en&ls=EN_EN&lp=EN&o=1792150970737",
+    "https://cdn.consentmanager.net/delivery/customdata/bV8xLndfMTIyNDIwLnJfR0RQUi5sX2VuLmRfMzAwNzQueF8xMTcudi5wLnRfMzAwNzQueHRfNjM.js",
+    "https://assets.adobedtm.com/358e4201e5f5/256a04722890/60b64dc15914/RCee656f4eb0244509bd904dad90ed419b-source.min.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 19056,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/de/de",
+    "/",
+    "/general/legal"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-utag-data",
+   "class": "A",
+   "feature": "CMS / app settings object utag_data",
+   "hint": "settings",
+   "evidence": [
+    "cmpConsentString",
+    "cmpVendorsConsent",
+    "cmpCustomVendorsConsent",
+    "cmpGoogleVendorsConsent",
+    "cmpPurposesConsent",
+    "cmpCustomPurposeConsent",
+    "cmpConsentVendors",
+    "cmpConsentPurposes"
+   ],
+   "pages": [
+    "/de/de",
+    "/",
+    "/general/legal"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-graphql",
+   "class": "A",
+   "feature": "first-party API GET /graphql",
+   "api": {
+    "method": "GET",
+    "path": "/graphql"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /graphql?extensions,operationName,variables → 200"
+   ],
+   "pages": [
+    "/de/de"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 7
+   }
+  },
+  {
+   "id": "cr-client-rendered-slot-js-content",
+   "class": "CR",
+   "feature": "client-rendered slot js-content",
+   "hint": "client-rendered",
+   "evidence": [
+    "Wherever you are, a Gaggenau awaits By choosing one of the o",
+    "Section 1: Introduction and general information Data Protect"
+   ],
+   "pages": [
+    "/",
+    "/general/legal"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-js-moreless",
+   "class": "CR",
+   "feature": "client-rendered slot js-moreless",
+   "hint": "client-rendered",
+   "evidence": [
+    "By choosing one of the options from the list below, we will ",
+    "Please select your location or visit Gaggenau worldwidePleas",
+    "Data Protection InformationAbout us and our websiteWe, BSH H",
+    "How we process your data (logs, cookies, tracking, etc.)Log ",
+    "Your rights Should you have cause for complaint, you can fin"
+   ],
+   "pages": [
+    "/",
+    "/general/legal"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-text-js-content",
+   "class": "CR",
+   "feature": "client-rendered slot text js-content",
+   "hint": "client-rendered",
+   "evidence": [
+    "By choosing one of the options from the list below, we will ",
+    "Please select your location or visit Gaggenau worldwidePleas",
+    "Data Protection InformationAbout us and our websiteWe, BSH H",
+    "How we process your data (logs, cookies, tracking, etc.)Log ",
+    "Your rights Should you have cause for complaint, you can fin"
+   ],
+   "pages": [
+    "/",
+    "/general/legal"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-m-youtubeconsentpopover-js-youtubeco",
+   "class": "CR",
+   "feature": "client-rendered slot m-youtubeconsentpopover js-youtubeconsentpopover",
+   "hint": "client-rendered",
+   "evidence": [
+    "We need your consent Google Ireland Limited, Gordon House, B"
+   ],
+   "pages": [
+    "/",
+    "/general/legal"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-za-be-be-cz-dk",
+   "class": "I18N",
+   "feature": "locale variants za,be,be,cz,dk",
+   "hint": "locale",
+   "evidence": [
+    "https://www.gaggenau.com/za/",
+    "https://www.gaggenau.com/be/fr/",
+    "https://www.gaggenau.com/be/nl/"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-de-de-de",
+   "class": "I18N",
+   "feature": "locale variants de,de,de",
+   "hint": "locale",
+   "evidence": [
+    "http://www.adobe.com/de/privacy/opt-out.html",
+    "https://www.lda.bayern.de/de/index.html"
+   ],
+   "pages": [
+    "/general/legal"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-target-outside-dom-at-capture",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup → target outside DOM at capture",
+   "hint": "modal",
+   "evidence": [
+    "https://www.gaggenau.com/de/de#",
+    "https://www.gaggenau.com/#",
+    "https://www.gaggenau.com/general/legal#"
+   ],
+   "pages": [
+    "/de/de",
+    "/",
+    "/general/legal"
+   ],
+   "reach": {
+    "pages": 7,
+    "of": 7
+   }
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "role": "tag manager: Adobe Launch",
+   "hint": "tags",
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pages": [
+    "/de/de",
+    "/",
+    "/general/legal"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-consentmanager-net",
+   "class": "T",
+   "feature": "unknown third-party host cdn.consentmanager.net",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.consentmanager.net"
+   ],
+   "pages": [
+    "/de/de",
+    "/",
+    "/general/legal"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-b-delivery-consentmanager-net",
+   "class": "T",
+   "feature": "unknown third-party host b.delivery.consentmanager.net",
+   "hint": "inspect",
+   "evidence": [
+    "b.delivery.consentmanager.net"
+   ],
+   "pages": [
+    "/",
+    "/general/legal"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-a-delivery-consentmanager-net",
+   "class": "T",
+   "feature": "unknown third-party host a.delivery.consentmanager.net",
+   "hint": "inspect",
+   "evidence": [
+    "a.delivery.consentmanager.net"
+   ],
+   "pages": [
+    "/",
+    "/general/legal"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-media3-bsh-group-com",
+   "class": "T",
+   "feature": "unknown third-party host media3.bsh-group.com",
+   "hint": "inspect",
+   "evidence": [
+    "media3.bsh-group.com"
+   ],
+   "pages": [
+    "/de/de"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-d-delivery-consentmanager-net",
+   "class": "T",
+   "feature": "unknown third-party host d.delivery.consentmanager.net",
+   "hint": "inspect",
+   "evidence": [
+    "d.delivery.consentmanager.net"
+   ],
+   "pages": [
+    "/de/de"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-media3-bosch-home-com",
+   "class": "T",
+   "feature": "unknown third-party host media3.bosch-home.com",
+   "hint": "inspect",
+   "evidence": [
+    "media3.bosch-home.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "Intentionally hidden, please ignore",
+    "0×0"
+   ],
+   "pages": [
+    "/de/de",
+    "/",
+    "/general/legal"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://www.gaggenau.com/de/my-account"
+   ],
+   "pages": [
+    "/de/de"
+   ]
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-0",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 0)",
+   "hint": "decided-out",
+   "evidence": [],
+   "pages": [
+    "/de/de"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 7,
+  "of": 7,
+  "endpoints": {
+   "GET www.gaggenau.com/graphql": 1,
+   "POST player.vimeo.com/cdn-cgi/challenge-platform/h/b/precursor/d2d3316b729e/0.265390665454717:1792148434:BGP0ZqxZd9q5eGY2_6j8AFrbVvC7-9At1nOSVZ5xFwg/{hash}": 1,
+   "GET player.vimeo.com/video/{n}/outro": 1,
+   "GET vod-adaptive-ak.vimeocdn.com/exp=1792153999~acl=%2F{uuid}%2Fpsid%3Dd7bd2586e238a26ded571cfea1a941bb161eebc31792150399%2F%2A~hmac=210dd9f7d65238dd5df34cccabdcb259128192f3f54eedcf2d99ce21964a6940/{uuid}/psid=d7bd2586e238a26ded571cfea1a941bb161eebc31792150399/v2/playlist/av/primary/prot/cHI9NTQwJnFzcj0x/playlist.json": 1,
+   "GET vod-adaptive-ak.vimeocdn.com/exp=1792153999~acl=%2F{uuid}%2Fpsid%3Dd7bd2586e238a26ded571cfea1a941bb161eebc31792150399%2F%2A~hmac=210dd9f7d65238dd5df34cccabdcb259128192f3f54eedcf2d99ce21964a6940/{uuid}/psid=d7bd2586e238a26ded571cfea1a941bb161eebc31792150399/v2/range/prot/cmFuZ2U9NzQ2LTUzOTU/avf/{uuid}.mp4": 1,
+   "GET vod-adaptive-ak.vimeocdn.com/exp=1792153999~acl=%2F{uuid}%2Fpsid%3Dd7bd2586e238a26ded571cfea1a941bb161eebc31792150399%2F%2A~hmac=210dd9f7d65238dd5df34cccabdcb259128192f3f54eedcf2d99ce21964a6940/{uuid}/psid=d7bd2586e238a26ded571cfea1a941bb161eebc31792150399/v2/range/prot/cmFuZ2U9ODYxLTMwMjUwOTU/avf/{uuid}.mp4": 1,
+   "GET vod-adaptive-ak.vimeocdn.com/exp=1792153999~acl=%2F{uuid}%2Fpsid%3Dd7bd2586e238a26ded571cfea1a941bb161eebc31792150399%2F%2A~hmac=210dd9f7d65238dd5df34cccabdcb259128192f3f54eedcf2d99ce21964a6940/{uuid}/psid=d7bd2586e238a26ded571cfea1a941bb161eebc31792150399/v2/range/prot/cmFuZ2U9NTM5Ni04MTg1/avf/{uuid}.mp4": 1,
+   "GET vod-adaptive-ak.vimeocdn.com/exp=1792153999~acl=%2F{uuid}%2Fpsid%3Dd7bd2586e238a26ded571cfea1a941bb161eebc31792150399%2F%2A~hmac=210dd9f7d65238dd5df34cccabdcb259128192f3f54eedcf2d99ce21964a6940/{uuid}/psid=d7bd2586e238a26ded571cfea1a941bb161eebc31792150399/v2/range/prot/cmFuZ2U9MTE5NDI5Ni0yMjE3ODI5/avf/{uuid}.mp4": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 0,
+  "triggerPages": {
+   "aria-haspopup": 7
+  }
+ }
+}

@@ -1,0 +1,178 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "landing",
+        "region-selector",
+        "static"
+      ],
+      "pages": 0,
+      "blocks": 2,
+      "startedAt": "2026-10-16T12:40:00Z",
+      "endedAt": "2026-10-16T13:39:53Z",
+      "gates": {
+        "360": {
+          "chromeParity": "quiet (signatures only)",
+          "header": "78 vs 78 (/de/de), 95 vs 95 (store)"
+        },
+        "1440": {
+          "chromeParity": "quiet (landing: 5 tag div→button recorded residual + 4 media-URL icon signatures; store: 1 logo signature)",
+          "header": "124 px vs 124 (/de/de), 95 vs 95 (store)"
+        },
+        "crop": "deferred to archetype rows (shells carry no body)",
+        "chrome": "0 position/size/style deltas after round 1"
+      },
+      "verdict": "foundation: chrome docs 4/4 live, shells 2/2 preview, header/footer heights equal live at 1440+360, chrome-parity quiet after 1 fix round, 22 files frozen"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-16T13:40:03Z",
+      "blocks": 4,
+      "endedAt": "2026-10-16T14:16:38Z",
+      "gates": {
+        "360": {
+          "archetype": "4.22% Δh 0, clip 0, missing 0"
+        },
+        "1440": {
+          "archetype": "3.59% Δh 0, clip 0, missing 0"
+        }
+      },
+      "verdict": "archetype-landing: page 1/1 live, blocks 4, gate 1440 3.59% Δh 0 / 360 4.22% Δh 0, clip 0, missing 0, rounds 2, requests 1"
+    },
+    "archetype-region-selector": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "region-selector"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-16T13:50:55Z",
+      "blocks": 3,
+      "endedAt": "2026-10-16T14:11:55Z",
+      "gates": {
+        "360": {
+          "archetype": "0.45% Δh 0, clip 0, missing 0",
+          "general-legal-regate": "0.05%"
+        },
+        "1440": {
+          "archetype": "0.15% Δh 0, clip 0, missing 0",
+          "general-legal-regate": "0.01%"
+        }
+      },
+      "verdict": "archetype-region-selector: page 1/1 live, blocks 3, gate 1440 0.15% Δh 0 / 360 0.45% Δh 0, clip 0, missing 0, rounds 1, requests 0"
+    },
+    "archetype-static": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "static"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-16T13:40:03Z",
+      "blocks": 1,
+      "endedAt": "2026-10-16T13:50:46Z",
+      "gates": {
+        "360": {
+          "archetype": "0.05% Δh 0, clip 0, missing 0"
+        },
+        "1440": {
+          "archetype": "0.01% Δh 0, clip 0, missing 0"
+        }
+      },
+      "verdict": "archetype-static: page 1/1 live, blocks 1, gate 1440 0.01% Δh 0 / 360 0.05% Δh 0, clip 0, missing 0, rounds 1, requests 0"
+    },
+    "cluster-landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "pages": 0,
+      "blocks": 0,
+      "startedAt": "2026-10-16T14:20:32Z",
+      "endedAt": "2026-10-16T14:20:32Z",
+      "gates": {
+        "360": {
+          "archetype": "4.22% (archetype unit)"
+        },
+        "1440": {
+          "archetype": "3.59% (archetype unit)"
+        }
+      },
+      "verdict": "cluster-landing: pages 0/0 siblings (archetype /de/de live, coverage deployed), blocks 0, gate 1440 3.59% / 360 4.22%, requests 0"
+    },
+    "cluster-region-selector": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "region-selector"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-16T14:22:14Z",
+      "blocks": 2,
+      "endedAt": "2026-10-16T14:30:41Z",
+      "gates": {
+        "360": {
+          "energylabel": "0.19% Δh 0, clip 0, missing 0"
+        },
+        "1440": {
+          "energylabel": "0.07% Δh 0, clip 0, missing 0"
+        }
+      },
+      "verdict": "cluster-region-selector: pages 1/1 live, blocks 5 (4 content-text-media + 1 region-accordion), gate 1440 0.07% Δh 0 / 360 0.19% Δh 0, clip 0, missing 0, rounds 0, requests 0"
+    },
+    "cluster-static": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "static"
+      ],
+      "pages": 3,
+      "startedAt": "2026-10-16T14:23:47Z",
+      "blocks": 2,
+      "endedAt": "2026-10-16T14:47:39Z",
+      "gates": {
+        "360": {
+          "general": "0.07%",
+          "confirmation": "1.82% (published re-gate)",
+          "imprint": "0.05%"
+        },
+        "1440": {
+          "general": "0.01%",
+          "confirmation": "0.01% (published re-gate)",
+          "imprint": "0.01%"
+        }
+      },
+      "verdict": "cluster-static: pages 3/3 live, blocks 2 (content-text-media unchanged, new page-title), gate 1440 general 0.01% / confirmation 0.01% / imprint 0.01%, 360 general 0.07% / confirmation 1.82% / imprint 0.05%, clip 0, missing 0, rounds 3, requests 0"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [],
+      "pages": 7,
+      "startedAt": "2026-10-16T14:49:03Z",
+      "endedAt": "2026-10-16T15:01:52Z",
+      "gates": {
+        "360": "7/7 PASS; max de-de 3.56% Δh 0; clip 0; missing 0",
+        "1440": "7/7 PASS; max de-de 3.6% Δh 0; clip 0; missing 0"
+      },
+      "verdict": "gate-all: 7/7 PASS at 1440 and 360 on the published preview (pixel max 3.6%, Δh 0 everywhere, clip 0, MISSING+HIDDEN 0); foundation request (html lang per path) applied before the run"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [],
+      "pages": 7,
+      "startedAt": "2026-10-16T15:02:09Z",
+      "endedAt": "2026-10-16T15:02:09Z",
+      "verdict": "final: foundation-freeze check clean; 1/1 foundation request applied (html lang per path) and de-de re-gated 3.6%/3.56%; roster 7/7 PASS; coverage 7/7 from gate"
+    }
+  }
+}

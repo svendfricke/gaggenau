@@ -1,0 +1,186 @@
+{
+  "slug": "energylabel",
+  "type": "region-selector",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "content-text-media",
+    "region-accordion"
+  ],
+  "slotsFilled": [
+    "m-contenttextmedia",
+    "m-contenttextmedia",
+    "m-contenttextmedia",
+    "g-col",
+    "m-contenttextmedia"
+  ],
+  "canonShas": {
+    "header": "324450f69b9e",
+    "footer": "6bbe3add963d",
+    "css": "9eb7b91b255b"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Energy label | Gaggenau",
+    "description": "Welcome to Gaggenau. Please select your location or visit Gaggenau worldwide.",
+    "canonical": null,
+    "lang": "en-ZZ"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Energy label | Gaggenau",
+    "description": "Welcome to Gaggenau. Please select your location or visit Gaggenau worldwide.",
+    "url": "https://www.gaggenau.com/energylabel"
+  },
+  "migratedAt": "2026-10-16T14:21:06Z",
+  "designMdSha": "50822350626f",
+  "designJsonSha": "920bf3be988e",
+  "sourceCurrentSha": "3031ccd77855",
+  "sourceProposedSha": "40c24060e554",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "Path A' fork of index-proposed; content-diff (capture vs render, #content, generic): 34/34 text nodes, 1 heading, 30 CTAs, 3 body, 2 img both sides; 0 missing. Only findings: font fork + icon diff on hidden 'See more' from local-capture serving (no webfonts), same as archetype. No content-teaser on source (0 .m-contentteaser) - omitted; accordion has Europe only (24 countries, multi-language links Belgique/Belgie, Schweiz/Suisse/Svizzera share one row as on source).",
+    "pixel-gate-1440": "0.07%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-1440/summary.md) [published regime]",
+    "pixel-gate-360": "0.19%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-360/summary.md) [published regime]",
+    "delivery-lint": "FAIL: 1 P0 · 0 P1 · 1 P2 (delivery-lint --path /energylabel)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 21,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.gaggenau.com/global",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/be/fr/general/bon-a-savoir",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/be/nl/algemeen/goed-om-te-weten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/cz/general/good-to-know",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/dk/generelt/godt-at-vide",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/generell/gut-zu-wissen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/es/general/informacion-util",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ba/general/good-to-know",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/fr/general/bon-a-savoir",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/gb/general/good-to-know",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/gb/general/good-to-know",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/it/generale/buono-a-sapersi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ba/general/good-to-know",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ba/general/good-to-know",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/lu/generell/gut-zu-wissen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/nl/algemeen/goed-om-te-weten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/no/generelt/godt-a-vite",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/at/generell/gut-zu-wissen/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/pl/ogolny/ciekawostki",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/pt/geral/e-bom-saber",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ch/de/generell/gut-zu-wissen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ch/fr/general/bon-a-savoir",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/ch/it/generale/buono-a-sapersi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/fi/yleinen/hyva-tietaa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/se/allmant/bra-att-veta",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/tr/genel/faydali-bilgiler",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/gb/general/good-to-know",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/gr/general/good-to-know",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/general/imprint",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/general/imprint",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "energylabel/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "energylabel/_meta.json",
+  "driverVersion": "1"
+}

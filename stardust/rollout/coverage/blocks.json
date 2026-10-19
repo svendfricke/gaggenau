@@ -1,0 +1,155 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-16T12:34:13.641Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-16T13:49:23.178Z",
+  "blocks": [
+    {
+      "id": "category-tiles",
+      "label": "category-tiles",
+      "kind": "module",
+      "signature": "module:category-tiles",
+      "source": null,
+      "usedByTemplates": [
+        "de-de"
+      ],
+      "usedByPages": [
+        "de-de"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "category-tiles",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "content-teaser",
+      "label": "content-teaser",
+      "kind": "module",
+      "signature": "module:content-teaser",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "content-teaser",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "content-text-media",
+      "label": "content-text-media",
+      "kind": "module",
+      "signature": "module:content-text-media",
+      "source": null,
+      "usedByTemplates": [
+        "general-legal",
+        "index"
+      ],
+      "usedByPages": [
+        "general-legal",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "content-text-media",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "editorial-teaser",
+      "label": "editorial-teaser",
+      "kind": "module",
+      "signature": "module:editorial-teaser",
+      "source": null,
+      "usedByTemplates": [
+        "de-de"
+      ],
+      "usedByPages": [
+        "de-de"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "editorial-teaser",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "region-accordion",
+      "label": "region-accordion",
+      "kind": "module",
+      "signature": "module:region-accordion",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "region-accordion",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "stage",
+      "label": "stage",
+      "kind": "module",
+      "signature": "module:stage",
+      "source": null,
+      "usedByTemplates": [
+        "de-de"
+      ],
+      "usedByPages": [
+        "de-de"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "stage",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "teaser-slider",
+      "label": "teaser-slider",
+      "kind": "module",
+      "signature": "module:teaser-slider",
+      "source": null,
+      "usedByTemplates": [
+        "de-de"
+      ],
+      "usedByPages": [
+        "de-de"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "teaser-slider",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

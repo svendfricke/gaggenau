@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-10-16T15:11:51.685Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.gaggenau.com/de/de",
+    "liveHost": "main--52a40dc9--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 7,
+    "prototyped": 7,
+    "deployed": 7,
+    "optimised": 0
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 7,
+    "optimised": 0
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "confirmation",
+      "path": "/confirmation",
+      "stage": "deployed",
+      "templateId": "confirmation",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-de",
+      "path": "/de/de",
+      "stage": "deployed",
+      "templateId": "de-de",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "energylabel",
+      "path": "/energylabel",
+      "stage": "deployed",
+      "templateId": "energylabel",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "general",
+      "path": "/general",
+      "stage": "deployed",
+      "templateId": "general",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "general-imprint",
+      "path": "/general/imprint",
+      "stage": "deployed",
+      "templateId": "general-imprint",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "general-legal",
+      "path": "/general/legal",
+      "stage": "deployed",
+      "templateId": "general-legal",
+      "isTemplate": true,
+      "openFindings": 1
+    }
+  ],
+  "templates": [
+    {
+      "id": "confirmation",
+      "archetype": "confirmation",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "de-de",
+      "archetype": "de-de",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "energylabel",
+      "archetype": "energylabel",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "general",
+      "archetype": "general",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "general-imprint",
+      "archetype": "general-imprint",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "general-legal",
+      "archetype": "general-legal",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 7,
+    "converted": 1
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": 100
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 9
+    },
+    "byAutofix": {}
+  }
+}

@@ -1,0 +1,131 @@
+/* content-text-media — m-contenttextmedia, lifted from stardust/prototypes/css/static.css
+   (source: store style.min.css). Variants: .split (legal), .has-media (index hook). */
+.content-text-media {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.content-text-media .heading {
+  padding: 0 10px;
+}
+
+.content-text-media .heading :is(h2, h3) {
+  margin: 0 0 20px;
+  font-family: var(--display-font);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.76px;
+}
+
+.content-text-media .content {
+  padding: 0 10px;
+}
+
+.content-text-media .heading,
+.content-text-media .content .text {
+  display: flow-root;
+}
+
+.content-text-media .text a {
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+}
+
+.content-text-media .text a .link-text {
+  border-bottom: 1px solid var(--accent);
+}
+
+/* external-link glyph (.a-link-external.a-link:after in the source); by attribute,
+   so it survives the editor swap */
+.content-text-media .text a:is([href^="http:"], [href^="https:"], [href^="mailto:"])::after {
+  content: "\e02a";
+  display: inline-block;
+  margin-left: 5px;
+  font-family: icons, sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* has-media variant (index page — stardust/prototypes/css/region.css, store
+   .m-contenttextmedia.has-media): media first, the heading sits inside .content.
+   Every rule below needs .media, a .heading inside .content or .has-media, none
+   of which /general/legal renders. */
+.content-text-media .media {
+  order: 1;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.content-text-media .media img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+/* the line box stays (store: inline-block img, body line-height 20px) — the
+   index's first media is a 500 × 11 strip that renders 20px tall on source */
+.content-text-media .media p {
+  margin: 0;
+}
+
+.content-text-media.has-media .content {
+  order: 2;
+}
+
+.content-text-media .content .heading {
+  padding: 0;
+}
+
+@media (width >= 600px) {
+  .content-text-media .heading,
+  .content-text-media .content {
+    padding: 0 16px;
+  }
+
+  .content-text-media.split .content {
+    width: 50%;
+  }
+
+  .content-text-media .media {
+    width: 50%;
+    padding: 0 16px;
+  }
+}
+
+@media (width >= 769px) {
+  .content-text-media {
+    display: block;
+  }
+
+  /* region.css: .m-contenttextmedia { display: flow-root } — keeps an empty
+     module's 40px bottom margin from collapsing through it (index page) */
+  .content-text-media:not(.split) {
+    display: flow-root;
+  }
+
+  .content-text-media.has-media .media {
+    display: table-cell;
+    width: 50%;
+    margin-bottom: 0;
+    vertical-align: top;
+  }
+
+  .content-text-media.has-media .content {
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+  }
+}
+
+@media (width >= 900px) {
+  .content-text-media .heading :is(h2, h3) {
+    margin-bottom: 15px;
+    font-size: 38px;
+    line-height: 40px;
+  }
+}

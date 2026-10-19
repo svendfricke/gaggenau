@@ -1,0 +1,447 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-16T11:32:36.851Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "index",
+  "url": "https://www.gaggenau.com/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-16T11:32:36.851Z",
+  "finalUrl": "https://www.gaggenau.com/",
+  "title": "Select your region | Gaggenau",
+  "description": "Welcome to Gaggenau. Please select your location or visit Gaggenau worldwide.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Wherever you are, a Gaggenau awaits"
+    },
+    {
+      "tag": "h3",
+      "text": "Select your location"
+    }
+  ],
+  "body": [
+    "By choosing one of the options from the list below, we will be able to provide you with the most relevant information for your chosen location. If you can not find an appropriate match, please contact your local Customer service team for advice on how to obtain Gaggenau appliances.",
+    "Please select your location or visit Gaggenau worldwide",
+    "Please note: not all products are available in all locations. Contact the Gaggenau organisation closest to you regarding local availability.",
+    "Imprint",
+    "Legal"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Accept all",
+      "href": "#"
+    },
+    {
+      "label": "Customize your choice",
+      "href": "#"
+    },
+    {
+      "label": "Decline all",
+      "href": "#"
+    },
+    {
+      "label": "Cookies",
+      "href": "#"
+    },
+    {
+      "label": "Privacy policy",
+      "href": "https://www.gaggenau.com/general/legal"
+    },
+    {
+      "label": "Legal notice",
+      "href": "https://www.gaggenau.com/general/imprint"
+    },
+    {
+      "label": "Africa",
+      "href": "#/Togglebox=region-toggle-6/"
+    },
+    {
+      "label": "South Africa",
+      "href": "https://www.gaggenau.com/za/"
+    },
+    {
+      "label": "Asia (亚洲)",
+      "href": "#/Togglebox=region-toggle-7/"
+    },
+    {
+      "label": "Mainland China",
+      "href": "https://www.gaggenau-world.com.cn/"
+    },
+    {
+      "label": "Hong Kong SAR",
+      "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+      "label": "Taiwan",
+      "href": "https://www.gaggenau.com.tw/"
+    },
+    {
+      "label": "India",
+      "href": "https://www.gaggenau.in/"
+    },
+    {
+      "label": "Indonesia",
+      "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+      "label": "Japan",
+      "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+      "label": "Korea",
+      "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+      "label": "Malaysia",
+      "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+      "label": "Philippines",
+      "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+      "label": "Singapore",
+      "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+      "label": "Thailand",
+      "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+      "label": "Vietnam",
+      "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+      "label": "Oceania",
+      "href": "#/Togglebox=region-toggle-8/"
+    },
+    {
+      "label": "Australia",
+      "href": "https://www.gaggenau.com.au/"
+    },
+    {
+      "label": "New Zealand",
+      "href": "https://www.gaggenau.co.nz/"
+    },
+    {
+      "label": "Europe",
+      "href": "#/Togglebox=region-toggle-9/"
+    },
+    {
+      "label": "Belgique",
+      "href": "https://www.gaggenau.com/be/fr/"
+    },
+    {
+      "label": "België",
+      "href": "https://www.gaggenau.com/be/nl/"
+    },
+    {
+      "label": "Česká Republika/Slovensko",
+      "href": "https://www.gaggenau.com/cz/"
+    },
+    {
+      "label": "Denmark",
+      "href": "https://www.gaggenau.com/dk/"
+    },
+    {
+      "label": "Deutschland",
+      "href": "https://www.gaggenau.com/de/"
+    },
+    {
+      "label": "España",
+      "href": "https://www.gaggenau.com/es/"
+    },
+    {
+      "label": "Estonia",
+      "href": "https://www.gaggenau.com/ba/"
+    },
+    {
+      "label": "France",
+      "href": "https://www.gaggenau.com/fr/"
+    },
+    {
+      "label": "Iceland",
+      "href": "https://www.gaggenau.com/global/"
+    },
+    {
+      "label": "Ireland",
+      "href": "https://www.gaggenau.com/ie/"
+    },
+    {
+      "label": "Italia",
+      "href": "https://www.gaggenau.com/it/"
+    },
+    {
+      "label": "Latvia",
+      "href": "https://www.gaggenau.com/ba/"
+    },
+    {
+      "label": "Lithuania",
+      "href": "https://www.gaggenau.com/ba/"
+    },
+    {
+      "label": "Luxembourg",
+      "href": "https://www.gaggenau.com/lu/"
+    },
+    {
+      "label": "Nederland",
+      "href": "https://www.gaggenau.com/nl/"
+    },
+    {
+      "label": "Norge",
+      "href": "https://www.gaggenau.com/no/"
+    },
+    {
+      "label": "Österreich",
+      "href": "https://www.gaggenau.com/at/"
+    },
+    {
+      "label": "Polska",
+      "href": "https://www.gaggenau.com/pl/"
+    },
+    {
+      "label": "Portugal",
+      "href": "https://www.gaggenau.com/pt/"
+    },
+    {
+      "label": "Schweiz",
+      "href": "https://www.gaggenau.com/ch/de/"
+    },
+    {
+      "label": "Suisse",
+      "href": "https://www.gaggenau.com/ch/fr/"
+    },
+    {
+      "label": "Svizzera",
+      "href": "https://www.gaggenau.com/ch/it/"
+    },
+    {
+      "label": "Suomi",
+      "href": "https://www.gaggenau.com/fi/"
+    },
+    {
+      "label": "Sverige",
+      "href": "https://www.gaggenau.com/se/"
+    },
+    {
+      "label": "Türkiye",
+      "href": "https://www.gaggenau.com/tr/"
+    },
+    {
+      "label": "United Kingdom",
+      "href": "https://www.gaggenau.com/gb/"
+    },
+    {
+      "label": "Ελλάδα",
+      "href": "https://www.gaggenau.com/gr/"
+    },
+    {
+      "label": "Україна",
+      "href": "https://www.gaggenau.com/ua/"
+    },
+    {
+      "label": "Казахстан",
+      "href": "https://www.gaggenau.ru/"
+    },
+    {
+      "label": "Middle East",
+      "href": "#/Togglebox=region-toggle-10/"
+    },
+    {
+      "label": "United Arab Emirates",
+      "href": "https://www.gaggenau.com/ae/"
+    },
+    {
+      "label": "ישראל",
+      "href": "https://www.gaggenau.com/il/"
+    },
+    {
+      "label": "North America",
+      "href": "#/Togglebox=region-toggle-11/"
+    },
+    {
+      "label": "Canada EN",
+      "href": "https://www.gaggenau.com/ca/en/"
+    },
+    {
+      "label": "FR",
+      "href": "https://www.gaggenau.com/ca/fr/"
+    },
+    {
+      "label": "USA",
+      "href": "http://www.gaggenau.com/us/"
+    },
+    {
+      "label": "Gaggenau worldwide",
+      "href": "https://www.gaggenau.com/global"
+    },
+    {
+      "label": "Imprint",
+      "href": "/general/imprint"
+    },
+    {
+      "label": "Legal",
+      "href": "/general/legal"
+    },
+    {
+      "label": "Privacy settings",
+      "href": "#"
+    }
+  ],
+  "links": [
+    "https://www.gaggenau.com/#",
+    "https://www.gaggenau.com/general/legal",
+    "https://www.gaggenau.com/general/imprint",
+    "https://www.gaggenau.com/#content",
+    "https://www.gaggenau.com/",
+    "https://www.gaggenau.com/#/Togglebox=region-toggle-6/",
+    "https://www.gaggenau.com/za/",
+    "https://www.gaggenau.com/#/Togglebox=region-toggle-7/",
+    "https://www.gaggenau-world.com.cn/",
+    "https://www.gaggenau-asia.com/",
+    "https://www.gaggenau.com.tw/",
+    "https://www.gaggenau.in/",
+    "https://www.gaggenau.com/#/Togglebox=region-toggle-8/",
+    "https://www.gaggenau.com.au/",
+    "https://www.gaggenau.co.nz/",
+    "https://www.gaggenau.com/#/Togglebox=region-toggle-9/",
+    "https://www.gaggenau.com/be/fr/",
+    "https://www.gaggenau.com/be/nl/",
+    "https://www.gaggenau.com/cz/",
+    "https://www.gaggenau.com/dk/",
+    "https://www.gaggenau.com/de/",
+    "https://www.gaggenau.com/es/",
+    "https://www.gaggenau.com/ba/",
+    "https://www.gaggenau.com/fr/",
+    "https://www.gaggenau.com/global/",
+    "https://www.gaggenau.com/ie/",
+    "https://www.gaggenau.com/it/",
+    "https://www.gaggenau.com/lu/",
+    "https://www.gaggenau.com/nl/",
+    "https://www.gaggenau.com/no/",
+    "https://www.gaggenau.com/at/",
+    "https://www.gaggenau.com/pl/",
+    "https://www.gaggenau.com/pt/",
+    "https://www.gaggenau.com/ch/de/",
+    "https://www.gaggenau.com/ch/fr/",
+    "https://www.gaggenau.com/ch/it/",
+    "https://www.gaggenau.com/fi/",
+    "https://www.gaggenau.com/se/",
+    "https://www.gaggenau.com/tr/",
+    "https://www.gaggenau.com/gb/",
+    "https://www.gaggenau.com/gr/",
+    "https://www.gaggenau.com/ua/",
+    "https://www.gaggenau.ru/",
+    "https://www.gaggenau.com/#/Togglebox=region-toggle-10/",
+    "https://www.gaggenau.com/ae/",
+    "https://www.gaggenau.com/il/",
+    "https://www.gaggenau.com/#/Togglebox=region-toggle-11/",
+    "https://www.gaggenau.com/ca/en/",
+    "https://www.gaggenau.com/ca/fr/",
+    "http://www.gaggenau.com/us/",
+    "https://www.gaggenau.com/global",
+    "javascript:void(0)",
+    "https://www.pinterest.de/gaggenau_/",
+    "https://www.instagram.com/gaggenauofficial/",
+    "https://vimeo.com/gaggenauofficial"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.gaggenau.com/store/medias/sys_master/root/h8d/h24/12965871976478/GG-logo-black-RGB.png",
+        "alt": "GAGGENAU",
+        "w": 1181,
+        "h": 171
+      },
+      {
+        "src": "https://media3.bosch-home.com/Images/600x/MCIM02804435_c_t_f.webp",
+        "alt": "",
+        "w": 500,
+        "h": 11
+      },
+      {
+        "src": "https://media3.bosch-home.com/Images/600x/MCIM03238281_Eb333-country_selector-website.webp",
+        "alt": "",
+        "w": 599,
+        "h": 354
+      },
+      {
+        "src": "https://cdn.consentmanager.net/delivery/recall/logos/122420",
+        "alt": "Privacy settings",
+        "w": 945,
+        "h": 945
+      }
+    ],
+    "allImgCount": 4,
+    "cssBackgrounds": [],
+    "modals": [
+      "Use of cookiesIf you click on \"Accept all\", you give us consent to record your usage behaviour on this website. This allows us to improve our website and personalize advertising for you. When clicking \"Decline all\" we will only use technically necessary cookies to provide the basic functionality of this website. Please click on \"Customize your choice\" for more information and to make your choices by purpose and provider.FunctionalThese vendors and potential cookies are required for the basic functionality of the website. They cannot be deactivated.PerformancePerformance cookies collect information about visitors’ usage on our website and are used to help us enhance your experience on our website.MarketingWe also use marketing tools from partners. Our partners process your data on their own responsibility. Below you will find information on the technologies and partners used by us.Third PartyThese cookies are not placed by us, but by partners. They allow the implementation of features on our website such as, for example, a chat to ask your questions. Therefore, if you refuse these cookies, these services will cease to function.Accept allCustomize your choiceDecline allSave + ExitCustomize your choice | Cookies | Privacy policy | Legal notice"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 2,
+    "mainTextLen": 126984,
+    "realImageCount": 4,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 8
+      },
+      {
+        "host": "cdn.consentmanager.net",
+        "count": 2
+      },
+      {
+        "host": "b.delivery.consentmanager.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": "#"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 3,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/index.png",
+  "renderedHtml": "pages/index.html"
+}

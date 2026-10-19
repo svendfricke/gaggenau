@@ -1,0 +1,186 @@
+/* Store-template canon: tokens, fonts, header, footer.
+   Values lifted from /store/…/a15-rebrush/css.min/style.min.css and measured
+   computed styles (stardust/replica/lift/legal-live*.json). */
+@font-face { font-family: "Gaggenau Display"; src: url("../assets/fonts/gaggenaudisplay-regular-webfont.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Gaggenau Display"; src: url("../assets/fonts/gaggenaudisplay-bold-webfont.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Gaggenau Text"; src: url("../assets/fonts/gaggenautext-regular-webfont.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Gaggenau Text"; src: url("../assets/fonts/gaggenautext-bold-webfont.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: icons; src: url("../assets/fonts/icons.woff2") format("woff2"); font-weight: 400; font-style: normal; }
+
+:root {
+  --canvas: #fbf7f5;
+  --ink: #000;
+  --accent: #d73200;
+  --rule: #000;
+  --container: 1200px;
+  --body-font: "Gaggenau Text", arial, sans-serif;
+  --display-font: "Gaggenau Display", arial, sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--body-font);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+a { color: inherit; text-decoration: none; }
+
+a:hover { color: var(--accent); }
+
+p { margin: 0 0 10px; }
+
+strong { font-weight: 700; }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+  overflow: hidden; clip: rect(0 0 0 0); border: 0;
+}
+
+.skip-to-content:focus { position: unset; width: auto; height: auto; clip: auto; }
+
+.icon {
+  display: inline-block;
+  font-family: icons;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: auto;
+}
+
+.icon-pinit2::before { content: "\e054"; }
+.icon-instagram::before { content: "\e03b"; }
+.icon-vimeo::before { content: "\e07e"; }
+
+.g-container {
+  position: relative;
+  max-width: var(--container);
+  margin: 0 auto;
+}
+
+/* header: logo only, 95px tall */
+.o-header { text-align: right; }
+
+.o-header .header-elements {
+  position: relative;
+  min-height: 95px;
+  padding: 25px 0 0 10px;
+}
+
+.o-header .identifier-logo {
+  position: absolute;
+  top: 19px;
+  left: 10px;
+  z-index: 10;
+  padding-bottom: 24px;
+}
+
+.o-header .identifier-logo a { display: block; }
+
+.o-header .identifier-logo img {
+  display: block;
+  width: 148px;
+  height: 22px;
+  margin-top: 5px;
+}
+
+/* footer */
+.o-footer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding-top: 10px;
+  border-top: 1px solid var(--rule);
+}
+
+.o-footer ul { margin: 0; padding: 0; list-style: none; }
+
+.o-footer .footer-functions { width: 100%; padding: 0 10px; text-align: left; order: 1; }
+
+.o-footer .footer-navwrap { width: 100%; padding: 0 4.98438px; order: 2; }
+
+.o-footer .footer-links { width: 100%; padding: 0 10px; order: 3; border-top: 1px solid var(--rule); }
+
+.follow ul { display: inline-block; margin-bottom: 10px; }
+
+.follow li { display: inline-block; height: 20px; margin-bottom: 10px; line-height: 20px; vertical-align: top; }
+
+.follow a { display: inline-block; margin-right: 10px; line-height: 20px; }
+
+.follow .icon { font-size: 20px; line-height: 20px; }
+
+.navfooter { display: flow-root; min-height: 35px; padding: 0 5px; }
+
+.navfooter li { margin-bottom: 5px; }
+
+.navfooter a { display: inline-block; font-weight: 700; }
+
+.navfooter .icon { width: 16px; height: 20px; }
+
+.navfooter-spacer { height: 20px; }
+
+.copyright-links { margin: 30px 0; }
+
+.copyright-links li { display: inline-block; margin: 0 27px 5px 0; font-size: 16px; }
+
+.copyright-links a:hover { color: var(--accent); }
+
+@media (min-width: 600px) {
+  .o-footer { padding-top: 30px; }
+
+  .o-footer .footer-functions { width: 30%; padding: 0 16.6562px; }
+
+  .o-footer .footer-navwrap { width: 70%; padding: 0 16.6562px; }
+
+  .o-footer .footer-links { padding: 0 16.6562px; }
+
+  .follow a { margin-right: 20px; }
+
+  .navfooter { padding: 0; }
+
+  .o-footer .footer-navwrap .navfooter { min-height: 55px; }
+}
+
+@media (min-width: 900px) {
+  .o-header .header-elements { padding-bottom: 18px; }
+
+  .o-header .identifier-logo { left: 1.3889%; }
+
+  .o-header .identifier-logo img { margin-top: 20px; }
+
+  .navfooter a { display: none; }
+
+
+
+  .navfooter-spacer { height: 30px; }
+}
+.icon-arrow-down::before { content: "\e006"; }
+
+.icon-close::before { content: "\e009"; }
+
+/* mobile-nav close control: present in the source markup, hidden until the
+   (absent) mobile nav opens */
+.o-header .close-mobile { display: none; }
+
+.navfooter .overview { display: none; }
+
+.copyright-links a { display: inline-block; position: relative; max-width: 100%; }
+
+@media (min-width: 600px) {
+  .navfooter .overview { display: none; }
+}
+
+/* external-link glyph (.a-link-external.a-link:after in the source) */
+a.ext::after {
+  content: "\e02a";
+  display: inline-block;
+  margin-left: 5px;
+  font-family: icons;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,333 @@
+{
+  "url": "https://www.gaggenau.com/",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "o-header o-header-sticky g-layout-full",
+      "position": "static",
+      "height": "95px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "o-header o-header-sticky g-layout-full",
+      "position": "static",
+      "height": "95px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 449,
+      "cls": "o-header o-header-sticky g-layout-full",
+      "position": "static",
+      "height": "95px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 449,
+      "cls": "o-header o-header-sticky g-layout-full",
+      "position": "static",
+      "height": "95px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 449,
+      "cls": "o-header o-header-sticky g-layout-full",
+      "position": "static",
+      "height": "95px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 449,
+      "cls": "o-header o-header-sticky g-layout-full",
+      "position": "static",
+      "height": "95px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "o-header o-header-sticky g-layout-full",
+      "position": "static",
+      "height": "95px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "o-header o-header-sticky g-layout-full",
+      "position": "static",
+      "height": "95px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "o-header o-header-sticky g-layout-full",
+      "position": "static",
+      "height": "95px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "o-header o-header-sticky g-layout-full",
+      "position": "static",
+      "height": "95px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "o-header o-header-sticky g-layout-full",
+      "position": "static",
+      "height": "95px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "o-header o-header-sticky g-layout-full",
+      "position": "static",
+      "height": "95px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "o-header o-header-sticky g-layout-full",
+      "position": "static",
+      "height": "95px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "o-header o-header-sticky g-layout-full",
+      "position": "static",
+      "height": "95px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".m-togglebox .item:nth-of-type(4) .togglebox-title",
+      "frames": [
+        {
+          "t": 17526.09999999986,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17730.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17935.199999999953,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18138.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".togglebox-title",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".o-footer a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "i.icon.icon-pinit2",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "i.icon.icon-pinit2",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "max-height",
+        "el": "div.g-col > div.m-countryselectorlist > div.m-togglebox > div.item > section.togglebox-content.body.is-in-transition",
+        "y": 407,
+        "dur": "0.4s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "html.supports.no-touchevents.cssanimations > body.site-structure-level-1 > div.g-container > header.o-header.o-header-sticky.g-layout-full > div.nav-sticky.js-nav-sticky.is-active",
+        "y": 300
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "div.g-col > div.m-countryselectorlist > div.m-togglebox > div.item > a.a-link.js-togglebox-toggle.togglebox-title",
+        "y": 407
+      },
+      {
+        "added": [
+          "is-in-transition"
+        ],
+        "el": "div.g-col > div.m-countryselectorlist > div.m-togglebox > div.item > section.togglebox-content.body.is-in-transition",
+        "y": 407
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "div.g-col > div.m-countryselectorlist > div.m-togglebox > div.item > section.togglebox-content.body.is-open",
+        "y": 407
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "div.g-col > div.m-countryselectorlist > div.m-togglebox > div.item > section.togglebox-content.body.is-open",
+        "y": 407
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "html.supports.no-touchevents.cssanimations > body.site-structure-level-1 > div.g-container > header.o-header.o-header-sticky.g-layout-full > div.nav-sticky.js-nav-sticky.is-active",
+        "y": 206
+      }
+    ]
+  }
+}

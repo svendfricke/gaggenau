@@ -1,0 +1,11 @@
+{
+  "/de/de/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-16T15:08:19.422Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

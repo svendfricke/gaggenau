@@ -1,0 +1,444 @@
+{
+ "source": "http://localhost:8791/index-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "m-contenttextmedia",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "m-contenttextmedia",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Wherever you are, a Gaggenau awaits"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "By choosing one of the options from the list below, we will be able to provide you with the most relevant information for your chosen location. If you can not find an appropriate match, please contact your local Customer service team for advice on how to obtain Gaggenau appliances."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "m-contenttextmedia",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "m-contentteaser",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Select your location"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "m-countryselectorlist",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Africa",
+     "href": "#/Togglebox=region-toggle-6/"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "South Africa",
+     "href": "https://www.gaggenau.com/za/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Asia (亚洲)",
+     "href": "#/Togglebox=region-toggle-7/"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Mainland China",
+     "href": "https://www.gaggenau-world.com.cn/"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Hong Kong SAR",
+     "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Taiwan",
+     "href": "https://www.gaggenau.com.tw/"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "India",
+     "href": "https://www.gaggenau.in/"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Indonesia",
+     "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Japan",
+     "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Korea",
+     "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Malaysia",
+     "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Philippines",
+     "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Singapore",
+     "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Thailand",
+     "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Vietnam",
+     "href": "https://www.gaggenau-asia.com/"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Oceania",
+     "href": "#/Togglebox=region-toggle-8/"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Australia",
+     "href": "https://www.gaggenau.com.au/"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "New Zealand",
+     "href": "https://www.gaggenau.co.nz/"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Europe",
+     "href": "#/Togglebox=region-toggle-9/"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Belgique",
+     "href": "https://www.gaggenau.com/be/fr/"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "België",
+     "href": "https://www.gaggenau.com/be/nl/"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Česká Republika/Slovensko",
+     "href": "https://www.gaggenau.com/cz/"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Denmark",
+     "href": "https://www.gaggenau.com/dk/"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Deutschland",
+     "href": "https://www.gaggenau.com/de/"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "España",
+     "href": "https://www.gaggenau.com/es/"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Estonia",
+     "href": "https://www.gaggenau.com/ba/"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "France",
+     "href": "https://www.gaggenau.com/fr/"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Iceland",
+     "href": "https://www.gaggenau.com/global/"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Ireland",
+     "href": "https://www.gaggenau.com/ie/"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Italia",
+     "href": "https://www.gaggenau.com/it/"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Latvia",
+     "href": "https://www.gaggenau.com/ba/"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "Lithuania",
+     "href": "https://www.gaggenau.com/ba/"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Luxembourg",
+     "href": "https://www.gaggenau.com/lu/"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Nederland",
+     "href": "https://www.gaggenau.com/nl/"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "Norge",
+     "href": "https://www.gaggenau.com/no/"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "Österreich",
+     "href": "https://www.gaggenau.com/at/"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "Polska",
+     "href": "https://www.gaggenau.com/pl/"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Portugal",
+     "href": "https://www.gaggenau.com/pt/"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "Schweiz",
+     "href": "https://www.gaggenau.com/ch/de/"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Suisse",
+     "href": "https://www.gaggenau.com/ch/fr/"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Svizzera",
+     "href": "https://www.gaggenau.com/ch/it/"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Suomi",
+     "href": "https://www.gaggenau.com/fi/"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "Sverige",
+     "href": "https://www.gaggenau.com/se/"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "Türkiye",
+     "href": "https://www.gaggenau.com/tr/"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "United Kingdom",
+     "href": "https://www.gaggenau.com/gb/"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "Ελλάδα",
+     "href": "https://www.gaggenau.com/gr/"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "Україна",
+     "href": "https://www.gaggenau.com/ua/"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "Казахстан",
+     "href": "https://www.gaggenau.ru/"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "Middle East",
+     "href": "#/Togglebox=region-toggle-10/"
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "United Arab Emirates",
+     "href": "https://www.gaggenau.com/ae/"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "ישראל",
+     "href": "https://www.gaggenau.com/il/"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "North America",
+     "href": "#/Togglebox=region-toggle-11/"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "Canada EN",
+     "href": "https://www.gaggenau.com/ca/en/"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "FR",
+     "href": "https://www.gaggenau.com/ca/fr/"
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "USA",
+     "href": "http://www.gaggenau.com/us/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.item",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "m-contenttextmedia",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Please select your location or visit"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Gaggenau worldwide",
+     "href": "https://www.gaggenau.com/global"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Please note: not all products are available in all locations. Contact the Gaggenau organisation closest to you regarding local availability."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "See more",
+     "href": "javascript:void(0)"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

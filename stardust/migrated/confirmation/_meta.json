@@ -1,0 +1,88 @@
+{
+  "slug": "confirmation",
+  "type": "static",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "content-text-media"
+  ],
+  "slotsFilled": [
+    "m-hero",
+    "m-contenttextmedia"
+  ],
+  "canonShas": {
+    "header": "324450f69b9e",
+    "footer": "6bbe3add963d",
+    "css": "9eb7b91b255b"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Success | Gaggenau",
+    "description": "Success",
+    "canonical": null,
+    "lang": "en-ZZ"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Success | Gaggenau",
+    "description": "Success",
+    "url": "https://www.gaggenau.com/confirmation"
+  },
+  "migratedAt": "2026-10-16T14:21:59Z",
+  "designMdSha": "50822350626f",
+  "designJsonSha": "920bf3be988e",
+  "sourceCurrentSha": "4963c2e93f20",
+  "sourceProposedSha": "b2edd6b0fc6f",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity",
+    "delivery-lint",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "content-diff vs capture #content: 2 body, 1 CTA(/country-selector), 1 img 1:1, 0 structural; h1 Success sits in source m-pagetitle outside #content (EXTRA expected)",
+    "pixel-gate-1440": "0.01%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-1440/summary.md) [published regime]",
+    "pixel-gate-360": "1.82%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-360/summary.md) [published regime]",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /confirmation)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "media",
+      "source": "MCIM02561106_1x1-black-transparent.png (600x1 transparent strip, media-float right)",
+      "target": "kept in prototype; omitted from content/confirmation.html",
+      "reason": "invisible spacer; authoring it would make content-text-media has-media put media first (left cell) and push the text to the right column, unlike source (text left). No upload needed."
+    },
+    {
+      "kind": "style",
+      "source": "m-hero > m-pagetitle h1 'Success' (visible, display font)",
+      "target": "EDS: visible h1 via new blocks/page-title (m-pagetitle + h1.a-heading values lifted from store-style.min.css); single h1, no hidden h1",
+      "reason": "sibling tier forbids new CSS; a page-title rule/variant is needed for visual parity of the visible title",
+      "resolved": true,
+      "resolution": "cluster-static: page-title block; gate 1440 0.12% / 360 2.24% (local code via aem up; block needs commit to main)"
+    },
+    {
+      "kind": "link",
+      "source": "/country-selector",
+      "target": "/country-selector (kept verbatim)",
+      "reason": "source href not in inventory (brokenInternalLinks not-in-inventory); left as authored"
+    }
+  ],
+  "assetsBundled": 4,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/country-selector",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "confirmation/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "confirmation/_meta.json",
+  "driverVersion": "1"
+}

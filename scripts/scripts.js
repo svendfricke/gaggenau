@@ -160,7 +160,8 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
-  document.documentElement.lang = 'en';
+  const [, langCode] = window.location.pathname.match(/^\/([a-z]{2})(?:\/|$)/) || [];
+  document.documentElement.lang = langCode || 'en';
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {

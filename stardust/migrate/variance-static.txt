@@ -1,0 +1,26 @@
+run-bg: variance-static2 launched 2026-10-16T14:18:22.996Z (timeout 900s): node stardust/scripts/replica/sibling-variance.mjs https://www.gaggenau.com/general/legal https://www.gaggenau.com/general https://www.gaggenau.com/confirmation https://www.gaggenau.com/general/imprint --probe ctm=.m-contenttextmedia --probe text=.m-contenttextmedia .text --main body --consent .cmpboxbtnyes --width 1440
+sibling-variance @ 1440px, tolerance 2px
+  archetype: https://www.gaggenau.com/general/legal
+  probes: ctm=.m-contenttextmedia (3), text=.m-contenttextmedia .text (9)
+  sections: -
+
+■ https://www.gaggenau.com/general: 4 delta(s)
+  COUNT           ctm: 3 → 1 matches
+  PROBE           ctm: rect{h 1075 → 85}
+  COUNT           text: 9 → 2 matches
+  PROBE           text: rect{h 1020 → 30}
+
+■ https://www.gaggenau.com/confirmation: 4 delta(s)
+  COUNT           ctm: 3 → 1 matches
+  PROBE           ctm: rect{h 1075 → 80}; heading h2 gaggenau display 38px/40px 400 rgb(0, 0, 0) → null; image null → [object Object]
+  COUNT           text: 9 → 2 matches
+  PROBE           text: rect{h 1020 → 80}
+
+■ https://www.gaggenau.com/general/imprint: 4 delta(s)
+  COUNT           ctm: 3 → 1 matches
+  PROBE           ctm: rect{h 1075 → 675}
+  COUNT           text: 9 → 1 matches
+  PROBE           text: rect{h 1020 → 620}
+
+✗ 3 of 3 sibling(s) vary from the archetype in: ctm, text — budget variant classes for these before cloning; do not assume template constancy.
+run-bg: variance-static2 ended exit=2

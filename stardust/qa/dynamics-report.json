@@ -1,0 +1,94 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-16T15:07:43.652Z",
+  "origin": "https://main--52a40dc9--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json"
+ },
+ "results": [
+  {
+   "feature": "region / country accordion",
+   "id": "region-accordion",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "6 × .region-accordion .item [aria-expanded] (min 6)",
+   "thirdParty": "",
+   "ms": 2058,
+   "environmentLimit": null
+  },
+  {
+   "feature": "region / country accordion",
+   "id": "region-accordion",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "27 × .region-accordion .togglebox-content a (min 24)",
+   "thirdParty": "",
+   "ms": 1915,
+   "environmentLimit": null
+  },
+  {
+   "feature": "marketing header nav + utility icons",
+   "id": "mega-nav",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "6 × header .hdr-navlink (min 1)",
+   "thirdParty": "player.vimeo.com:200×4 player.vimeo.com:302×1 f.vimeocdn.com:200×3 i.vimeocdn.com:200×2 vod-adaptive-ak.vimeocdn.com:200×5",
+   "ms": 3188,
+   "environmentLimit": null
+  },
+  {
+   "feature": "client-rendered text slots",
+   "id": "settled-dom",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × .content-text-media (min 3)",
+   "thirdParty": "",
+   "ms": 1910,
+   "environmentLimit": null
+  },
+  {
+   "feature": "magazine teaser Vimeo loop (autoplay muted)",
+   "id": "vimeo-loop",
+   "class": "V",
+   "status": "done",
+   "type": "video-plays",
+   "pass": true,
+   "detail": "iframe/video: true · no <video> · playback requests 10 (ok)",
+   "thirdParty": "player.vimeo.com:200×4 f.vimeocdn.com:200×3 player.vimeo.com:302×1 i.vimeocdn.com:200×2 vod-adaptive-ak.vimeocdn.com:200×5",
+   "ms": 6059,
+   "environmentLimit": null
+  },
+  {
+   "feature": "consentmanager.net CMP",
+   "id": "consent",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "consent-gate",
+   "pass": true,
+   "detail": "no request to 2 gated host pattern(s) before consent",
+   "thirdParty": "",
+   "ms": 5954,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Adobe Launch tag manager",
+   "id": "tags",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (3 gated · 1 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6164,
+   "environmentLimit": null
+  }
+ ]
+}

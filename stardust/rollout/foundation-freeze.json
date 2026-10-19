@@ -1,0 +1,36 @@
+{
+  "frozenAt": "2026-10-16T14:49:03.840Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "d42fc5d3d6dc4897ad514eacd09d1f83281c82f569280de781e0eeef9f69095c",
+    "blocks/footer/footer.js": "98cf1fdd4bd494a9cc4f26341d4ee61d5820f850d3519ad6449399c84883a6d5",
+    "blocks/header/header.css": "9a78556f4041b00833474bfadb12a8e558f3f5bdb2df3e501cc74a6bdf3ae0c8",
+    "blocks/header/header.js": "d48a0e82d163dd4ec560b621e4b42bf4f134e0531c46ee5f3f6a61189f677a2b",
+    "fonts/LICENSING.md": "f9d137e7458987006156f9b7f27444237089a9cb70edd33f645d41e49ac5adca",
+    "fonts/gaggenau-display-bold.woff2": "0cec07e87f2bfc0233ac588576f79b732cad07c78c9921dc379091ab1fe93641",
+    "fonts/gaggenau-display-regular.woff2": "07b66cf75e464a57bf9b38d4dd13c1fd2516951b6c5a384299cc8cff735fd358",
+    "fonts/gaggenau-text-bold.woff2": "6559672e43a5b31ea8e41393617912945194747958d2784c33a4df3f24d10d19",
+    "fonts/gaggenau-text-regular.woff2": "fb908bcced98926d078fa547579eb94c9fee7cc4e273fe0a48886d22486349b7",
+    "fonts/gaggenaudisplay-bold.woff2": "0cec07e87f2bfc0233ac588576f79b732cad07c78c9921dc379091ab1fe93641",
+    "fonts/gaggenaudisplay-regular.woff2": "cb14f2d8edd3e097c81aabf370052e361f0893c7080bdb6323e20ef8a05c3446",
+    "fonts/gaggenautext-bold.woff2": "f3723b09c69c5eeed4c6ca8916afa124de79299f6fdedb64a52940783fdc0362",
+    "fonts/gaggenautext-regular.woff2": "265a1c0eec39d8c74701e9222b17c7d7621eae16359a8ddfbf2a5c11d97209c9",
+    "fonts/icons.woff2": "45ba501b8683c4e3f59a0d93a952185bacda4000e5bc405cdb57def7e5abb055",
+    "head.html": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/scripts.js": "3fab6e2eaa318207af49844150353ef53ccb903ca6e2c6f78a508a13266642ca",
+    "styles/fonts.css": "0619363ab2c71c90cb5b92ae54e63000856cf85aafcc0b36ebadb8e098aba90b",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "8acb8386272861bccc08121ea0fbb8a2eb58fc9fd165a009404df8e51af9efc2"
+  }
+}

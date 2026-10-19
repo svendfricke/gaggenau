@@ -1,0 +1,35 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-16T14:26:22.084Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.gaggenau.com/de/de",
+    "da": {
+      "org": "aemcoder",
+      "site": "52a40dc9",
+      "ref": "main"
+    },
+    "liveHost": "main--52a40dc9--aemcoder.aem.live"
+  },
+  "lastRun": {
+    "at": "2026-10-16T15:07:04.071Z",
+    "pages": {
+      "total": 7,
+      "verified": 7,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 7,
+      "converted": 1,
+      "pending": 6
+    },
+    "verifyFailures": 0
+  }
+}

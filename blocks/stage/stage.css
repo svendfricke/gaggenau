@@ -1,0 +1,1205 @@
+/*
+ * stage — rules lifted from the landing prototype (css/landing.css, source emotion rules),
+ * scoped under the block; `.stage-box` is the prototype's `section.stage`.
+ */
+
+/* stylelint-disable no-duplicate-selectors, no-descending-specificity, declaration-block-no-shorthand-property-overrides, declaration-block-no-duplicate-properties --
+   the lifted rules keep the source's cascade order; it is the contract */
+
+@keyframes stage-rise {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.stage {
+  display: block;
+}
+
+/* a stage inside the landing content band (not the page's first section) */
+.stage.in-content {
+  background: rgb(251 246 244);
+  padding-block-start: 2rem;
+}
+
+.stage.content-end {
+  background: rgb(251 246 244);
+  padding-block-end: 3rem;
+}
+
+@media (width >= 720px) {
+  .stage.in-content {
+    padding-block-start: 4rem;
+  }
+
+  .stage.content-end {
+    padding-block-end: 4rem;
+  }
+}
+
+@media (width >= 1200px) {
+  .stage.in-content {
+    padding-block-start: 5rem;
+  }
+
+  .stage.content-end {
+    padding-block-end: 5rem;
+  }
+}
+
+/* art direction: desktop / tablet / mobile images, one visible per width */
+.stage .stage-media .stage-pic {
+  display: none;
+}
+
+.stage .stage-media.stage-art-1 .stage-pic-desktop {
+  display: block;
+}
+
+.stage .stage-media.stage-art-2 .stage-pic-tablet {
+  display: block;
+}
+
+.stage .stage-media.stage-art-3 .stage-pic-mobile {
+  display: block;
+}
+
+@media (width >= 720px) {
+  .stage .stage-media.stage-art-3 .stage-pic-mobile {
+    display: none;
+  }
+
+  .stage .stage-media.stage-art-3 .stage-pic-tablet {
+    display: block;
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .stage-media:is(.stage-art-2, .stage-art-3) .stage-pic-tablet {
+    display: none;
+  }
+
+  .stage .stage-media:is(.stage-art-2, .stage-art-3) .stage-pic-desktop {
+    display: block;
+  }
+}
+
+/* authored elements take the type of their slot */
+.stage .stage-title :is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+.stage .stage-action p {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stage .stage-text,
+  .stage .stage-action {
+    animation: none !important;
+  }
+}
+
+/* ---- lifted ---- */
+
+.stage .stage-pic img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0;
+  color: transparent;
+}
+
+.stage .stage-pic img {
+  object-fit: cover;
+}
+
+.stage .stage-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  justify-content: flex-end;
+}
+
+.stage .stage-box {
+  aspect-ratio: 0.6;
+  background: none;
+  gap: 1.5rem;
+  min-height: 35rem;
+  padding-block: 3rem;
+}
+
+@media (width >= 720px) {
+  .stage .stage-box {
+    aspect-ratio: 0.8;
+    background: rgb(0 0 0 / 0%);
+    gap: 2rem;
+    min-height: 50rem;
+    padding-block: 4rem;
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .stage-box {
+    aspect-ratio: 2.333;
+    background: none;
+    gap: 3rem;
+    min-height: 42rem;
+    padding-block: 5rem;
+  }
+}
+
+.stage .stage-media {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.stage .stage-pic {
+  display: block;
+}
+
+.stage .stage-pic img {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+}
+
+.stage .stage-wrap {
+  margin-inline: auto;
+  width: 100%;
+  display: block;
+}
+
+.stage .stage-wrap {
+  max-width: 87.5rem;
+  padding-inline: 1rem;
+}
+
+@media (width >= 720px) {
+  .stage .stage-wrap {
+    max-width: 87.5rem;
+    padding-inline: 2rem;
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .stage-wrap {
+    max-width: 87.5rem;
+    padding-inline: 3rem;
+  }
+}
+
+@media (width >= 1600px) {
+  .stage .stage-wrap {
+    max-width: 87.5rem;
+    padding-inline: 3rem;
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .stage-wrap {
+    max-width: 87.5rem;
+  }
+}
+
+.stage .stage-inner {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+  margin-inline: 0 auto;
+}
+
+.stage .stage-inner {
+  width: 100%;
+}
+
+@media (width >= 720px) {
+  .stage .stage-inner {
+    width: fit-content;
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .stage-inner {
+    width: fit-content;
+  }
+}
+
+.stage .stage-inner {
+  align-items: start;
+  background: rgb(0 0 0 / 0%);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: none;
+  padding-block: 0;
+  padding-inline: 0;
+}
+
+@media (width >= 720px) {
+  .stage .stage-inner {
+    align-items: start;
+    background: rgb(0 0 0 / 0%);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: none;
+    padding-block: 0;
+    padding-inline: 0;
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .stage-inner {
+    align-items: start;
+    background: rgb(0 0 0 / 0%);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 50rem;
+    padding-block: 0;
+    padding-inline: 0;
+  }
+}
+
+.stage .stage-top {
+  position: absolute;
+  inset: -50%;
+  background: radial-gradient(45% 45% at 50% 50%, #0009 0%, #0009 55%, #0000 100%);
+  border-radius: 624.9375rem;
+  opacity: 1;
+}
+
+.stage .stage-top-in {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(4px);
+  border-radius: 624.9375rem;
+  mask-image: radial-gradient(45% 45% at 50% 50%, #000 0%, #000 55%, #0000 100%);
+  opacity: 1;
+}
+
+.stage .stage-text {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  animation: 600ms cubic-bezier(0.25, 0.1, 0, 1) stage-rise;
+}
+
+.stage .stage-text {
+  gap: 0.9375rem;
+  max-width: none;
+  text-align: start;
+}
+
+@media (width >= 720px) {
+  .stage .stage-text {
+    gap: 0.9375rem;
+    max-width: 42rem;
+    text-align: start;
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .stage-text {
+    gap: 0.9375rem;
+    max-width: 42rem;
+    text-align: start;
+  }
+}
+
+.stage .stage-title {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.stage .stage-title {
+  color: rgb(255 255 255);
+  font-family: GaggenauDisplay, sans-serif;
+  font-size: 2.375rem;
+  font-weight: bold;
+  hyphens: auto;
+  letter-spacing: 0;
+  line-height: 2.75rem;
+  text-transform: none;
+  text-wrap: balance;
+}
+
+@media (width >= 720px) {
+  .stage .stage-title {
+    color: rgb(255 255 255);
+    font-family: GaggenauDisplay, sans-serif;
+    font-size: 2.375rem;
+    font-weight: bold;
+    hyphens: auto;
+    letter-spacing: 0;
+    line-height: 2.75rem;
+    text-transform: none;
+    text-wrap: pretty;
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .stage-title {
+    color: rgb(255 255 255);
+    font-family: GaggenauDisplay, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    hyphens: auto;
+    letter-spacing: 0;
+    line-height: 2.875rem;
+    text-transform: none;
+    text-wrap: pretty;
+  }
+}
+
+.stage .stage-desc {
+  padding-inline-start: 0;
+}
+
+@media (width >= 720px) {
+  .stage .stage-desc {
+    padding-inline-start: 0;
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .stage-desc {
+    padding-inline-start: 0;
+  }
+}
+
+.stage .stage-desc p {
+  margin: 0;
+}
+
+.stage .stage-desc p {
+  color: rgb(255 255 255);
+  font-family: GaggenauText, sans-serif;
+  font-size: 1.125rem;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 1.25rem;
+  text-transform: none;
+  text-wrap: balance;
+}
+
+@media (width >= 720px) {
+  .stage .stage-desc p {
+    color: rgb(255 255 255);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1.125rem;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    text-wrap: pretty;
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .stage-desc p {
+    color: rgb(255 255 255);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1.125rem;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    text-wrap: pretty;
+  }
+}
+
+.stage .stage-action {
+  animation: 600ms cubic-bezier(0.25, 0.1, 0, 1) stage-rise;
+}
+
+.stage .stage-action {
+  max-width: none;
+  padding-inline-start: 0;
+}
+
+@media (width >= 720px) {
+  .stage .stage-action {
+    max-width: none;
+    padding-inline-start: 0;
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .stage-action {
+    max-width: none;
+    padding-inline-start: 0;
+  }
+}
+
+.stage .btn-primary {
+  color: inherit;
+  text-decoration: inherit;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  max-width: 100%;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.stage .btn-primary {
+  background: rgb(23 20 18);
+  background-position: 0% 0%;
+  background-size: auto;
+  border-color: rgb(0 0 0 / 0%);
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0.0625rem;
+  box-shadow: inset 0 0 0 0 rgb(0 0 0 / 0%);
+  cursor: pointer;
+  gap: 0.25rem;
+  height: 2rem;
+  opacity: 1;
+  padding-inline: 1rem;
+  transform: scale(1);
+  transition-duration: 600ms;
+  transition-property: color,background,border,box-shadow,filter,transform;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+@media (hover: hover) {
+  .stage .btn-primary:hover {
+    background: rgb(215 50 0);
+    background-position: 0% 0%;
+    background-size: auto;
+    border-color: rgb(0 0 0 / 0%);
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.0625rem;
+    box-shadow: inset 0 0 0 0 rgb(0 0 0 / 0%);
+    cursor: pointer;
+    gap: 0.25rem;
+    height: 2rem;
+    opacity: 1;
+    padding-inline: 1rem;
+    transform: scale(1);
+    transition-duration: 600ms;
+    transition-property: color,background,border,box-shadow,filter,transform;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+.stage .btn-primary:active {
+  background: rgb(205 40 0);
+  background-position: 0% 0%;
+  background-size: auto;
+  border-color: rgb(0 0 0 / 0%);
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0.0625rem;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0%);
+  cursor: pointer;
+  gap: 0.25rem;
+  height: 2rem;
+  opacity: 1;
+  padding-inline: 1rem;
+  transform: scale(0.98);
+  transition-duration: 600ms;
+  transition-property: color,background,border,box-shadow,filter,transform;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.stage .btn-primary:focus-visible {
+  background: rgb(0 0 0);
+  background-position: 0% 0%;
+  background-size: auto;
+  border-color: rgb(0 0 0 / 0%);
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0.0625rem;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0%);
+  cursor: pointer;
+  gap: 0.25rem;
+  height: 2rem;
+  opacity: 1;
+  padding-inline: 1rem;
+  transform: scale(1);
+  transition-duration: 600ms;
+  transition-property: color,background,border,box-shadow,filter,transform;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.stage .btn-primary[disabled],
+.stage .btn-primary:disabled {
+  background: rgb(156 152 150);
+  background-position: 0% 0%;
+  background-size: auto;
+  border-color: rgb(0 0 0 / 0%);
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0.0625rem;
+  box-shadow: inset 0 0 0 0 rgb(0 0 0 / 0%);
+  cursor: not-allowed;
+  gap: 0.25rem;
+  height: 2rem;
+  opacity: 0.4;
+  padding-inline: 1rem;
+  transform: scale(1);
+  transition-duration: 600ms;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+@media (width >= 720px) {
+  .stage .btn-primary {
+    background: rgb(23 20 18);
+    background-position: 0% 0%;
+    background-size: auto;
+    border-color: rgb(0 0 0 / 0%);
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.0625rem;
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 0%);
+    cursor: pointer;
+    gap: 0.375rem;
+    height: 3rem;
+    opacity: 1;
+    padding-inline: 1.5rem;
+    transform: scale(1);
+    transition-duration: 600ms;
+    transition-property: color,background,border,box-shadow,filter,transform;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 720px) {
+  @media (hover: hover) {
+    .stage .btn-primary:hover {
+      background: rgb(215 50 0);
+      background-position: 0% 0%;
+      background-size: auto;
+      border-color: rgb(0 0 0 / 0%);
+      border-radius: 0;
+      border-style: solid;
+      border-width: 0.0625rem;
+      box-shadow: inset 0 0 0 0 rgb(0 0 0 / 0%);
+      cursor: pointer;
+      gap: 0.375rem;
+      height: 3rem;
+      opacity: 1;
+      padding-inline: 1.5rem;
+      transform: scale(1);
+      transition-duration: 600ms;
+      transition-property: color,background,border,box-shadow,filter,transform;
+      transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+    }
+  }
+}
+
+@media (width >= 720px) {
+  .stage .btn-primary:active {
+    background: rgb(205 40 0);
+    background-position: 0% 0%;
+    background-size: auto;
+    border-color: rgb(0 0 0 / 0%);
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.0625rem;
+    box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0%);
+    cursor: pointer;
+    gap: 0.375rem;
+    height: 3rem;
+    opacity: 1;
+    padding-inline: 1.5rem;
+    transform: scale(0.98);
+    transition-duration: 600ms;
+    transition-property: color,background,border,box-shadow,filter,transform;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 720px) {
+  .stage .btn-primary:focus-visible {
+    background: rgb(0 0 0);
+    background-position: 0% 0%;
+    background-size: auto;
+    border-color: rgb(0 0 0 / 0%);
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.0625rem;
+    box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0%);
+    cursor: pointer;
+    gap: 0.375rem;
+    height: 3rem;
+    opacity: 1;
+    padding-inline: 1.5rem;
+    transform: scale(1);
+    transition-duration: 600ms;
+    transition-property: color,background,border,box-shadow,filter,transform;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 720px) {
+  .stage .btn-primary[disabled],
+  .stage .btn-primary:disabled {
+    background: rgb(156 152 150);
+    background-position: 0% 0%;
+    background-size: auto;
+    border-color: rgb(0 0 0 / 0%);
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.0625rem;
+    box-shadow: inset 0 0 0 0 rgb(0 0 0 / 0%);
+    cursor: not-allowed;
+    gap: 0.375rem;
+    height: 3rem;
+    opacity: 0.4;
+    padding-inline: 1.5rem;
+    transform: scale(1);
+    transition-duration: 600ms;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .btn-primary {
+    background: rgb(23 20 18);
+    background-position: 0% 0%;
+    background-size: auto;
+    border-color: rgb(0 0 0 / 0%);
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.0625rem;
+    box-shadow: inset 0 0 0 0 rgb(0 0 0 / 0%);
+    cursor: pointer;
+    gap: 0.5rem;
+    height: 4rem;
+    opacity: 1;
+    padding-inline: 2rem;
+    transform: scale(1);
+    transition-duration: 600ms;
+    transition-property: color,background,border,box-shadow,filter,transform;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  @media (hover: hover) {
+    .stage .btn-primary:hover {
+      background: rgb(215 50 0);
+      background-position: 0% 0%;
+      background-size: auto;
+      border-color: rgb(0 0 0 / 0%);
+      border-radius: 0;
+      border-style: solid;
+      border-width: 0.0625rem;
+      box-shadow: inset 0 0 0 0 rgb(0 0 0 / 0%);
+      cursor: pointer;
+      gap: 0.5rem;
+      height: 4rem;
+      opacity: 1;
+      padding-inline: 2rem;
+      transform: scale(1);
+      transition-duration: 600ms;
+      transition-property: color,background,border,box-shadow,filter,transform;
+      transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+    }
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .btn-primary:active {
+    background: rgb(205 40 0);
+    background-position: 0% 0%;
+    background-size: auto;
+    border-color: rgb(0 0 0 / 0%);
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.0625rem;
+    box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0%);
+    cursor: pointer;
+    gap: 0.5rem;
+    height: 4rem;
+    opacity: 1;
+    padding-inline: 2rem;
+    transform: scale(0.98);
+    transition-duration: 600ms;
+    transition-property: color,background,border,box-shadow,filter,transform;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .btn-primary:focus-visible {
+    background: rgb(0 0 0);
+    background-position: 0% 0%;
+    background-size: auto;
+    border-color: rgb(0 0 0 / 0%);
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.0625rem;
+    box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0%);
+    cursor: pointer;
+    gap: 0.5rem;
+    height: 4rem;
+    opacity: 1;
+    padding-inline: 2rem;
+    transform: scale(1);
+    transition-duration: 600ms;
+    transition-property: color,background,border,box-shadow,filter,transform;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .btn-primary[disabled],
+  .stage .btn-primary:disabled {
+    background: rgb(156 152 150);
+    background-position: 0% 0%;
+    background-size: auto;
+    border-color: rgb(0 0 0 / 0%);
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.0625rem;
+    box-shadow: inset 0 0 0 0 rgb(0 0 0 / 0%);
+    cursor: not-allowed;
+    gap: 0.5rem;
+    height: 4rem;
+    opacity: 0.4;
+    padding-inline: 2rem;
+    transform: scale(1);
+    transition-duration: 600ms;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+.stage .btn-label {
+  overflow: hidden;
+  white-space: nowrap;
+  transition: inherit;
+  text-overflow: ellipsis;
+}
+
+.stage .btn-label {
+  color: rgb(255 255 255);
+  font-family: GaggenauText, sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1rem;
+  text-transform: none;
+  transition-duration: inherit;
+  transition-property: opacity,color;
+  transition-timing-function: inherit;
+}
+
+@media (hover: hover) {
+  .stage .btn-label:hover {
+    color: rgb(255 255 255);
+    font-family: GaggenauText, sans-serif;
+    font-size: 0.875rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1rem;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: opacity,color;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (hover: hover) {
+  .stage .btn:hover .btn-label {
+    color: rgb(255 255 255);
+    font-family: GaggenauText, sans-serif;
+    font-size: 0.875rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1rem;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: opacity,color;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+.stage .btn-label:active {
+  color: rgb(255 255 255);
+  font-family: GaggenauText, sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1rem;
+  text-transform: none;
+  transition-duration: 600ms;
+  transition-property: opacity,color;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.stage .btn:active .btn-label {
+  color: rgb(255 255 255);
+  font-family: GaggenauText, sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1rem;
+  text-transform: none;
+  transition-duration: 600ms;
+  transition-property: opacity,color;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.stage .btn-label:focus-visible {
+  color: rgb(255 255 255);
+  font-family: GaggenauText, sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1rem;
+  text-transform: none;
+  transition-duration: 600ms;
+  transition-property: opacity,color;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.stage .btn:focus-visible .btn-label {
+  color: rgb(255 255 255);
+  font-family: GaggenauText, sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1rem;
+  text-transform: none;
+  transition-duration: 600ms;
+  transition-property: opacity,color;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.stage .btn-label[disabled],
+.stage .btn-label:disabled {
+  color: rgb(0 0 0);
+  font-family: GaggenauText, sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1rem;
+  text-transform: none;
+  transition-duration: inherit;
+  transition-property: opacity,color;
+  transition-timing-function: inherit;
+}
+
+.stage .btn[disabled] .btn-label,
+.stage .btn:disabled .btn-label {
+  color: rgb(0 0 0);
+  font-family: GaggenauText, sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1rem;
+  text-transform: none;
+  transition-duration: inherit;
+  transition-property: opacity,color;
+  transition-timing-function: inherit;
+}
+
+@media (width >= 720px) {
+  .stage .btn-label {
+    color: rgb(255 255 255);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    transition-duration: inherit;
+    transition-property: opacity,color;
+    transition-timing-function: inherit;
+  }
+}
+
+@media (width >= 720px) {
+  @media (hover: hover) {
+    .stage .btn-label:hover {
+      color: rgb(255 255 255);
+      font-family: GaggenauText, sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 1.25rem;
+      text-transform: none;
+      transition-duration: 600ms;
+      transition-property: opacity,color;
+      transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+    }
+  }
+}
+
+@media (width >= 720px) {
+  @media (hover: hover) {
+    .stage .btn:hover .btn-label {
+      color: rgb(255 255 255);
+      font-family: GaggenauText, sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 1.25rem;
+      text-transform: none;
+      transition-duration: 600ms;
+      transition-property: opacity,color;
+      transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+    }
+  }
+}
+
+@media (width >= 720px) {
+  .stage .btn-label:active {
+    color: rgb(255 255 255);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: opacity,color;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 720px) {
+  .stage .btn:active .btn-label {
+    color: rgb(255 255 255);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: opacity,color;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 720px) {
+  .stage .btn-label:focus-visible {
+    color: rgb(255 255 255);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: opacity,color;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 720px) {
+  .stage .btn:focus-visible .btn-label {
+    color: rgb(255 255 255);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: opacity,color;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 720px) {
+  .stage .btn-label[disabled],
+  .stage .btn-label:disabled {
+    color: rgb(0 0 0);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    transition-duration: inherit;
+    transition-property: opacity,color;
+    transition-timing-function: inherit;
+  }
+}
+
+@media (width >= 720px) {
+  .stage .btn[disabled] .btn-label,
+  .stage .btn:disabled .btn-label {
+    color: rgb(0 0 0);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    transition-duration: inherit;
+    transition-property: opacity,color;
+    transition-timing-function: inherit;
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .btn-label {
+    color: rgb(255 255 255);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    transition-duration: inherit;
+    transition-property: opacity,color;
+    transition-timing-function: inherit;
+  }
+}
+
+@media (width >= 1200px) {
+  @media (hover: hover) {
+    .stage .btn-label:hover {
+      color: rgb(255 255 255);
+      font-family: GaggenauText, sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 1.25rem;
+      text-transform: none;
+      transition-duration: 600ms;
+      transition-property: opacity,color;
+      transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+    }
+  }
+}
+
+@media (width >= 1200px) {
+  @media (hover: hover) {
+    .stage .btn:hover .btn-label {
+      color: rgb(255 255 255);
+      font-family: GaggenauText, sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 1.25rem;
+      text-transform: none;
+      transition-duration: 600ms;
+      transition-property: opacity,color;
+      transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+    }
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .btn-label:active {
+    color: rgb(255 255 255);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: opacity,color;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .btn:active .btn-label {
+    color: rgb(255 255 255);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: opacity,color;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .btn-label:focus-visible {
+    color: rgb(255 255 255);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: opacity,color;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .btn:focus-visible .btn-label {
+    color: rgb(255 255 255);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    transition-duration: 600ms;
+    transition-property: opacity,color;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1);
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .btn-label[disabled],
+  .stage .btn-label:disabled {
+    color: rgb(0 0 0);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    transition-duration: inherit;
+    transition-property: opacity,color;
+    transition-timing-function: inherit;
+  }
+}
+
+@media (width >= 1200px) {
+  .stage .btn[disabled] .btn-label,
+  .stage .btn:disabled .btn-label {
+    color: rgb(0 0 0);
+    font-family: GaggenauText, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    text-transform: none;
+    transition-duration: inherit;
+    transition-property: opacity,color;
+    transition-timing-function: inherit;
+  }
+}

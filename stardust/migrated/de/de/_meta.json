@@ -1,0 +1,250 @@
+{
+  "slug": "de-de",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "stage",
+    "teaser-slider",
+    "category-tiles",
+    "editorial-teaser"
+  ],
+  "slotsFilled": [
+    "stage",
+    "content"
+  ],
+  "canonShas": {
+    "header": "14ee106b8fa4",
+    "footer": "46bdfac1c202",
+    "css": "9eb7b91b255b"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Gaggenau Hausgeräte: Luxus für Ihre Küche | Gaggenau",
+    "description": "Gaggenau Hausgeräte entstehen in Handarbeit und überzeugen durch ihre Leistung. Lassen Sie sich vom Design begeistern. Der Unterscheid heisst Gaggenau!",
+    "canonical": null,
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Gaggenau Hausgeräte: Luxus für Ihre Küche | Gaggenau",
+    "description": "Gaggenau Hausgeräte entstehen in Handarbeit und überzeugen durch ihre Leistung. Lassen Sie sich vom Design begeistern. Der Unterscheid heisst Gaggenau!",
+    "url": "https://www.gaggenau.com/de/de"
+  },
+  "migratedAt": "2026-10-16T12:33:08Z",
+  "designMdSha": "50822350626f",
+  "designJsonSha": "920bf3be988e",
+  "sourceCurrentSha": "42b00e633139",
+  "sourceProposedSha": "8e5b0936a7ba",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count",
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "3.60%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-1440/summary.md) [published regime]",
+    "pixel-gate-360": "3.56%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-360/summary.md) [published regime]",
+    "content-count": "content-diff: 1 (0 structural 🔴) (de-de-360-final.log)",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /de/de)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 88,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.gaggenau.com/de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/my-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/de/checkout/cart",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/die-welt-von-gaggenau/der-unterschied-heisst",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/backoefen/serie-expressive",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "http://www.gaggenau.com/de/geraete/backoefen/serie-minimalistic",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/kaeltegeraete/vario-kaltegerate-serie-expressive",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/backoefen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/kaffee-vollautomaten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/kochfelder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/dunstabzugshauben",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/kaeltegeraete",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/weinklimaschraenke",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/geschirrspueler",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/waschmaschinen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/die-welt-von-gaggenau/inspiration/art-of-the-kitchen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/besuchen-sie-uns",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/fuer-partner/technische-daten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/backoefen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/kaffeemaschinen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/kochfelder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/dunstabzugshauben",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/kuehlschraenke",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/geraete/weinschraenke",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/die-welt-von-gaggenau/inspiration",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/die-welt-von-gaggenau/inspiration/art-of-the-kitchen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/die-welt-von-gaggenau/inspiration/respected",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/fur-kunden/hilfe/kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/besuchen-sie-uns",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/besuchen-sie-uns/haendler-finden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/fur-kunden/hilfe/kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/fur-kunden/downloads",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/pressecenter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/de/c/legal/blt257448e8e4fe078f/generell/datenschutz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/de/c/legal/blt7850fba012c27ee4/generell/impressum",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/de/c/legal/blt2f850ba3ff8ea33a/generell/eshop-agbs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/generell/newsletter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/de/c/legal/bltc185108261e90363/generell/herstellergarantie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/fur-kunden/betriebsanleitungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/generell/schwachstellenberichte",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/de/c/legal/bltdfc5e3df2ecd8a29/generell/firmware-updates",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/de/c/legal/blte548dd7b46c1a429/generell/barrierefreiheit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/de/c/legal/bltcb14857ff8d959f8/generell/batterieentsorgung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/de/c/legal/blte8cf2be57b65d4a8/gesetzliche-konformitaetsgarantie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.gaggenau.com/de/de/c/legal/blt6132e5ad6ecd9281/generell/informationen-altgeraete-ruecknahme",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "de/de/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "de/de/_meta.json",
+  "driverVersion": "1"
+}

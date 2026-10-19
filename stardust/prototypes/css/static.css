@@ -1,0 +1,39 @@
+/* static archetype (legal / imprint / notices): text module.
+   .m-contenttextmedia rules lifted from store style.min.css. */
+.m-contenttextmedia { display: flex; flex-direction: column; width: 100%; margin-bottom: 40px; }
+
+.m-contenttextmedia .heading { padding: 0 10px; }
+
+.m-contenttextmedia h2 {
+  margin: 0 0 20px;
+  font-family: var(--display-font);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.76px;
+}
+
+.m-contenttextmedia .content { padding: 0 10px; }
+
+.m-contenttextmedia .text a { display: inline-block; position: relative; max-width: 100%; }
+
+.m-contenttextmedia .text a .text { border-bottom: 1px solid var(--accent); }
+
+@media (min-width: 600px) {
+  .m-contenttextmedia .heading, .m-contenttextmedia .content { padding: 0 16px; }
+
+  .m-contenttextmedia.split .content { width: 50%; }
+}
+
+@media (min-width: 769px) {
+  .m-contenttextmedia { display: block; }
+}
+
+@media (min-width: 900px) {
+  .m-contenttextmedia h2 { margin-bottom: 15px; font-size: 38px; line-height: 40px; }
+}
+
+.m-contenttextmedia .heading, .m-contenttextmedia .content > .text { display: flow-root; }
+
+/* the source "See more" toggle stays hidden (.hidden) at capture */
+.morelesslink { display: none; }
